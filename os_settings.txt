@@ -1,0 +1,10 @@
+OS Rating (Our primary compound metric that evaluates +EV bet quality. Combines EV, odds, and win percentage to optimize long-term profitability.): 2 - 100
+EV: 0-100
+Odds Range: -1500-1500
+EV Age (minutes): 0-720
+Time to Event Start (hours): 0- 504
+Betting Size Strategy 
+(Determines how much would have been wagered on each historical bet. Calculated from your bankroll amount.)
+• Flat: Bet amount stays the same for every wager
+• OS Kelly: Uses a proprietary version of the Kelly formula to adjust bet sizes based on edge and risk
+
