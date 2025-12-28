@@ -1,0 +1,7 @@
+league_norm,market_norm,sportsbook,roi_shrunk,clv_shrunk,bets,portfolio
+NHL,Total Saves,ProphetX,0.35618536585365856,0.04153289157842869,10.0,Core
+NHL,Total Shots on Goal,ProphetX,0.16636820397450322,0.04083021016105955,11.0,Core
+NBA,Rebounds + Assists,Fanatics,0.1427219251336898,0.037180924930941,12.0,Core
+NHL,Total Saves,ProphetX,0.35618536585365856,0.04153289157842869,10.0,Expansion
+NHL,Total Shots on Goal,ProphetX,0.16636820397450322,0.04083021016105955,11.0,Expansion
+NBA,Rebounds + Assists,Fanatics,0.1427219251336898,0.037180924930941,12.0,Expansion

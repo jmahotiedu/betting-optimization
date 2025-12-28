@@ -1,0 +1,35 @@
+{
+  "date_filter": "This month",
+  "leagues": [
+    "NBA",
+    "NHL",
+    "NFL",
+    "NCAAM",
+    "NCAAFB",
+    "other"
+  ],
+  "bet_types": [
+    "Gamelines",
+    "Player Props"
+  ],
+  "devig_books": [
+    "Hard Rock Sportsbook",
+    "BetMGM",
+    "Novig",
+    "Bally Bet",
+    "Draftkings Sportsbook",
+    "BetRivers - Indiana"
+  ],
+  "devig_method": "Multiplicative",
+  "kelly_multiplier": "1/4",
+  "ev_min_pct": 7.14,
+  "kelly_min_pct": 0.0,
+  "vig_max_pct": 6.0,
+  "market_width_max": 50.0,
+  "fair_value_min_american": -165.0,
+  "fair_value_max_american": 150.0,
+  "market_limits": "Not supported",
+  "variation_max_pct": 4.0,
+  "stake_cap_pct_bankroll": 0.02,
+  "stake_kelly_fraction": 0.25
+}
