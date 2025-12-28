@@ -1,0 +1,11 @@
+{
+  "minimum_os_rating": 20,
+  "minimum_ev": 5.0,
+  "odds_range_min": 1.7,
+  "odds_range_max": 3.5,
+  "ev_age_max_minutes": 120,
+  "time_to_event_start_max_hours": 48,
+  "betting_size_strategy": "Flat",
+  "flat_unit_pct_bankroll": 0.02,
+  "fractional_kelly": null
+}

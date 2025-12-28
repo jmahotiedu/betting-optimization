@@ -1,0 +1,27 @@
+{
+  "raw": "OS Rating (Our primary compound metric that evaluates +EV bet quality. Combines EV, odds, and win percentage to optimize long-term profitability.): 2 - 100\nEV: 0-100\nOdds Range: -1500-1500\nEV Age (minutes): 0-720\nTime to Event Start (hours): 0- 504\nBetting Size Strategy \n(Determines how much would have been wagered on each historical bet. Calculated from your bankroll amount.)\n\u2022 Flat: Bet amount stays the same for every wager\n\u2022 OS Kelly: Uses a proprietary version of the Kelly formula to adjust bet sizes based on edge and risk\n\n",
+  "os_rating_range": [
+    2,
+    100
+  ],
+  "ev_range": [
+    0,
+    100
+  ],
+  "odds_range": [
+    -1500,
+    1500
+  ],
+  "ev_age_minutes": [
+    0,
+    720
+  ],
+  "time_to_event_hours": [
+    0,
+    504
+  ],
+  "size_strategies": [
+    "Flat",
+    "OS Kelly"
+  ]
+}
