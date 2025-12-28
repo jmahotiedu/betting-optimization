@@ -1,48 +1,36 @@
 # Data Dictionary
 
 ## transactions.csv
-Rows: 1,858
-Columns: 17
 
-| column | dtype | missing_pct |
-| --- | --- | --- |
-| bet_id | object | 0.00% |
-| sportsbook | object | 0.00% |
-| type | object | 0.00% |
-| status | object | 0.00% |
-| odds | float64 | 0.11% |
-| closing_line | float64 | 25.83% |
-| ev | float64 | 30.84% |
-| amount | float64 | 0.00% |
-| profit | float64 | 0.00% |
-| time_placed | object | 0.00% |
-| time_settled | object | 1.18% |
-| time_placed_iso | object | 0.00% |
-| time_settled_iso | object | 1.18% |
-| bet_info | object | 0.00% |
-| tags | float64 | 100.00% |
-| sports | object | 0.00% |
-| leagues | object | 0.00% |
+- **bet_id**: missing 0.0%
+- **sportsbook**: missing 0.0%
+- **type**: missing 0.0%
+- **status**: missing 0.0%
+- **odds**: missing 0.1%
+- **closing_line**: missing 25.8%
+- **ev**: missing 30.8%
+- **amount**: missing 0.0%
+- **profit**: missing 0.0%
+- **time_placed**: missing 0.0%
+- **time_settled**: missing 1.2%
+- **time_placed_iso**: missing 0.0%
+- **time_settled_iso**: missing 1.2%
+- **bet_info**: missing 0.0%
+- **tags**: missing 100.0%
+- **sports**: missing 0.0%
+- **leagues**: missing 0.0%
 
 ## os_markets_clean.csv
-Rows: 1,549
-Columns: 8
 
-| column | dtype | missing_pct |
-| --- | --- | --- |
-| market | object | 0.00% |
-| sportsbook | object | 0.00% |
-| league | object | 0.00% |
-| wins | float64 | 0.00% |
-| losses | float64 | 0.00% |
-| profit | float64 | 0.00% |
-| roi_pct | float64 | 0.00% |
-| est_user_bpd | float64 | 0.00% |
+- **market**: missing 0.0%
+- **sportsbook**: missing 0.0%
+- **league**: missing 0.0%
+- **wins**: missing 0.0%
+- **losses**: missing 0.0%
+- **profit**: missing 0.0%
+- **roi_pct**: missing 0.0%
+- **est_user_bpd**: missing 0.0%
 
-## os_settings.txt
-Contains allowable ranges for OddsShopper settings: OS Rating, EV, Odds Range, EV Age, Time to Event Start, and size strategy choices (Flat vs OS Kelly).
-
-## Assumptions
-- `odds` and `closing_line` are decimal odds unless detected as American (absolute value >= 100 and not in decimal range).
-- `profit` appears net profit (stake excluded).
-- `amount` is stake size.
+## Odds Format Notes
+- Odds appear as decimal (e.g., 2.27) with occasional American-style values possible.
+- The parser treats values between 0 and 1 as decimal-minus-one and adds 1.

@@ -1,29 +1,25 @@
-# Outlier Odds Research Notes
+# Outlier Research Notes (Sources)
 
-## Sources
-- Outlier Help Center — **How to Devig Odds - Comparing the Methods** (lists multiplicative, probit, additive, shin, power, worst case, average; explains devigging and method choice). https://help.outlier.bet/en/articles/8208129-how-to-devig-odds-comparing-the-methods
-- Outlier Help Center — **Multi-Book Devig & Custom Weighting Now Available to Pro Users!** (explains selecting multiple devig books and custom weighting). https://help.outlier.bet/en/articles/10714084-multi-book-devig-custom-weighting-now-available-to-pro-users
-- Outlier Help Center — **How to Read & Use Positive EV Filter Presets in Outlier** (lists filter settings including devig books, min books, custom weights, devig method, variation, Kelly multiplier, EV%, Kelly%, vig%, fair value, market width, bet types, date, leagues). https://help.outlier.bet/en/articles/11908672-how-to-read-use-positive-ev-filter-presets-in-outlier
+## Devig methods
+- Outlier documents seven devig methods: Multiplicative, Probit, Additive, Shin, Power, Worst Case, and Average, and explains they remove vig to estimate fair probabilities. Source: https://help.outlier.bet/en/articles/8208129-how-to-devig-odds-comparing-the-methods
 
-## Key Definitions (from sources)
-- **Devig methods**: Outlier enumerates multiplicative, probit, additive, shin, power, worst case, and average devig approaches and notes method choice affects probability estimates and EV evaluation. (Devig Methods article)
-- **Multi-book devig + weighting**: Outlier allows selecting multiple devig books and assigning custom weights per book to reflect which books are sharper for a market; weights can be reduced to de-emphasize less trusted books. (Multi-book devig article)
-- **Filter settings listed in Outlier presets**:
-  - Devig Books
-  - Minimum number of books required
-  - Custom weight
-  - Devig method
-  - Variation
-  - Kelly multiplier
-  - Expected Value percentage (EV%)
-  - Kelly percentage
-  - Vig percentage
-  - Fair value bounds
-  - Market width
-  - Bet types
-  - Date
-  - Leagues (Positive EV filter presets article)
+## Multi-book devig and custom weighting
+- Outlier Pro supports selecting multiple devig (sharp) books and assigning custom weights to each book to influence the fair value calculation. Source: https://help.outlier.bet/en/articles/10714084-multi-book-devig-custom-weighting-now-available-to-pro-users
 
-## How these map to this project
-- Implemented devig methods (multiplicative, probit, additive, shin, power, worst case, average) in `reports/src/devig.py`.
-- Built settings outputs (`outlier_settings_core.json`, `outlier_settings_expansion.json`, `outlier_devig_weights.json`) to align with the documented filters and multi-book weighting.
+## Filter definitions (Variation, Market Width, Date, Bet Types)
+- The filter preset guide explains Variation and Market Width settings and shows they are used to control uncertainty; it also lists Date and Bet Types filters as part of the EV+ settings UI. Source: https://help.outlier.bet/en/articles/11908672-how-to-read-use-positive-ev-filter-presets-in-outlier
+
+### Date filter values
+The required UI values in the prompt match the filter options described in the Outlier preset guide:
+- Any time
+- In the next 24 hours
+- In the next 3 days
+- During the week
+- In the next 2 weeks
+- This month
+
+### Variation and Market Width meaning
+- Variation is presented as a % threshold to limit discrepancies across devig books in the EV filter presets (smaller = more stable).
+- Market Width is shown as a numeric maximum; Outlier recommends tighter values for gamelines and higher values for player props due to variance.
+
+(These definitions are summarized from the filter preset guide: https://help.outlier.bet/en/articles/11908672-how-to-read-use-positive-ev-filter-presets-in-outlier)

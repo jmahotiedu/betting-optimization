@@ -1,35 +1,45 @@
 # Outlier Recommendations
 
 ## Core Profile
-- date_filter: last_90_days
-- leagues_filter: primary leagues only
+- date_filter: Any time
+- leagues: ['NBA', 'NHL', 'NFL']
 - bet_types: ['Gamelines', 'Player Props']
-- devig_books: ['DraftKings', 'FanDuel', 'BetMGM', 'PointsBet', 'Caesars']
-- devig_method: power
-- ev_min_pct: 2.0
-- kelly_min_pct: 1.0
+- devig_books: ['Hard Rock Sportsbook', 'BetMGM', 'Novig', 'Bally Bet', 'Draftkings Sportsbook', 'BetRivers - Indiana']
+- devig_method: Multiplicative
+- kelly_multiplier: 1/4
+- ev_min_pct: 8.93
+- kelly_min_pct: 0.0
 - vig_max_pct: 4.0
-- market_width_max_pct: 4.0
-- fair_value_odds_min: 1.4
-- fair_value_odds_max: 5.0
-- market_limits_min: 5
-- market_limits_max: 500
-- variation_max: 3.0
-- bet_size_strategy: {'type': 'fractional_kelly', 'kelly_multiplier': 0.25, 'max_pct_bankroll': 0.02}
+- market_width_max: 40.0
+- fair_value_min_american: -135.0
+- fair_value_max_american: 130.0
+- market_limits: Not supported
+- variation_max_pct: 3.0
+- stake_cap_pct_bankroll: 0.02
+- stake_kelly_fraction: 0.25
 
 ## Expansion Profile
-- date_filter: last_180_days
-- leagues_filter: expanded
-- bet_types: ['Gamelines', 'Player Props', 'Team Props', 'Game Props']
-- devig_books: ['DraftKings', 'FanDuel', 'BetMGM', 'PointsBet', 'Caesars']
-- devig_method: power
-- ev_min_pct: 1.0
-- kelly_min_pct: 0.5
+- date_filter: This month
+- leagues: ['NBA', 'NHL', 'NFL', 'NCAAM', 'NCAAFB', 'other']
+- bet_types: ['Gamelines', 'Player Props']
+- devig_books: ['Hard Rock Sportsbook', 'BetMGM', 'Novig', 'Bally Bet', 'Draftkings Sportsbook', 'BetRivers - Indiana']
+- devig_method: Multiplicative
+- kelly_multiplier: 1/4
+- ev_min_pct: 7.14
+- kelly_min_pct: 0.0
 - vig_max_pct: 6.0
-- market_width_max_pct: 6.0
-- fair_value_odds_min: 1.3
-- fair_value_odds_max: 8.0
-- market_limits_min: 5
-- market_limits_max: 250
-- variation_max: 4.0
-- bet_size_strategy: {'type': 'fractional_kelly', 'kelly_multiplier': 0.2, 'max_pct_bankroll': 0.025}
+- market_width_max: 50.0
+- fair_value_min_american: -165.0
+- fair_value_max_american: 150.0
+- market_limits: Not supported
+- variation_max_pct: 4.0
+- stake_cap_pct_bankroll: 0.02
+- stake_kelly_fraction: 0.25
+
+## Devig Weights
+- Hard Rock Sportsbook: 0.1192 (data-derived)
+- BetMGM: 0.1477 (data-derived)
+- Novig: 0.1918 (data-derived)
+- Bally Bet: 0.3502 (data-derived)
+- Draftkings Sportsbook: 0.0809 (data-derived)
+- BetRivers - Indiana: 0.1103 (data-derived)

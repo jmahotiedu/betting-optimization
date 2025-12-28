@@ -1,7 +1,18 @@
 {
-  "DraftKings": 0.2,
-  "FanDuel": 0.2,
-  "BetMGM": 0.2,
-  "PointsBet": 0.2,
-  "Caesars": 0.2
+  "weights": {
+    "Hard Rock Sportsbook": 0.11916619054418591,
+    "BetMGM": 0.14765204271309865,
+    "Novig": 0.19183956139905228,
+    "Bally Bet": 0.35020797998177877,
+    "Draftkings Sportsbook": 0.08087447014690331,
+    "BetRivers - Indiana": 0.11025975521498113
+  },
+  "sources": {
+    "Hard Rock Sportsbook": "data-derived",
+    "BetMGM": "data-derived",
+    "Novig": "data-derived",
+    "Bally Bet": "data-derived",
+    "Draftkings Sportsbook": "data-derived",
+    "BetRivers - Indiana": "data-derived"
+  }
 }

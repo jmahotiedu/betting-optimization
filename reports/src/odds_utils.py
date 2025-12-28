@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import math
-from typing import Iterable
+from typing import Iterable, Optional, Union
 
 
 def american_to_decimal(odds: float) -> float:
@@ -23,6 +23,8 @@ def decimal_to_american(decimal_odds: float) -> float:
 def detect_odds_type(value: float) -> str:
     if value is None or math.isnan(value):
         return "unknown"
+    if 0 < value < 1.01:
+        return "decimal_minus_one"
     if value >= 1.01 and value <= 20:
         return "decimal"
     if abs(value) >= 100:
@@ -30,12 +32,34 @@ def detect_odds_type(value: float) -> str:
     return "unknown"
 
 
-def to_decimal(value: float) -> float:
-    if value is None or math.isnan(value):
+def _coerce_float(value: Optional[Union[str, float, int]]) -> float:
+    if value is None:
+        return float("nan")
+    if isinstance(value, str):
+        text = value.strip()
+        if not text:
+            return float("nan")
+        if text.startswith("+"):
+            text = text[1:]
+        try:
+            return float(text)
+        except ValueError:
+            return float("nan")
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return float("nan")
+
+
+def to_decimal(value: Optional[Union[str, float, int]]) -> float:
+    value = _coerce_float(value)
+    if math.isnan(value):
         return float("nan")
     kind = detect_odds_type(value)
     if kind == "decimal":
         return float(value)
+    if kind == "decimal_minus_one":
+        return float(value) + 1.0
     if kind == "american":
         return american_to_decimal(float(value))
     return float(value)
