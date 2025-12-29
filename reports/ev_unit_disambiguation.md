@@ -1,52 +1,25 @@
 # EV Unit Disambiguation
 
-## Candidate Interpretations
-- A) `ev` is decimal fraction (e.g., 0.0145 = 1.45%)
-- B) `ev` is percent (e.g., 1.45 = 1.45%)
-- C) `ev` is expected ROI decimal (same numeric scale as A, may include negatives)
-- D) Other (no direct evidence in transactions.csv)
+## Schema summary
 
-## Deterministic Consistency Tests
-- Test 1: EV vs CLV Spearman correlation (requires odds + closing_line)
-- Test 1b: Median CLV for EV>0 vs EV<=0 (sign consistency)
-- Test 2: EV quintile vs realized ROI monotonicity (Spearman on bucket means)
-- Test 3: Fair-odds recomputation (not applicable; no fair-odds columns detected)
+transactions.csv rows: 1,858
+columns: bet_id, sportsbook, type, status, odds, closing_line, ev, amount, profit, time_placed, time_settled, time_placed_iso, time_settled_iso, bet_info, tags, sports, leagues
 
-## Results Table
+## Canonical functions used
 
-| interpretation                                    |   clv_spearman | clv_spearman_pass   | clv_median_pass   |   roi_bucket_spearman | roi_bucket_pass   |
-|:--------------------------------------------------|---------------:|:--------------------|:------------------|----------------------:|:------------------|
-| A) ev as decimal fraction                         |       0.998768 | True                | True              |                     1 | True              |
-| B) ev as percent (divide by 100)                  |       0.998768 | True                | True              |                     1 | True              |
-| C) ev as expected ROI decimal (same numeric as A) |       0.998768 | True                | True              |                     1 | True              |
+- `reports/src/odds_utils.py`: `to_decimal`, `american_to_decimal`, `decimal_to_american`, `detect_odds_type`
 
-## Evidence Snippets
-### A) ev as decimal fraction
-- EV vs CLV Spearman: 0.9987676044652878
-- EV>0 vs EV<=0 median CLV pass: True
-- EV bucket vs ROI Spearman: 0.9999999999999999
+## Decision framework
 
-### B) ev as percent (divide by 100)
-- EV vs CLV Spearman: 0.9987676044652878
-- EV>0 vs EV<=0 median CLV pass: True
-- EV bucket vs ROI Spearman: 0.9999999999999999
+See `reports/ev_unit_gate.md` for deterministic gate thresholds and pass/fail outcomes.
 
-### C) ev as expected ROI decimal (same numeric as A)
-- EV vs CLV Spearman: 0.9987676044652878
-- EV>0 vs EV<=0 median CLV pass: True
-- EV bucket vs ROI Spearman: 0.9999999999999999
+## Gate summary
 
-## Conclusion
-- Pass counts (passes/available tests):
-  - A) ev as decimal fraction: 3/3
-  - B) ev as percent (divide by 100): 3/3
-  - C) ev as expected ROI decimal (same numeric as A): 3/3
-- Selected interpretation: **Undetermined**
-- Determination: Multiple interpretations have equivalent cross-field consistency; EV units remain ambiguous.
-- Required data to resolve: explicit EV unit definition from data source, or a column providing fair-odds/model probability to recompute EV.
+| candidate | M1 pass_count | M2 pass_count | M3 slope | passes_all |
+| --- | --- | --- | --- | --- |
+| A (Decimal EV) | 3 | 3 | 0.986437 | True |
+| B (Percent EV) | 0 | 1 | 98.643702 | False |
 
-## Required Final Checks
-- Are EV units now unambiguous? No
-- Was any EV value guessed or inferred without evidence? No
-- Were any defaults silently applied? No
-- Would a third party reproduce the same EV interpretation? No
+## Decision
+
+EV units determined: A (Decimal EV)
