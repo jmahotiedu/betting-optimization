@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 import optuna
 
-from .odds_utils import to_decimal
+from .odds_utils import to_decimal, decimal_to_american
 from .backtest import bankroll_simulation, summarize_performance
 
 
@@ -17,6 +17,11 @@ class PortfolioResult:
     settings: Dict[str, Any]
     portfolio_markets: List[Dict[str, Any]]
     backtest: pd.DataFrame
+
+
+EV_FLOOR = 0.01
+BINDING_WINDOW = 10.0
+MAX_BINDING_PCT = 0.25
 
 
 def build_tx_tables(transactions: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
@@ -65,10 +70,26 @@ def shrink_book_performance(book_table: pd.DataFrame, os_markets: pd.DataFrame, 
     return merged
 
 
+def _binding_rates(df: pd.DataFrame, odds_min: float, odds_max: float) -> Tuple[float, float]:
+    odds_american = df["odds_decimal"].apply(decimal_to_american).replace([np.inf, -np.inf], np.nan).dropna()
+    if odds_american.empty:
+        return 0.0, 0.0
+    min_bound = decimal_to_american(odds_min)
+    max_bound = decimal_to_american(odds_max)
+    min_binding = (abs(odds_american - min_bound) <= BINDING_WINDOW).mean()
+    max_binding = (abs(odds_american - max_bound) <= BINDING_WINDOW).mean()
+    return float(min_binding), float(max_binding)
+
+
 def _evaluate_settings(df: pd.DataFrame, ev_min: float, odds_min: float, odds_max: float, stake_strategy: str, kelly_fraction: float, max_bet_pct: float) -> Tuple[float, pd.DataFrame]:
+    if ev_min < EV_FLOOR:
+        return -np.inf, pd.DataFrame()
     subset = df[(df["ev"].notna()) & (df["ev"] >= ev_min)]
     subset = subset[(subset["odds_decimal"] >= odds_min) & (subset["odds_decimal"] <= odds_max)]
     if subset.empty:
+        return -np.inf, pd.DataFrame()
+    min_binding, max_binding = _binding_rates(subset, odds_min, odds_max)
+    if min_binding > MAX_BINDING_PCT or max_binding > MAX_BINDING_PCT:
         return -np.inf, pd.DataFrame()
     backtest = bankroll_simulation(
         subset,
