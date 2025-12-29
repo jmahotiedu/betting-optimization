@@ -217,7 +217,8 @@ def _optimize_settings(df: pd.DataFrame) -> Tuple[Dict[str, Any], pd.DataFrame]:
         backtest = test.copy()
 
     settings = {
-        "minimum_os_rating": 20,
+        "minimum_os_rating": None,
+        "minimum_os_rating_source": "NOT DATA-DERIVED",
         "minimum_ev": round(ev_min * 100, 2),
         "odds_range_min_decimal": round(odds_min, 3),
         "odds_range_max_decimal": round(odds_max, 3),
