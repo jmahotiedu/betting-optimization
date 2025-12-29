@@ -85,9 +85,11 @@ def _apply_settings(df: pd.DataFrame, settings: Dict[str, Any]) -> pd.DataFrame:
     return subset
 
 
-def _evaluate_settings(df: pd.DataFrame, settings: Dict[str, Any]) -> Tuple[float, pd.DataFrame]:
+def _evaluate_settings(df: pd.DataFrame, settings: Dict[str, Any], min_sample_bets: int) -> Tuple[float, pd.DataFrame]:
     subset = _apply_settings(df, settings)
     if subset.empty:
+        return -np.inf, pd.DataFrame()
+    if len(subset) < min_sample_bets:
         return -np.inf, pd.DataFrame()
     if settings["betting_size_strategy"] == "Flat":
         backtest = bankroll_simulation(subset, bankroll=1000, stake_strategy="flat", max_bet_pct=settings["flat_unit_pct_bankroll"])
@@ -103,10 +105,11 @@ def _evaluate_settings(df: pd.DataFrame, settings: Dict[str, Any]) -> Tuple[floa
     max_dd = backtest["drawdown"].max() if not backtest.empty else 0.0
     if summary["avg_clv"] < 0 or summary["worst_decile_clv"] < -0.05 or max_dd > 0.25:
         return -np.inf, backtest
-    return summary["roi"], backtest
+    score = summary["roi"] + 0.0005 * len(subset)
+    return score, backtest
 
 
-def _optimize_settings(df: pd.DataFrame, base_min_rating: float) -> Tuple[Dict[str, Any], pd.DataFrame]:
+def _optimize_settings(df: pd.DataFrame, base_min_rating: float, min_sample_bets: int) -> Tuple[Dict[str, Any], pd.DataFrame]:
     df = df.dropna(subset=["time_placed_iso"]).sort_values("time_placed_iso")
     cutoff = int(len(df) * 0.7)
     train = df.iloc[:cutoff]
@@ -141,7 +144,7 @@ def _optimize_settings(df: pd.DataFrame, base_min_rating: float) -> Tuple[Dict[s
                     if odds_min >= odds_max:
                         continue
                     settings = make_settings(min_os, ev_min, odds_min, odds_max, "Flat", 0.25, 0.01)
-                    score, _ = _evaluate_settings(test, settings)
+                    score, _ = _evaluate_settings(test, settings, min_sample_bets)
                     if score > best[0]:
                         best = (score, (min_os, ev_min, odds_min, odds_max))
 
@@ -158,7 +161,7 @@ def _optimize_settings(df: pd.DataFrame, base_min_rating: float) -> Tuple[Dict[s
         if odds_min_trial >= odds_max_trial:
             return -np.inf
         settings = make_settings(min_os_trial, ev_min_trial, odds_min_trial, odds_max_trial, "Flat", 0.25, 0.01)
-        score, _ = _evaluate_settings(test, settings)
+        score, _ = _evaluate_settings(test, settings, min_sample_bets)
         return score
 
     study = optuna.create_study(direction="maximize")
@@ -168,19 +171,19 @@ def _optimize_settings(df: pd.DataFrame, base_min_rating: float) -> Tuple[Dict[s
     stake_options = []
     for cap in [0.005, 0.01, 0.015, 0.02]:
         settings = make_settings(params["min_os"], params["ev_min"], params["odds_min"], params["odds_max"], "Flat", 0.25, cap)
-        score, backtest = _evaluate_settings(test, settings)
+        score, backtest = _evaluate_settings(test, settings, min_sample_bets)
         if score > -np.inf:
             stake_options.append((score, settings, backtest))
     for kelly_frac in [0.125, 0.25, 0.5]:
         for cap in [0.01, 0.02, 0.03]:
             settings = make_settings(params["min_os"], params["ev_min"], params["odds_min"], params["odds_max"], "OS Kelly", kelly_frac, cap)
-            score, backtest = _evaluate_settings(test, settings)
+            score, backtest = _evaluate_settings(test, settings, min_sample_bets)
             if score > -np.inf:
                 stake_options.append((score, settings, backtest))
 
     if not stake_options:
         settings = make_settings(params["min_os"], params["ev_min"], params["odds_min"], params["odds_max"], "Flat", 0.25, 0.01)
-        _, backtest = _evaluate_settings(test, settings)
+        _, backtest = _evaluate_settings(test, settings, min_sample_bets)
         return settings, backtest
 
     _, settings, backtest = max(stake_options, key=lambda x: x[0])
@@ -191,27 +194,27 @@ def optimize(transactions: pd.DataFrame, os_markets: pd.DataFrame, min_bets: int
     combo_table, _, _ = build_tx_tables(transactions)
     shrunk = shrink_combo_performance(combo_table, os_markets)
 
-    core = shrunk[(shrunk["bets"] >= min_bets) & (shrunk["roi_shrunk"] >= 0.05) & (shrunk["avg_clv"] >= 0.03) & (shrunk["worst_decile_clv"] >= -0.02)]
-    expansion = shrunk[(shrunk["bets"] >= min_bets) & (shrunk["roi_shrunk"] >= 0.0) & (shrunk["avg_clv"] >= 0.02) & (shrunk["worst_decile_clv"] >= -0.05)]
+    core = shrunk[(shrunk["bets"] >= min_bets) & (shrunk["roi_shrunk"] >= 0.03) & (shrunk["avg_clv"] >= 0.02) & (shrunk["worst_decile_clv"] >= -0.05)]
+    expansion = shrunk[(shrunk["bets"] >= min_bets) & (shrunk["roi_shrunk"] >= -0.01) & (shrunk["avg_clv"] >= 0.01) & (shrunk["worst_decile_clv"] >= -0.07)]
     experimental = shrunk[(shrunk["bets"] < min_bets) & (shrunk["roi_shrunk"] >= 0.0) & (shrunk["avg_clv"] >= 0.02) & (shrunk["worst_decile_clv"] >= -0.05)]
 
     portfolios = []
-    for name, selection, min_rating in [
-        ("Core", core, transactions["os_rating_pred"].quantile(0.6)),
-        ("Expansion", expansion, transactions["os_rating_pred"].quantile(0.4)),
+    for name, selection, min_rating, min_sample in [
+        ("Core", core, transactions["os_rating_pred"].quantile(0.4), 50),
+        ("Expansion", expansion, transactions["os_rating_pred"].quantile(0.25), 80),
     ]:
         combos = selection[["league_norm", "market_norm", "sportsbook", "roi_shrunk", "clv_shrunk", "bets", "avg_os_rating"]]
         combos = combos.sort_values(["roi_shrunk", "clv_shrunk"], ascending=False)
         combo_records = combos.to_dict("records")
         if combos.empty:
-            settings, backtest = _optimize_settings(transactions, float(min_rating))
+            settings, backtest = _optimize_settings(transactions, float(min_rating), min_sample)
         else:
             filtered = transactions.merge(
                 combos[["league_norm", "market_norm", "sportsbook"]],
                 on=["league_norm", "market_norm", "sportsbook"],
                 how="inner",
             )
-            settings, backtest = _optimize_settings(filtered, float(min_rating))
+            settings, backtest = _optimize_settings(filtered, float(min_rating), min_sample)
         portfolios.append(PortfolioResult(name=name, settings=settings, portfolio_markets=combo_records, backtest=backtest))
 
     if not experimental.empty:
@@ -223,7 +226,7 @@ def optimize(transactions: pd.DataFrame, os_markets: pd.DataFrame, min_bets: int
             on=["league_norm", "market_norm", "sportsbook"],
             how="inner",
         )
-        settings, backtest = _optimize_settings(filtered, float(transactions["os_rating_pred"].quantile(0.3)))
+        settings, backtest = _optimize_settings(filtered, float(transactions["os_rating_pred"].quantile(0.3)), 10)
         portfolios.append(PortfolioResult(name="Experimental", settings=settings, portfolio_markets=combo_records, backtest=backtest))
 
     return portfolios
