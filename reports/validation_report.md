@@ -13,46 +13,38 @@
 
 ## OddsShopper Portfolios
 ### Core
-- Bets: 76
-- ROI: 0.1373
-- Profit: 65.13
-- Avg CLV: 0.0708
-- Worst Decile CLV: 0.0321
-- Max Drawdown: 0.0796
+- Bets: 9
+- ROI: 0.7827
+- Profit: 140.89
+- Avg CLV: 0.0897
+- Worst Decile CLV: 0.0587
+- Max Drawdown: 0.0265
 
 ### Expansion
-- Bets: 408
-- ROI: 0.1192
-- Profit: 351.82
-- Avg CLV: 0.0648
-- Worst Decile CLV: 0.0000
-- Max Drawdown: 0.0823
-
-### Experimental
-- Bets: 23
-- ROI: 0.5132
-- Profit: 235.60
-- Avg CLV: 0.0998
-- Worst Decile CLV: 0.0386
-- Max Drawdown: 0.0506
+- Bets: 9
+- ROI: 0.7827
+- Profit: 140.89
+- Avg CLV: 0.0897
+- Worst Decile CLV: 0.0587
+- Max Drawdown: 0.0265
 
 ## Outlier Profiles
 ### Core
-- Bets: 283
-- ROI: 0.2175
-- Profit: 711.64
-- Avg CLV: 0.1622
-- Worst Decile CLV: 0.0963
-- Max Drawdown: 0.0863
+- Bets: 291
+- ROI: 0.2044
+- Profit: 686.70
+- Avg CLV: 0.1603
+- Worst Decile CLV: 0.0942
+- Max Drawdown: 0.1021
 
 ### Expansion
-- Bets: 406
-- ROI: 0.1985
-- Profit: 904.69
-- Avg CLV: 0.1372
-- Worst Decile CLV: 0.0749
-- Max Drawdown: 0.0969
+- Bets: 396
+- ROI: 0.1947
+- Profit: 868.86
+- Avg CLV: 0.1389
+- Worst Decile CLV: 0.0769
+- Max Drawdown: 0.1088
 
 ## Remaining Unknowns
-- EV age and time-to-event filters are not available in transactions; values come from OS settings bounds.
-- Vig/market-width/variation filters are not in the transaction export and rely on Outlier documentation.
+- EV age and time-to-event filters are not available in transactions, so values are research-derived defaults.
+- Vig/market-width/variation filters are not in the transaction export and cannot be validated from data.

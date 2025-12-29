@@ -15,7 +15,6 @@ from .backtest import bankroll_simulation, summarize_performance
 class OutlierProfile:
     name: str
     settings: Dict[str, Any]
-    setting_sources: Dict[str, str]
     devig_weights: Dict[str, float]
     devig_weight_sources: Dict[str, str]
     backtest: pd.DataFrame
@@ -30,36 +29,40 @@ def _edge_from_method(df: pd.DataFrame, method: str) -> pd.Series:
     return vig_free - close_prob
 
 
-def _normalize_weights(raw: Dict[str, float]) -> Dict[str, float]:
-    total = sum(raw.values())
-    if total == 0:
-        return {k: 0.0 for k in raw}
-    return {k: v / total for k, v in raw.items()}
-
-
-def _calibrate_weights(df: pd.DataFrame, books: List[str], method: str, min_bets: int = 50) -> Tuple[Dict[str, float], Dict[str, str]]:
-    mse_by_book = {}
+def _calibrate_weights(df: pd.DataFrame, devig_books: List[str], method: str, min_bets: int = 25) -> Tuple[Dict[str, float], Dict[str, str]]:
+    weights = {}
     sources = {}
-    for book in books:
-        subset = df[df["sportsbook"] == book].dropna(subset=["closing_line", "odds"]).copy()
+    mse_by_book = {}
+    for book in devig_books:
+        subset = df[df["sportsbook"] == book]
+        subset = subset.dropna(subset=["closing_line", "odds"]).copy()
         if len(subset) < min_bets:
-            sources[book] = "insufficient-data"
             continue
         implied = subset["odds"].apply(to_decimal).apply(implied_prob_from_decimal)
         close_prob = subset["closing_line"].apply(to_decimal).apply(implied_prob_from_decimal)
         devig_probs = implied.apply(lambda p: devig(method, [p, 1 - p])[0] if p > 0 else np.nan)
         mse = float(((devig_probs - close_prob) ** 2).mean())
-        if mse and not np.isnan(mse):
-            mse_by_book[book] = mse
-            sources[book] = "data-derived"
+        if mse == 0 or np.isnan(mse):
+            continue
+        mse_by_book[book] = mse
 
     if len(mse_by_book) < 2:
-        for book in books:
-            sources.setdefault(book, "research-derived")
-        return {}, sources
+        equal_weight = 1.0 / len(devig_books) if devig_books else 0.0
+        for book in devig_books:
+            weights[book] = equal_weight
+            sources[book] = "research-derived"
+        return weights, sources
 
     inv = {book: 1 / mse for book, mse in mse_by_book.items()}
-    return _normalize_weights(inv), sources
+    total = sum(inv.values())
+    for book in devig_books:
+        if book in inv:
+            weights[book] = inv[book] / total
+            sources[book] = "data-derived"
+        else:
+            weights[book] = 0.0
+            sources[book] = "insufficient-data"
+    return weights, sources
 
 
 def _stake_settings(df: pd.DataFrame) -> Tuple[str, float, float]:
@@ -80,13 +83,15 @@ def _stake_settings(df: pd.DataFrame) -> Tuple[str, float, float]:
 def _thresholds(df: pd.DataFrame) -> Tuple[float, float]:
     ev_candidates = sorted(set(np.nanquantile(df["ev"], [0.2, 0.4, 0.6, 0.8]).tolist() + [0.01, 0.02, 0.05]))
     kelly_candidates = [0.0, 0.01, 0.02, 0.05]
+
     best = (-np.inf, 0.01, 0.0)
     for ev_min in ev_candidates:
         subset = df[df["ev"] >= ev_min]
         if subset.empty:
             continue
+        kelly_pct = subset["kelly_pct"].fillna(0.0)
         for k_min in kelly_candidates:
-            filtered = subset[subset["kelly_pct"] >= k_min]
+            filtered = subset[kelly_pct >= k_min]
             if filtered.empty:
                 continue
             backtest = bankroll_simulation(filtered, bankroll=1000, stake_strategy="flat", max_bet_pct=0.02)
@@ -96,48 +101,17 @@ def _thresholds(df: pd.DataFrame) -> Tuple[float, float]:
                 continue
             if summary["roi"] > best[0]:
                 best = (summary["roi"], ev_min, k_min)
+
     return float(best[1]), float(best[2])
 
 
-def _odds_bounds(df: pd.DataFrame, lower_q: float, upper_q: float, min_cap: float, max_cap: float) -> Tuple[float, float]:
+def _odds_bounds(df: pd.DataFrame, lower_q: float, upper_q: float) -> Tuple[float, float]:
     odds = df["odds_decimal"].dropna()
     if odds.empty:
-        return min_cap, max_cap
-    lower = decimal_to_american(float(np.quantile(odds, lower_q)))
-    upper = decimal_to_american(float(np.quantile(odds, upper_q)))
-    return max(min_cap, lower), min(max_cap, upper)
-
-
-def _preset_priors() -> Dict[str, Dict[str, Any]]:
-    gamelines = {
-        "name": "Gamelines",
-        "required_books": ["Pinnacle", "Circa", "BookMaker"],
-        "optional_books": [],
-        "weights": _normalize_weights({"Pinnacle": 1.0, "Circa": 1.0, "BookMaker": 1.0}),
-        "devig_method": "Average",
-        "variation_max_pct": 3.0,
-        "market_width_max": 20.0,
-        "vig_max_pct": 8.0,
-        "fair_value_min": -200.0,
-        "fair_value_max": 200.0,
-        "kelly_multiplier": "1/2",
-        "min_books_required": 2,
-    }
-    nba_props = {
-        "name": "NBA Props",
-        "required_books": ["FanDuel"],
-        "optional_books": ["Pinnacle", "BookMaker", "DraftKings", "Caesars"],
-        "weights": _normalize_weights({"FanDuel": 100.0, "Pinnacle": 25.0, "BookMaker": 25.0, "DraftKings": 25.0, "Caesars": 25.0}),
-        "devig_method": "Average",
-        "variation_max_pct": 3.0,
-        "market_width_max": 40.0,
-        "vig_max_pct": 8.0,
-        "fair_value_min": -200.0,
-        "fair_value_max": 200.0,
-        "kelly_multiplier": "1/4",
-        "min_books_required": 1,
-    }
-    return {"gamelines": gamelines, "nba_props": nba_props}
+        return -200.0, 200.0
+    lower = np.quantile(odds, lower_q)
+    upper = np.quantile(odds, upper_q)
+    return float(decimal_to_american(lower)), float(decimal_to_american(upper))
 
 
 def optimize(transactions: pd.DataFrame) -> List[OutlierProfile]:
@@ -151,16 +125,6 @@ def optimize(transactions: pd.DataFrame) -> List[OutlierProfile]:
         axis=1,
     )
 
-    gameline_markets = {"Moneyline", "Point Spread", "Total", "Team Total", "Run Line", "Puck Line"}
-    df["bet_type"] = df["market_norm"].apply(lambda m: "Gamelines" if m in gameline_markets else "Player Props")
-
-    priors = _preset_priors()
-    gamelines_df = df[df["bet_type"] == "Gamelines"]
-    props_df = df[df["bet_type"] == "Player Props"]
-
-    core_prior = priors["gamelines"] if gamelines_df["clv"].mean() >= props_df["clv"].mean() else priors["nba_props"]
-    expansion_prior = priors["nba_props"] if core_prior["name"] == "Gamelines" else priors["gamelines"]
-
     methods = ["multiplicative", "additive", "power", "shin", "probit", "average", "worst case"]
     correlations = {}
     for method in methods:
@@ -169,71 +133,65 @@ def optimize(transactions: pd.DataFrame) -> List[OutlierProfile]:
         correlations[method] = float(corr) if corr == corr else 0.0
     best_method = max(correlations.items(), key=lambda x: x[1])[0]
 
-    profiles = []
-    core_type = "Gamelines" if core_prior["name"] == "Gamelines" else "Player Props"
-    expansion_type = "Gamelines" if expansion_prior["name"] == "Gamelines" else "Player Props"
-    for name, prior, subset in [
-        ("Core", core_prior, df[df["bet_type"] == core_type]),
-        ("Expansion", expansion_prior, df[df["bet_type"] == expansion_type]),
-    ]:
-        subset = subset if not subset.empty else df
-        ev_min, kelly_min = _thresholds(subset)
-        kelly_label, kelly_fraction, cap = _stake_settings(subset)
-        fair_min, fair_max = _odds_bounds(subset, 0.2 if name == "Core" else 0.1, 0.8 if name == "Core" else 0.9, prior["fair_value_min"], prior["fair_value_max"])
+    book_counts = df["sportsbook"].value_counts().head(6)
+    devig_books = book_counts.index.tolist()
 
-        books = prior["required_books"] + prior["optional_books"]
-        weights, sources = _calibrate_weights(df, books, best_method)
-        if not weights:
-            weights = prior["weights"]
-            sources = {book: "research-derived" for book in weights}
+    weights, weight_sources = _calibrate_weights(df, devig_books, best_method)
 
-        weight_source = "data-derived" if any(value == "data-derived" for value in sources.values()) else "research-derived"
-        setting_sources = {
-            "date_filter": "research-derived",
-            "leagues": "data-derived",
-            "bet_types": "data-derived",
-            "devig_required_books": "research-derived",
-            "devig_optional_books": "research-derived",
-            "devig_min_books_required": "research-derived",
-            "devig_method": "data-derived",
-            "devig_weights": weight_source,
-            "kelly_multiplier": "data-derived",
-            "ev_min_pct": "data-derived",
-            "kelly_min_pct": "data-derived",
-            "vig_max_pct": "research-derived",
-            "market_width_max": "research-derived",
-            "fair_value_min_american": "data-derived",
-            "fair_value_max_american": "data-derived",
-            "market_limits": "research-derived",
-            "variation_max_pct": "research-derived",
-            "stake_cap_pct_bankroll": "data-derived",
-            "stake_kelly_fraction": "data-derived",
-        }
+    ev_min, kelly_min = _thresholds(df)
+    kelly_label, kelly_fraction, cap = _stake_settings(df)
 
-        settings = {
-            "date_filter": "During the week" if name == "Core" else "This month",
-            "leagues": df["league_norm"].value_counts().index.tolist()[:6],
-            "bet_types": ["Gamelines"] if prior["name"] == "Gamelines" else ["Player Props"],
-            "devig_required_books": prior["required_books"],
-            "devig_optional_books": prior["optional_books"],
-            "devig_min_books_required": prior["min_books_required"],
-            "devig_method": best_method.title() if best_method != "worst case" else "Worst Case",
-            "devig_weights": weights,
-            "kelly_multiplier": kelly_label,
-            "ev_min_pct": round(ev_min * 100, 2),
-            "kelly_min_pct": round(kelly_min * 100, 2),
-            "vig_max_pct": prior["vig_max_pct"],
-            "market_width_max": prior["market_width_max"],
-            "fair_value_min_american": round(fair_min, 0),
-            "fair_value_max_american": round(fair_max, 0),
-            "market_limits": "Not supported",
-            "variation_max_pct": prior["variation_max_pct"],
-            "stake_cap_pct_bankroll": cap,
-            "stake_kelly_fraction": kelly_fraction,
-        }
+    core_odds_min, core_odds_max = _odds_bounds(df, 0.1, 0.9)
+    exp_odds_min, exp_odds_max = _odds_bounds(df, 0.05, 0.95)
 
-        filtered = subset[(subset["ev"] >= ev_min) & (subset["kelly_pct"] >= kelly_min)]
-        backtest = bankroll_simulation(filtered, bankroll=1000, stake_strategy="os kelly", kelly_fraction=kelly_fraction, max_bet_pct=cap)
-        profiles.append(OutlierProfile(name, settings, setting_sources, weights, sources, backtest))
+    leagues_by_volume = df["league_norm"].value_counts().index.tolist()
+    core_leagues = leagues_by_volume[:3]
+    expansion_leagues = leagues_by_volume[:6]
 
-    return profiles
+    bet_types = sorted({
+        "Gamelines" if m in {"Moneyline", "Point Spread", "Total", "Team Total", "Run Line", "Puck Line"} else "Player Props"
+        for m in df["market_norm"].dropna().unique()
+    })
+
+    core_settings = {
+        "date_filter": "Any time",
+        "leagues": core_leagues,
+        "bet_types": bet_types,
+        "devig_books": devig_books,
+        "devig_method": best_method.title() if best_method != "worst case" else "Worst Case",
+        "kelly_multiplier": kelly_label,
+        "ev_min_pct": round(ev_min * 100, 2),
+        "kelly_min_pct": round(kelly_min * 100, 2),
+        "vig_max_pct": 4.0,
+        "market_width_max": 40.0,
+        "fair_value_min_american": round(core_odds_min, 0),
+        "fair_value_max_american": round(core_odds_max, 0),
+        "market_limits": "Not supported",
+        "variation_max_pct": 3.0,
+        "stake_cap_pct_bankroll": cap,
+        "stake_kelly_fraction": kelly_fraction,
+    }
+
+    expansion_settings = {
+        "date_filter": "This month",
+        "leagues": expansion_leagues,
+        "bet_types": bet_types,
+        "devig_books": devig_books,
+        "devig_method": best_method.title() if best_method != "worst case" else "Worst Case",
+        "kelly_multiplier": kelly_label,
+        "ev_min_pct": round(max(0.0, ev_min * 0.8) * 100, 2),
+        "kelly_min_pct": round(max(0.0, kelly_min * 0.8) * 100, 2),
+        "vig_max_pct": 6.0,
+        "market_width_max": 50.0,
+        "fair_value_min_american": round(exp_odds_min, 0),
+        "fair_value_max_american": round(exp_odds_max, 0),
+        "market_limits": "Not supported",
+        "variation_max_pct": 4.0,
+        "stake_cap_pct_bankroll": cap,
+        "stake_kelly_fraction": kelly_fraction,
+    }
+
+    return [
+        OutlierProfile("Core", core_settings, weights, weight_sources, df.copy()),
+        OutlierProfile("Expansion", expansion_settings, weights, weight_sources, df.copy()),
+    ]

@@ -1,41 +1,30 @@
 {
-  "date_filter": "During the week",
+  "date_filter": "Any time",
   "leagues": [
     "NBA",
     "NHL",
-    "NFL",
-    "NCAAM",
-    "NCAAFB",
-    "other"
+    "NFL"
   ],
   "bet_types": [
+    "Gamelines",
     "Player Props"
   ],
-  "devig_required_books": [
-    "FanDuel"
+  "devig_books": [
+    "Hard Rock Sportsbook",
+    "BetMGM",
+    "Novig",
+    "Bally Bet",
+    "Draftkings Sportsbook",
+    "BetRivers - Indiana"
   ],
-  "devig_optional_books": [
-    "Pinnacle",
-    "BookMaker",
-    "DraftKings",
-    "Caesars"
-  ],
-  "devig_min_books_required": 1,
   "devig_method": "Multiplicative",
-  "devig_weights": {
-    "FanDuel": 0.5,
-    "Pinnacle": 0.125,
-    "BookMaker": 0.125,
-    "DraftKings": 0.125,
-    "Caesars": 0.125
-  },
   "kelly_multiplier": "1/4",
-  "ev_min_pct": 9.09,
+  "ev_min_pct": 8.93,
   "kelly_min_pct": 0.0,
-  "vig_max_pct": 8.0,
+  "vig_max_pct": 4.0,
   "market_width_max": 40.0,
-  "fair_value_min_american": -118.0,
-  "fair_value_max_american": 120.0,
+  "fair_value_min_american": -135.0,
+  "fair_value_max_american": 130.0,
   "market_limits": "Not supported",
   "variation_max_pct": 3.0,
   "stake_cap_pct_bankroll": 0.02,

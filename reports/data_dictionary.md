@@ -31,20 +31,6 @@
 - **roi_pct**: missing 0.0%
 - **est_user_bpd**: missing 0.0%
 
-## os_samples
-
-- **league**: missing nan%
-- **sportsbook**: missing nan%
-- **offer_name**: missing nan%
-- **os_rating**: missing nan%
-
 ## Odds Format Notes
-- Odds appear as decimal in transactions, with possible American values in samples.
+- Odds appear as decimal (e.g., 2.27) with occasional American-style values possible.
 - The parser treats values between 0 and 1 as decimal-minus-one and adds 1.
-
-## OS Samples
-- OS sample rows are supplied in-chat and loaded from embedded CSV (no file dependency).
-
-## Odds Format Distribution
-- odds types: {'decimal': 1828, 'unknown': 20, 'american': 7, 'decimal_minus_one': 1}
-- closing_line types: {'decimal': 1365, 'unknown': 12, 'american': 1}
