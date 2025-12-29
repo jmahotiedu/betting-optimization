@@ -17,8 +17,10 @@ def bankroll_simulation(df: pd.DataFrame, bankroll: float, stake_strategy: str, 
         else:
             kelly = max(0.0, edge) / (odds - 1) if odds > 1 else 0.0
             stake = bankroll * min(kelly * kelly_fraction, max_bet_pct)
+        amount = row.get("amount", 0.0)
         profit = row["profit"]
-        bankroll += profit
+        scaled_profit = profit * (stake / amount) if amount else 0.0
+        bankroll += scaled_profit
         peak = max(peak, bankroll)
         drawdown = (peak - bankroll) / peak if peak > 0 else 0.0
         bankrolls.append(bankroll)
