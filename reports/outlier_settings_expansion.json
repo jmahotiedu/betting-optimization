@@ -9,30 +9,27 @@
     "other"
   ],
   "bet_types": [
-    "Gamelines"
+    "Gamelines",
+    "Player Props"
   ],
-  "devig_required_books": [
-    "Pinnacle",
-    "Circa",
-    "BookMaker"
+  "devig_books": [
+    "Hard Rock Sportsbook",
+    "BetMGM",
+    "Novig",
+    "Bally Bet",
+    "Draftkings Sportsbook",
+    "BetRivers - Indiana"
   ],
-  "devig_optional_books": [],
-  "devig_min_books_required": 2,
   "devig_method": "Multiplicative",
-  "devig_weights": {
-    "Pinnacle": 0.3333333333333333,
-    "Circa": 0.3333333333333333,
-    "BookMaker": 0.3333333333333333
-  },
-  "kelly_multiplier": "Full",
-  "ev_min_pct": 7.06,
+  "kelly_multiplier": "1/4",
+  "ev_min_pct": 7.14,
   "kelly_min_pct": 0.0,
-  "vig_max_pct": 8.0,
-  "market_width_max": 20.0,
-  "fair_value_min_american": -200.0,
-  "fair_value_max_american": 134.0,
+  "vig_max_pct": 6.0,
+  "market_width_max": 50.0,
+  "fair_value_min_american": -165.0,
+  "fair_value_max_american": 150.0,
   "market_limits": "Not supported",
-  "variation_max_pct": 3.0,
-  "stake_cap_pct_bankroll": 0.01,
-  "stake_kelly_fraction": 1.0
+  "variation_max_pct": 4.0,
+  "stake_cap_pct_bankroll": 0.02,
+  "stake_kelly_fraction": 0.25
 }

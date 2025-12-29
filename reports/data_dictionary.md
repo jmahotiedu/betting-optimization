@@ -31,28 +31,6 @@
 - **roi_pct**: missing 0.0%
 - **est_user_bpd**: missing 0.0%
 
-## os_samples
-
-- **Event Name**: missing 0.0%
-- **Participant Name**: missing 0.0%
-- **Offer Name**: missing 0.0%
-- **Event Date**: missing 0.0%
-- **Sportsbook**: missing 0.0%
-- **League**: missing 0.0%
-- **Line**: missing 0.0%
-- **Side**: missing 0.0%
-- **Odds at Placement**: missing 0.0%
-- **Current Odds**: missing 0.0%
-- **CLV**: missing 0.0%
-- **OS Rating**: missing 0.0%
-
 ## Odds Format Notes
-- Odds appear as decimal in transactions, with possible American values in samples.
+- Odds appear as decimal (e.g., 2.27) with occasional American-style values possible.
 - The parser treats values between 0 and 1 as decimal-minus-one and adds 1.
-
-## OS Samples
-- OS sample rows are loaded from an uploaded file in / or /workspace/betting-optimization.
-
-## Odds Format Distribution
-- odds types: {'decimal': 1828, 'unknown': 20, 'american': 7, 'decimal_minus_one': 1}
-- closing_line types: {'decimal': 1365, 'unknown': 12, 'american': 1}

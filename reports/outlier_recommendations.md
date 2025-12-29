@@ -1,50 +1,45 @@
 # Outlier Recommendations
 
 ## Core Profile
-- date_filter (research-derived): During the week
-- leagues (data-derived): ['NBA', 'NHL', 'NFL', 'NCAAM', 'NCAAFB', 'other']
-- bet_types (data-derived): ['Player Props']
-- devig_required_books (research-derived): ['FanDuel']
-- devig_optional_books (research-derived): ['Pinnacle', 'BookMaker', 'DraftKings', 'Caesars']
-- devig_min_books_required (research-derived): 1
-- devig_method (data-derived): Multiplicative
-- devig_weights (research-derived): {'FanDuel': 0.5, 'Pinnacle': 0.125, 'BookMaker': 0.125, 'DraftKings': 0.125, 'Caesars': 0.125}
-- kelly_multiplier (data-derived): 1/4
-- ev_min_pct (data-derived): 9.09
-- kelly_min_pct (data-derived): 0.0
-- vig_max_pct (research-derived): 8.0
-- market_width_max (research-derived): 40.0
-- fair_value_min_american (data-derived): -118.0
-- fair_value_max_american (data-derived): 120.0
-- market_limits (research-derived): Not supported
-- variation_max_pct (research-derived): 3.0
-- stake_cap_pct_bankroll (data-derived): 0.02
-- stake_kelly_fraction (data-derived): 0.25
+- date_filter: Any time
+- leagues: ['NBA', 'NHL', 'NFL']
+- bet_types: ['Gamelines', 'Player Props']
+- devig_books: ['Hard Rock Sportsbook', 'BetMGM', 'Novig', 'Bally Bet', 'Draftkings Sportsbook', 'BetRivers - Indiana']
+- devig_method: Multiplicative
+- kelly_multiplier: 1/4
+- ev_min_pct: 8.93
+- kelly_min_pct: 0.0
+- vig_max_pct: 4.0
+- market_width_max: 40.0
+- fair_value_min_american: -135.0
+- fair_value_max_american: 130.0
+- market_limits: Not supported
+- variation_max_pct: 3.0
+- stake_cap_pct_bankroll: 0.02
+- stake_kelly_fraction: 0.25
 
 ## Expansion Profile
-- date_filter (research-derived): This month
-- leagues (data-derived): ['NBA', 'NHL', 'NFL', 'NCAAM', 'NCAAFB', 'other']
-- bet_types (data-derived): ['Gamelines']
-- devig_required_books (research-derived): ['Pinnacle', 'Circa', 'BookMaker']
-- devig_optional_books (research-derived): []
-- devig_min_books_required (research-derived): 2
-- devig_method (data-derived): Multiplicative
-- devig_weights (research-derived): {'Pinnacle': 0.3333333333333333, 'Circa': 0.3333333333333333, 'BookMaker': 0.3333333333333333}
-- kelly_multiplier (data-derived): Full
-- ev_min_pct (data-derived): 7.06
-- kelly_min_pct (data-derived): 0.0
-- vig_max_pct (research-derived): 8.0
-- market_width_max (research-derived): 20.0
-- fair_value_min_american (data-derived): -200.0
-- fair_value_max_american (data-derived): 134.0
-- market_limits (research-derived): Not supported
-- variation_max_pct (research-derived): 3.0
-- stake_cap_pct_bankroll (data-derived): 0.01
-- stake_kelly_fraction (data-derived): 1.0
+- date_filter: This month
+- leagues: ['NBA', 'NHL', 'NFL', 'NCAAM', 'NCAAFB', 'other']
+- bet_types: ['Gamelines', 'Player Props']
+- devig_books: ['Hard Rock Sportsbook', 'BetMGM', 'Novig', 'Bally Bet', 'Draftkings Sportsbook', 'BetRivers - Indiana']
+- devig_method: Multiplicative
+- kelly_multiplier: 1/4
+- ev_min_pct: 7.14
+- kelly_min_pct: 0.0
+- vig_max_pct: 6.0
+- market_width_max: 50.0
+- fair_value_min_american: -165.0
+- fair_value_max_american: 150.0
+- market_limits: Not supported
+- variation_max_pct: 4.0
+- stake_cap_pct_bankroll: 0.02
+- stake_kelly_fraction: 0.25
 
 ## Devig Weights
-- FanDuel: 0.5000 (research-derived)
-- Pinnacle: 0.1250 (research-derived)
-- BookMaker: 0.1250 (research-derived)
-- DraftKings: 0.1250 (research-derived)
-- Caesars: 0.1250 (research-derived)
+- Hard Rock Sportsbook: 0.1192 (data-derived)
+- BetMGM: 0.1477 (data-derived)
+- Novig: 0.1918 (data-derived)
+- Bally Bet: 0.3502 (data-derived)
+- Draftkings Sportsbook: 0.0809 (data-derived)
+- BetRivers - Indiana: 0.1103 (data-derived)
