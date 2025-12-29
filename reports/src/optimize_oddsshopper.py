@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 import optuna
 
-from .odds_utils import to_decimal, decimal_to_american
+from .odds_utils import to_decimal, decimal_to_american, american_to_decimal
 from .backtest import bankroll_simulation, summarize_performance
 
 
@@ -20,8 +20,8 @@ class PortfolioResult:
 
 
 EV_FLOOR = 0.01
-BINDING_WINDOW = 10.0
-MAX_BINDING_PCT = 0.25
+TAIL_BINDING_STRICT = 0.05
+TAIL_BINDING_RELAXED = 0.03
 
 
 def build_tx_tables(transactions: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
@@ -70,26 +70,63 @@ def shrink_book_performance(book_table: pd.DataFrame, os_markets: pd.DataFrame, 
     return merged
 
 
-def _binding_rates(df: pd.DataFrame, odds_min: float, odds_max: float) -> Tuple[float, float]:
-    odds_american = df["odds_decimal"].apply(decimal_to_american).replace([np.inf, -np.inf], np.nan).dropna()
+def _american_odds_series(df: pd.DataFrame) -> pd.Series:
+    odds_american = df["odds_decimal"].apply(decimal_to_american).replace([np.inf, -np.inf], np.nan)
+    return odds_american.dropna()
+
+
+def _bound_limits(train: pd.DataFrame) -> Tuple[float, float, float, float] | None:
+    odds_american = _american_odds_series(train)
+    if odds_american.empty:
+        return None
+    q01, q25, q75, q99 = np.quantile(odds_american, [0.01, 0.25, 0.75, 0.99])
+    return float(q01), float(q25), float(q75), float(q99)
+
+
+def _binding_rates(df: pd.DataFrame, odds_min: float, odds_max: float, ev_min: float | None = None) -> Tuple[float, float]:
+    if ev_min is not None:
+        df = df[(df["ev"].notna()) & (df["ev"] >= ev_min)]
+    odds_american = _american_odds_series(df)
     if odds_american.empty:
         return 0.0, 0.0
     min_bound = decimal_to_american(odds_min)
     max_bound = decimal_to_american(odds_max)
-    min_binding = (abs(odds_american - min_bound) <= BINDING_WINDOW).mean()
-    max_binding = (abs(odds_american - max_bound) <= BINDING_WINDOW).mean()
-    return float(min_binding), float(max_binding)
+    lower_tail = (odds_american <= min_bound).mean()
+    upper_tail = (odds_american >= max_bound).mean()
+    return float(lower_tail), float(upper_tail)
 
 
-def _evaluate_settings(df: pd.DataFrame, ev_min: float, odds_min: float, odds_max: float, stake_strategy: str, kelly_fraction: float, max_bet_pct: float) -> Tuple[float, pd.DataFrame]:
+def _evaluate_settings(
+    df: pd.DataFrame,
+    ev_min: float,
+    odds_min: float,
+    odds_max: float,
+    stake_strategy: str,
+    kelly_fraction: float,
+    max_bet_pct: float,
+    bound_limits: Tuple[float, float, float, float] | None,
+) -> Tuple[float, pd.DataFrame]:
     if ev_min < EV_FLOOR:
         return -np.inf, pd.DataFrame()
+    min_bound = decimal_to_american(odds_min)
+    max_bound = decimal_to_american(odds_max)
+    if bound_limits is not None:
+        q01, q25, q75, q99 = bound_limits
+        if min_bound < q01 or min_bound > q25:
+            return -np.inf, pd.DataFrame()
+        if max_bound < q75 or max_bound > q99:
+            return -np.inf, pd.DataFrame()
     subset = df[(df["ev"].notna()) & (df["ev"] >= ev_min)]
-    subset = subset[(subset["odds_decimal"] >= odds_min) & (subset["odds_decimal"] <= odds_max)]
     if subset.empty:
         return -np.inf, pd.DataFrame()
-    min_binding, max_binding = _binding_rates(subset, odds_min, odds_max)
-    if min_binding > MAX_BINDING_PCT or max_binding > MAX_BINDING_PCT:
+    lower_tail, upper_tail = _binding_rates(subset, odds_min, odds_max, ev_min=None)
+    if not (
+        (lower_tail >= TAIL_BINDING_STRICT and upper_tail >= TAIL_BINDING_STRICT)
+        or (lower_tail >= TAIL_BINDING_RELAXED and upper_tail >= TAIL_BINDING_RELAXED)
+    ):
+        return -np.inf, pd.DataFrame()
+    subset = subset[(subset["odds_decimal"] >= odds_min) & (subset["odds_decimal"] <= odds_max)]
+    if subset.empty:
         return -np.inf, pd.DataFrame()
     backtest = bankroll_simulation(
         subset,
@@ -111,6 +148,7 @@ def _optimize_settings(df: pd.DataFrame) -> Tuple[Dict[str, Any], pd.DataFrame]:
     cutoff = int(len(df) * 0.7)
     train = df.iloc[:cutoff]
     test = df.iloc[cutoff:] if cutoff > 0 else df
+    bound_limits = _bound_limits(train)
 
     ev_candidates = sorted(set(np.nanquantile(train["ev"], [0.2, 0.4, 0.6, 0.8]).tolist() + [0.01, 0.02, 0.05]))
     odds_min_candidates = [1.4, 1.6, 1.8, 2.0]
@@ -122,7 +160,7 @@ def _optimize_settings(df: pd.DataFrame) -> Tuple[Dict[str, Any], pd.DataFrame]:
             for odds_max in odds_max_candidates:
                 if odds_min >= odds_max:
                     continue
-                score, _ = _evaluate_settings(test, ev_min, odds_min, odds_max, "flat", 0.25, 0.02)
+                score, _ = _evaluate_settings(test, ev_min, odds_min, odds_max, "flat", 0.25, 0.02, bound_limits)
                 if score > best[0]:
                     best = (score, (ev_min, odds_min, odds_max))
 
@@ -137,7 +175,7 @@ def _optimize_settings(df: pd.DataFrame) -> Tuple[Dict[str, Any], pd.DataFrame]:
         odds_max_trial = trial.suggest_float("odds_max", 3.0, 8.0)
         if odds_min_trial >= odds_max_trial:
             return -np.inf
-        score, _ = _evaluate_settings(test, ev_min_trial, odds_min_trial, odds_max_trial, "flat", 0.25, 0.02)
+        score, _ = _evaluate_settings(test, ev_min_trial, odds_min_trial, odds_max_trial, "flat", 0.25, 0.02, bound_limits)
         return score
 
     study = optuna.create_study(direction="maximize")
@@ -148,14 +186,24 @@ def _optimize_settings(df: pd.DataFrame) -> Tuple[Dict[str, Any], pd.DataFrame]:
     odds_min = float(best_params["odds_min"])
     odds_max = float(best_params["odds_max"])
 
+    score_check, _ = _evaluate_settings(test, ev_min, odds_min, odds_max, "flat", 0.25, 0.02, bound_limits)
+    if score_check == -np.inf and bound_limits is not None:
+        q01, q25, q75, q99 = bound_limits
+        odds_min_candidate = american_to_decimal(q25)
+        odds_max_candidate = american_to_decimal(q75)
+        if odds_min_candidate > 1 and odds_max_candidate > odds_min_candidate:
+            odds_min = float(odds_min_candidate)
+            odds_max = float(odds_max_candidate)
+        ev_min = max(EV_FLOOR, ev_min)
+
     stake_options = []
     for max_bet_pct in [0.005, 0.01, 0.015, 0.02, 0.025]:
-        score, backtest = _evaluate_settings(test, ev_min, odds_min, odds_max, "flat", 0.25, max_bet_pct)
+        score, backtest = _evaluate_settings(test, ev_min, odds_min, odds_max, "flat", 0.25, max_bet_pct, bound_limits)
         if score > -np.inf:
             stake_options.append((score, "Flat", 0.25, max_bet_pct, backtest))
     for kelly_fraction in [0.125, 0.25, 0.5]:
         for max_bet_pct in [0.01, 0.02, 0.03]:
-            score, backtest = _evaluate_settings(test, ev_min, odds_min, odds_max, "os kelly", kelly_fraction, max_bet_pct)
+            score, backtest = _evaluate_settings(test, ev_min, odds_min, odds_max, "os kelly", kelly_fraction, max_bet_pct, bound_limits)
             if score > -np.inf:
                 stake_options.append((score, "OS Kelly", kelly_fraction, max_bet_pct, backtest))
 
@@ -164,7 +212,7 @@ def _optimize_settings(df: pd.DataFrame) -> Tuple[Dict[str, Any], pd.DataFrame]:
     else:
         _, stake_strategy, kelly_fraction, max_bet_pct, _ = max(stake_options, key=lambda x: x[0])
 
-    score, backtest = _evaluate_settings(test, ev_min, odds_min, odds_max, stake_strategy, kelly_fraction, max_bet_pct)
+    score, backtest = _evaluate_settings(test, ev_min, odds_min, odds_max, stake_strategy, kelly_fraction, max_bet_pct, bound_limits)
     if backtest.empty:
         backtest = test.copy()
 
@@ -181,6 +229,71 @@ def _optimize_settings(df: pd.DataFrame) -> Tuple[Dict[str, Any], pd.DataFrame]:
         "max_bet_pct_bankroll": max_bet_pct if stake_strategy == "OS Kelly" else None,
     }
     return settings, backtest
+
+
+def _apply_os_settings(df: pd.DataFrame, settings: Dict[str, Any], combos: pd.DataFrame) -> pd.DataFrame:
+    subset = df.merge(combos[["league_norm", "market_norm", "sportsbook"]], on=["league_norm", "market_norm", "sportsbook"], how="inner")
+    ev_min = settings["minimum_ev"] / 100.0
+    odds_min = settings["odds_range_min_decimal"]
+    odds_max = settings["odds_range_max_decimal"]
+    subset = subset[(subset["ev"] >= ev_min) & (subset["odds_decimal"] >= odds_min) & (subset["odds_decimal"] <= odds_max)]
+    return subset
+
+
+def _ensure_expansion_separation(
+    core_result: PortfolioResult,
+    expansion_result: PortfolioResult,
+    transactions: pd.DataFrame,
+) -> PortfolioResult:
+    df = transactions.copy().dropna(subset=["time_placed_iso"]).sort_values("time_placed_iso")
+    cutoff = int(len(df) * 0.7)
+    holdout = df.iloc[cutoff:] if cutoff > 0 else df
+
+    core_combos = pd.DataFrame(core_result.portfolio_markets)
+    expansion_combos = pd.DataFrame(expansion_result.portfolio_markets)
+    core_holdout = _apply_os_settings(holdout, core_result.settings, core_combos)
+    expansion_holdout = _apply_os_settings(holdout, expansion_result.settings, expansion_combos)
+
+    core_bets = len(core_holdout)
+    expansion_bets = len(expansion_holdout)
+
+    core_min = core_result.settings["odds_range_min_decimal"]
+    core_max = core_result.settings["odds_range_max_decimal"]
+    exp_min = expansion_result.settings["odds_range_min_decimal"]
+    exp_max = expansion_result.settings["odds_range_max_decimal"]
+    core_ev = core_result.settings["minimum_ev"]
+    exp_ev = expansion_result.settings["minimum_ev"]
+
+    wider_bounds = exp_min <= core_min * 0.95 and exp_max >= core_max * 1.05
+    lower_ev = exp_ev <= core_ev * 0.85
+
+    if core_bets > 0 and expansion_bets >= 2 * core_bets:
+        return expansion_result
+    if wider_bounds and lower_ev:
+        return expansion_result
+
+    filtered = transactions.merge(
+        expansion_combos[["league_norm", "market_norm", "sportsbook"]],
+        on=["league_norm", "market_norm", "sportsbook"],
+        how="inner",
+    )
+    filtered = filtered.dropna(subset=["time_placed_iso"]).sort_values("time_placed_iso")
+    train_cutoff = int(len(filtered) * 0.7)
+    train = filtered.iloc[:train_cutoff] if train_cutoff > 0 else filtered
+    limits = _bound_limits(train)
+    if limits is not None:
+        q01, q25, q75, q99 = limits
+        exp_min_bound = q01
+        exp_max_bound = q99
+        exp_min_decimal = american_to_decimal(exp_min_bound)
+        exp_max_decimal = american_to_decimal(exp_max_bound)
+        if exp_min_decimal > 1 and exp_max_decimal > exp_min_decimal:
+            expansion_result.settings["odds_range_min_decimal"] = round(exp_min_decimal, 3)
+            expansion_result.settings["odds_range_max_decimal"] = round(exp_max_decimal, 3)
+
+    lowered_ev = max(EV_FLOOR * 100, min(exp_ev, core_ev * 0.8))
+    expansion_result.settings["minimum_ev"] = round(lowered_ev, 2)
+    return expansion_result
 
 
 def optimize(transactions: pd.DataFrame, os_markets: pd.DataFrame) -> List[PortfolioResult]:
@@ -221,5 +334,10 @@ def optimize(transactions: pd.DataFrame, os_markets: pd.DataFrame) -> List[Portf
                 backtest=backtest,
             )
         )
+
+    if len(portfolios) == 2:
+        core_result = portfolios[0]
+        expansion_result = portfolios[1]
+        portfolios[1] = _ensure_expansion_separation(core_result, expansion_result, transactions)
 
     return portfolios
