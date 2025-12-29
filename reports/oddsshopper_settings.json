@@ -1,0 +1,44 @@
+{
+  "Core": {
+    "minimum_os_rating": 4.988662360864777,
+    "minimum_ev": 5.57,
+    "odds_range_min_decimal": 2.422,
+    "odds_range_max_decimal": 3.433,
+    "ev_age_max_minutes": 120,
+    "time_to_event_start_max_hours": 48,
+    "betting_size_strategy": "Flat",
+    "flat_unit_pct_bankroll": 0.005,
+    "fractional_kelly": null,
+    "max_bet_pct_bankroll": null,
+    "odds_range_min_american": 142.0,
+    "odds_range_max_american": 243.0
+  },
+  "Expansion": {
+    "minimum_os_rating": 5.684284363352047,
+    "minimum_ev": 6.45,
+    "odds_range_min_decimal": 2.403,
+    "odds_range_max_decimal": 3.167,
+    "ev_age_max_minutes": 120,
+    "time_to_event_start_max_hours": 48,
+    "betting_size_strategy": "Flat",
+    "flat_unit_pct_bankroll": 0.005,
+    "fractional_kelly": null,
+    "max_bet_pct_bankroll": null,
+    "odds_range_min_american": 140.0,
+    "odds_range_max_american": 217.0
+  },
+  "Experimental": {
+    "minimum_os_rating": 12.469545449887569,
+    "minimum_ev": 11.08,
+    "odds_range_min_decimal": 2.087,
+    "odds_range_max_decimal": 6.254,
+    "ev_age_max_minutes": 120,
+    "time_to_event_start_max_hours": 48,
+    "betting_size_strategy": "Flat",
+    "flat_unit_pct_bankroll": 0.005,
+    "fractional_kelly": null,
+    "max_bet_pct_bankroll": null,
+    "odds_range_min_american": 109.0,
+    "odds_range_max_american": 525.0
+  }
+}

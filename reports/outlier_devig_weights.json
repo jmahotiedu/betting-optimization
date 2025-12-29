@@ -1,0 +1,16 @@
+{
+  "weights": {
+    "FanDuel": 0.5,
+    "Pinnacle": 0.125,
+    "BookMaker": 0.125,
+    "DraftKings": 0.125,
+    "Caesars": 0.125
+  },
+  "sources": {
+    "FanDuel": "research-derived",
+    "Pinnacle": "research-derived",
+    "BookMaker": "research-derived",
+    "DraftKings": "research-derived",
+    "Caesars": "research-derived"
+  }
+}
