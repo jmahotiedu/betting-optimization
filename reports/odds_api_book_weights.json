@@ -1,0 +1,79 @@
+{
+  "generated_at": "2025-12-31T08:05:40.811801Z",
+  "snapshots_dir": "reports\\odds_api_snapshots",
+  "markets": [
+    "h2h",
+    "spreads",
+    "totals"
+  ],
+  "weights": {
+    "BetMGM": 0.06701,
+    "BetOnline.ag": 0.107291,
+    "BetRivers": 0.077968,
+    "BetUS": 0.107327,
+    "Bovada": 0.084931,
+    "Caesars": 0.094031,
+    "DraftKings": 0.087988,
+    "FanDuel": 0.080252,
+    "Fanatics": 0.089136,
+    "LowVig.ag": 0.102068,
+    "MyBookie.ag": 0.101999
+  },
+  "book_stats": {
+    "BetMGM": {
+      "observations": 33330,
+      "avg_abs_diff": 0.011282568028975216,
+      "score": 16179.727585168395
+    },
+    "BetOnline.ag": {
+      "observations": 33580,
+      "avg_abs_diff": 0.0070726910836741855,
+      "score": 25905.635832467025
+    },
+    "BetRivers": {
+      "observations": 29484,
+      "avg_abs_diff": 0.00912001359111406,
+      "score": 18825.655124813526
+    },
+    "BetUS": {
+      "observations": 31610,
+      "avg_abs_diff": 0.0068597619851715735,
+      "score": 25914.324633794706
+    },
+    "Bovada": {
+      "observations": 32034,
+      "avg_abs_diff": 0.008726822934406294,
+      "score": 20506.8832404644
+    },
+    "Caesars": {
+      "observations": 39984,
+      "avg_abs_diff": 0.008806257342636252,
+      "score": 22704.002871721055
+    },
+    "DraftKings": {
+      "observations": 41838,
+      "avg_abs_diff": 0.00962689185877072,
+      "score": 21244.878622383116
+    },
+    "FanDuel": {
+      "observations": 42274,
+      "avg_abs_diff": 0.010609824556339862,
+      "score": 19377.044549320784
+    },
+    "Fanatics": {
+      "observations": 34708,
+      "avg_abs_diff": 0.008655211258112186,
+      "score": 21522.214099726567
+    },
+    "LowVig.ag": {
+      "observations": 33592,
+      "avg_abs_diff": 0.007435954232980313,
+      "score": 24644.65948941177
+    },
+    "MyBookie.ag": {
+      "observations": 34720,
+      "avg_abs_diff": 0.007564900354044032,
+      "score": 24628.005453711456
+    }
+  }
+}

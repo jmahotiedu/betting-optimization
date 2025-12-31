@@ -1,0 +1,1073 @@
+{
+  "requested": {
+    "target": "american-football:usa-nfl",
+    "event_ids": [
+      60575167,
+      60575155,
+      60575163,
+      60575187
+    ],
+    "bookmakers": "Pinnacle,BookMaker.eu",
+    "from": "2025-12-31T09:12:09Z",
+    "to": "2026-01-07T09:12:09Z",
+    "status": "pending"
+  },
+  "headers": {
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Content-Type, Authorization",
+    "access-control-allow-methods": "GET, POST, PUT, DELETE",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 31 Dec 2025 09:12:12 GMT",
+    "server": "railway-edge",
+    "x-railway-edge": "railway/us-east4-eqdc4a",
+    "x-railway-request-id": "Ghjo5gCxQ5-AQwFewoOzXw",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "93",
+    "x-ratelimit-reset": "2025-12-31T10:12:08Z",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "response": [
+    {
+      "id": 60575155,
+      "home": "Buffalo Bills",
+      "away": "New York Jets",
+      "date": "2026-01-04T21:25:00Z",
+      "sport": {
+        "name": "American Football",
+        "slug": "american-football"
+      },
+      "league": {
+        "name": "USA - NFL",
+        "slug": "usa-nfl"
+      },
+      "urls": {
+        "BookMaker.eu": "https://be.bookmaker.eu/en/sports/american-football",
+        "Pinnacle": "https://www.pinnacle.com/en/american-football/nfl/buffalo-bills/1621502555/#all"
+      },
+      "bookmakers": {
+        "BookMaker.eu": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T09:03:18.11Z",
+            "odds": [
+              {
+                "home": "1.30",
+                "away": "3.65"
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T09:03:18.11Z",
+            "odds": [
+              {
+                "hdp": -7,
+                "home": "1.91",
+                "away": "1.91"
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T09:03:18.11Z",
+            "odds": [
+              {
+                "hdp": 38,
+                "over": "1.91",
+                "under": "1.91"
+              }
+            ]
+          }
+        ],
+        "Pinnacle": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-30T18:16:55.681Z",
+            "odds": [
+              {
+                "home": "1.263",
+                "away": "3.900",
+                "max": 3000
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-30T18:16:55.681Z",
+            "odds": [
+              {
+                "hdp": -7.5,
+                "home": "2.050",
+                "away": "1.813",
+                "max": 5000
+              },
+              {
+                "hdp": -3.5,
+                "home": "1.500",
+                "away": "2.610",
+                "max": 5000
+              },
+              {
+                "hdp": -5,
+                "home": "1.602",
+                "away": "2.360",
+                "max": 5000
+              },
+              {
+                "hdp": -5.5,
+                "home": "1.636",
+                "away": "2.290",
+                "max": 5000
+              },
+              {
+                "hdp": -6,
+                "home": "1.684",
+                "away": "2.210",
+                "max": 5000
+              },
+              {
+                "hdp": -6.5,
+                "home": "1.757",
+                "away": "2.110",
+                "max": 5000
+              },
+              {
+                "hdp": -7,
+                "home": "1.892",
+                "away": "1.952",
+                "max": 5000
+              },
+              {
+                "hdp": -8,
+                "home": "2.110",
+                "away": "1.763",
+                "max": 5000
+              },
+              {
+                "hdp": -8.5,
+                "home": "2.150",
+                "away": "1.724",
+                "max": 5000
+              },
+              {
+                "hdp": -9,
+                "home": "2.190",
+                "away": "1.694",
+                "max": 5000
+              },
+              {
+                "hdp": -9.5,
+                "home": "2.230",
+                "away": "1.675",
+                "max": 5000
+              },
+              {
+                "hdp": -10,
+                "home": "2.340",
+                "away": "1.613",
+                "max": 5000
+              },
+              {
+                "hdp": -14.5,
+                "home": "3.200",
+                "away": "1.348",
+                "max": 5000
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-30T18:16:55.681Z",
+            "odds": [
+              {
+                "hdp": 36,
+                "over": "1.675",
+                "under": "2.240",
+                "max": 3000
+              },
+              {
+                "hdp": 36.5,
+                "over": "1.724",
+                "under": "2.160",
+                "max": 3000
+              },
+              {
+                "hdp": 37,
+                "over": "1.775",
+                "under": "2.080",
+                "max": 3000
+              },
+              {
+                "hdp": 37.5,
+                "over": "1.826",
+                "under": "2.010",
+                "max": 3000
+              },
+              {
+                "hdp": 38,
+                "over": "1.892",
+                "under": "1.943",
+                "max": 3000
+              },
+              {
+                "hdp": 39,
+                "over": "2.040",
+                "under": "1.813",
+                "max": 3000
+              },
+              {
+                "hdp": 39.5,
+                "over": "2.110",
+                "under": "1.751",
+                "max": 3000
+              },
+              {
+                "hdp": 40,
+                "over": "2.190",
+                "under": "1.704",
+                "max": 3000
+              },
+              {
+                "hdp": 40.5,
+                "over": "2.270",
+                "under": "1.653",
+                "max": 3000
+              },
+              {
+                "hdp": 41,
+                "over": "2.360",
+                "under": "1.613",
+                "max": 3000
+              },
+              {
+                "hdp": 45.5,
+                "over": "3.180",
+                "under": "1.359",
+                "max": 3000
+              },
+              {
+                "hdp": 31.5,
+                "over": "1.401",
+                "under": "2.980",
+                "max": 3000
+              },
+              {
+                "hdp": 38.5,
+                "over": "1.970",
+                "under": "1.884",
+                "max": 3000
+              }
+            ]
+          },
+          {
+            "name": "Team Total Home",
+            "updatedAt": "2025-12-30T18:16:55.681Z",
+            "odds": [
+              {
+                "hdp": 25.5,
+                "over": "2.310",
+                "under": "1.645",
+                "max": 2000
+              }
+            ]
+          },
+          {
+            "name": "Team Total Away",
+            "updatedAt": "2025-12-30T18:16:55.681Z",
+            "odds": [
+              {
+                "hdp": 13.5,
+                "over": "1.763",
+                "under": "2.120",
+                "max": 2000
+              }
+            ]
+          }
+        ]
+      },
+      "status": "pending"
+    },
+    {
+      "id": 60575163,
+      "home": "Philadelphia Eagles",
+      "away": "Washington Commanders",
+      "date": "2026-01-04T21:25:00Z",
+      "sport": {
+        "name": "American Football",
+        "slug": "american-football"
+      },
+      "league": {
+        "name": "USA - NFL",
+        "slug": "usa-nfl"
+      },
+      "urls": {
+        "BookMaker.eu": "N/A",
+        "Pinnacle": "https://www.pinnacle.com/en/american-football/nfl/philadelphia-eagles/1621503969/#all"
+      },
+      "bookmakers": {
+        "BookMaker.eu": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T02:39:08.899Z",
+            "odds": [
+              {
+                "home": "1.344",
+                "away": "3.380"
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T02:24:17.619Z",
+            "odds": [
+              {
+                "hdp": -7,
+                "home": "1.952",
+                "away": "1.870"
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-30T13:45:53.652Z",
+            "odds": [
+              {
+                "hdp": 41,
+                "over": "1.909",
+                "under": "1.909"
+              }
+            ]
+          }
+        ],
+        "Pinnacle": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-30T13:34:51.378Z",
+            "odds": [
+              {
+                "home": "1.287",
+                "away": "3.690",
+                "max": 3000
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-30T20:06:53.384Z",
+            "odds": [
+              {
+                "hdp": -7,
+                "home": "1.892",
+                "away": "1.952",
+                "max": 5000
+              },
+              {
+                "hdp": -3.5,
+                "home": "1.507",
+                "away": "2.590",
+                "max": 1000
+              },
+              {
+                "hdp": -4.5,
+                "home": "1.595",
+                "away": "2.380",
+                "max": 5000
+              },
+              {
+                "hdp": -5,
+                "home": "1.617",
+                "away": "2.330",
+                "max": 5000
+              },
+              {
+                "hdp": -5.5,
+                "home": "1.653",
+                "away": "2.260",
+                "max": 5000
+              },
+              {
+                "hdp": -6,
+                "home": "1.704",
+                "away": "2.190",
+                "max": 5000
+              },
+              {
+                "hdp": -6.5,
+                "home": "1.775",
+                "away": "2.100",
+                "max": 5000
+              },
+              {
+                "hdp": -7.5,
+                "home": "2.030",
+                "away": "1.819",
+                "max": 5000
+              },
+              {
+                "hdp": -8,
+                "home": "2.090",
+                "away": "1.769",
+                "max": 5000
+              },
+              {
+                "hdp": -8.5,
+                "home": "2.140",
+                "away": "1.729",
+                "max": 5000
+              },
+              {
+                "hdp": -9,
+                "home": "2.190",
+                "away": "1.694",
+                "max": 5000
+              },
+              {
+                "hdp": -9.5,
+                "home": "2.230",
+                "away": "1.671",
+                "max": 5000
+              },
+              {
+                "hdp": -14.5,
+                "home": "3.240",
+                "away": "1.341",
+                "max": 1000
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-30T20:06:53.384Z",
+            "odds": [
+              {
+                "hdp": 39,
+                "over": "1.662",
+                "under": "2.260",
+                "max": 3000
+              },
+              {
+                "hdp": 39.5,
+                "over": "1.709",
+                "under": "2.180",
+                "max": 3000
+              },
+              {
+                "hdp": 40,
+                "over": "1.757",
+                "under": "2.100",
+                "max": 3000
+              },
+              {
+                "hdp": 40.5,
+                "over": "1.813",
+                "under": "2.030",
+                "max": 3000
+              },
+              {
+                "hdp": 41,
+                "over": "1.869",
+                "under": "1.961",
+                "max": 3000
+              },
+              {
+                "hdp": 42,
+                "over": "2.020",
+                "under": "1.826",
+                "max": 3000
+              },
+              {
+                "hdp": 42.5,
+                "over": "2.090",
+                "under": "1.769",
+                "max": 3000
+              },
+              {
+                "hdp": 43,
+                "over": "2.170",
+                "under": "1.719",
+                "max": 3000
+              },
+              {
+                "hdp": 43.5,
+                "over": "2.250",
+                "under": "1.666",
+                "max": 3000
+              },
+              {
+                "hdp": 44,
+                "over": "2.330",
+                "under": "1.625",
+                "max": 3000
+              },
+              {
+                "hdp": 48.5,
+                "over": "3.040",
+                "under": "1.387",
+                "max": 3000
+              },
+              {
+                "hdp": 34.5,
+                "over": "1.366",
+                "under": "3.140",
+                "max": 3000
+              },
+              {
+                "hdp": 41.5,
+                "over": "1.952",
+                "under": "1.900",
+                "max": 3000
+              }
+            ]
+          },
+          {
+            "name": "Team Total Home",
+            "updatedAt": "2025-12-30T20:06:53.384Z",
+            "odds": [
+              {
+                "hdp": 27.5,
+                "over": "2.360",
+                "under": "1.621",
+                "max": 2000
+              }
+            ]
+          },
+          {
+            "name": "Team Total Away",
+            "updatedAt": "2025-12-30T20:06:53.384Z",
+            "odds": [
+              {
+                "hdp": 15.5,
+                "over": "1.813",
+                "under": "2.050",
+                "max": 2000
+              }
+            ]
+          }
+        ]
+      },
+      "status": "pending"
+    },
+    {
+      "id": 60575167,
+      "home": "Denver Broncos",
+      "away": "Los Angeles Chargers",
+      "date": "2026-01-04T21:25:00Z",
+      "sport": {
+        "name": "American Football",
+        "slug": "american-football"
+      },
+      "league": {
+        "name": "USA - NFL",
+        "slug": "usa-nfl"
+      },
+      "urls": {
+        "BookMaker.eu": "N/A",
+        "Pinnacle": "https://www.pinnacle.com/en/american-football/nfl/denver-broncos/1621502553/#all"
+      },
+      "bookmakers": {
+        "BookMaker.eu": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T08:25:23.838Z",
+            "odds": [
+              {
+                "home": "1.122",
+                "away": "6.740"
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-30T13:58:02.234Z",
+            "odds": [
+              {
+                "hdp": -12.5,
+                "home": "1.901",
+                "away": "1.917"
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-30T12:47:11.802Z",
+            "odds": [
+              {
+                "hdp": 37.5,
+                "over": "1.917",
+                "under": "1.901"
+              }
+            ]
+          }
+        ],
+        "Pinnacle": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-30T20:24:28.911Z",
+            "odds": [
+              {
+                "home": "1.111",
+                "away": "6.580",
+                "max": 3000
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-30T20:24:28.911Z",
+            "odds": [
+              {
+                "hdp": -12.5,
+                "home": "1.892",
+                "away": "1.952",
+                "max": 5000
+              },
+              {
+                "hdp": -13.5,
+                "home": "2.030",
+                "away": "1.819",
+                "max": 5000
+              },
+              {
+                "hdp": -14,
+                "home": "2.180",
+                "away": "1.709",
+                "max": 5000
+              },
+              {
+                "hdp": -14.5,
+                "home": "2.300",
+                "away": "1.632",
+                "max": 5000
+              },
+              {
+                "hdp": -15.5,
+                "home": "2.410",
+                "away": "1.581",
+                "max": 5000
+              },
+              {
+                "hdp": -21.5,
+                "home": "3.430",
+                "away": "1.309",
+                "max": 5000
+              },
+              {
+                "hdp": -15,
+                "home": "2.370",
+                "away": "1.598",
+                "max": 5000
+              },
+              {
+                "hdp": -13,
+                "home": "1.970",
+                "away": "1.884",
+                "max": 5000
+              },
+              {
+                "hdp": -7.5,
+                "home": "1.515",
+                "away": "2.570",
+                "max": 5000
+              },
+              {
+                "hdp": -10.5,
+                "home": "1.746",
+                "away": "2.110",
+                "max": 5000
+              },
+              {
+                "hdp": -11,
+                "home": "1.781",
+                "away": "2.070",
+                "max": 5000
+              },
+              {
+                "hdp": -11.5,
+                "home": "1.819",
+                "away": "2.020",
+                "max": 5000
+              },
+              {
+                "hdp": -12,
+                "home": "1.854",
+                "away": "1.990",
+                "max": 5000
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-30T20:24:28.911Z",
+            "odds": [
+              {
+                "hdp": 35,
+                "over": "1.625",
+                "under": "2.330",
+                "max": 3000
+              },
+              {
+                "hdp": 35.5,
+                "over": "1.671",
+                "under": "2.250",
+                "max": 3000
+              },
+              {
+                "hdp": 36,
+                "over": "1.719",
+                "under": "2.160",
+                "max": 3000
+              },
+              {
+                "hdp": 36.5,
+                "over": "1.769",
+                "under": "2.090",
+                "max": 3000
+              },
+              {
+                "hdp": 37,
+                "over": "1.826",
+                "under": "2.020",
+                "max": 3000
+              },
+              {
+                "hdp": 37.5,
+                "over": "1.900",
+                "under": "1.952",
+                "max": 3000
+              },
+              {
+                "hdp": 38.5,
+                "over": "2.040",
+                "under": "1.813",
+                "max": 3000
+              },
+              {
+                "hdp": 39,
+                "over": "2.110",
+                "under": "1.757",
+                "max": 3000
+              },
+              {
+                "hdp": 39.5,
+                "over": "2.180",
+                "under": "1.704",
+                "max": 3000
+              },
+              {
+                "hdp": 40,
+                "over": "2.260",
+                "under": "1.662",
+                "max": 3000
+              },
+              {
+                "hdp": 44.5,
+                "over": "3.140",
+                "under": "1.366",
+                "max": 3000
+              },
+              {
+                "hdp": 38,
+                "over": "1.961",
+                "under": "1.869",
+                "max": 3000
+              },
+              {
+                "hdp": 30.5,
+                "over": "1.355",
+                "under": "3.190",
+                "max": 3000
+              }
+            ]
+          },
+          {
+            "name": "Team Total Home",
+            "updatedAt": "2025-12-30T20:24:28.911Z",
+            "odds": [
+              {
+                "hdp": 24.5,
+                "over": "1.970",
+                "under": "1.884",
+                "max": 2000
+              }
+            ]
+          },
+          {
+            "name": "Team Total Away",
+            "updatedAt": "2025-12-30T20:24:28.911Z",
+            "odds": [
+              {
+                "hdp": 12.5,
+                "over": "1.892",
+                "under": "1.961",
+                "max": 2000
+              }
+            ]
+          }
+        ]
+      },
+      "status": "pending"
+    },
+    {
+      "id": 60575187,
+      "home": "Pittsburgh Steelers",
+      "away": "Baltimore Ravens",
+      "date": "2026-01-05T01:20:00Z",
+      "sport": {
+        "name": "American Football",
+        "slug": "american-football"
+      },
+      "league": {
+        "name": "USA - NFL",
+        "slug": "usa-nfl"
+      },
+      "urls": {
+        "BookMaker.eu": "https://be.bookmaker.eu/en/sports/american-football",
+        "Pinnacle": "https://www.pinnacle.com/en/american-football/nfl/pittsburgh-steelers/1621502557/#all"
+      },
+      "bookmakers": {
+        "BookMaker.eu": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T09:03:18.11Z",
+            "odds": [
+              {
+                "home": "2.57",
+                "away": "1.54"
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T09:03:18.11Z",
+            "odds": [
+              {
+                "hdp": 3.5,
+                "home": "1.83",
+                "away": "1.99"
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T09:03:18.11Z",
+            "odds": [
+              {
+                "hdp": 41,
+                "over": "1.92",
+                "under": "1.90"
+              }
+            ]
+          }
+        ],
+        "Pinnacle": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T00:02:17.855Z",
+            "odds": [
+              {
+                "home": "2.670",
+                "away": "1.523",
+                "max": 10000
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T00:02:17.855Z",
+            "odds": [
+              {
+                "hdp": 3.5,
+                "home": "1.909",
+                "away": "1.980",
+                "max": 20000
+              },
+              {
+                "hdp": 10.5,
+                "home": "1.334",
+                "away": "3.400",
+                "max": 3000
+              },
+              {
+                "hdp": 6,
+                "home": "1.657",
+                "away": "2.310",
+                "max": 20000
+              },
+              {
+                "hdp": 5.5,
+                "home": "1.724",
+                "away": "2.190",
+                "max": 20000
+              },
+              {
+                "hdp": 5,
+                "home": "1.751",
+                "away": "2.150",
+                "max": 20000
+              },
+              {
+                "hdp": 4.5,
+                "home": "1.787",
+                "away": "2.110",
+                "max": 20000
+              },
+              {
+                "hdp": 4,
+                "home": "1.840",
+                "away": "2.040",
+                "max": 20000
+              },
+              {
+                "hdp": 3,
+                "home": "2.110",
+                "away": "1.793",
+                "max": 20000
+              },
+              {
+                "hdp": 2.5,
+                "home": "2.300",
+                "away": "1.662",
+                "max": 20000
+              },
+              {
+                "hdp": 2,
+                "home": "2.390",
+                "away": "1.617",
+                "max": 20000
+              },
+              {
+                "hdp": 1.5,
+                "home": "2.450",
+                "away": "1.588",
+                "max": 20000
+              },
+              {
+                "hdp": 1,
+                "home": "2.560",
+                "away": "1.540",
+                "max": 20000
+              },
+              {
+                "hdp": -3.5,
+                "home": "3.480",
+                "away": "1.322",
+                "max": 3000
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T00:02:17.855Z",
+            "odds": [
+              {
+                "hdp": 38.5,
+                "over": "1.666",
+                "under": "2.270",
+                "max": 3000
+              },
+              {
+                "hdp": 39,
+                "over": "1.714",
+                "under": "2.190",
+                "max": 3000
+              },
+              {
+                "hdp": 39.5,
+                "over": "1.769",
+                "under": "2.110",
+                "max": 3000
+              },
+              {
+                "hdp": 40,
+                "over": "1.819",
+                "under": "2.040",
+                "max": 3000
+              },
+              {
+                "hdp": 40.5,
+                "over": "1.884",
+                "under": "1.970",
+                "max": 3000
+              },
+              {
+                "hdp": 41.5,
+                "over": "2.030",
+                "under": "1.833",
+                "max": 3000
+              },
+              {
+                "hdp": 42,
+                "over": "2.100",
+                "under": "1.775",
+                "max": 3000
+              },
+              {
+                "hdp": 42.5,
+                "over": "2.180",
+                "under": "1.724",
+                "max": 3000
+              },
+              {
+                "hdp": 43,
+                "over": "2.260",
+                "under": "1.675",
+                "max": 3000
+              },
+              {
+                "hdp": 43.5,
+                "over": "2.340",
+                "under": "1.628",
+                "max": 3000
+              },
+              {
+                "hdp": 47.5,
+                "over": "2.990",
+                "under": "1.408",
+                "max": 3000
+              },
+              {
+                "hdp": 34.5,
+                "over": "1.398",
+                "under": "3.040",
+                "max": 3000
+              },
+              {
+                "hdp": 41,
+                "over": "1.961",
+                "under": "1.909",
+                "max": 3000
+              }
+            ]
+          },
+          {
+            "name": "Team Total Home",
+            "updatedAt": "2025-12-31T00:02:17.855Z",
+            "odds": [
+              {
+                "hdp": 20.5,
+                "over": "2.330",
+                "under": "1.636",
+                "max": 2000
+              }
+            ]
+          },
+          {
+            "name": "Team Total Away",
+            "updatedAt": "2025-12-30T21:06:21.65Z",
+            "odds": [
+              {
+                "hdp": 22.5,
+                "over": "1.943",
+                "under": "1.909",
+                "max": 2000
+              }
+            ]
+          }
+        ]
+      },
+      "status": "pending"
+    }
+  ]
+}

@@ -1,0 +1,5125 @@
+{
+  "requested": {
+    "target": "ice-hockey:usa-nhl",
+    "event_ids": [
+      62075374,
+      62075376,
+      62075378,
+      62075380,
+      62075382,
+      62075384,
+      62075386,
+      62075388,
+      62075390,
+      62075392
+    ],
+    "bookmakers": "Pinnacle,Circa",
+    "from": "2025-12-31T09:00:18Z",
+    "to": "2026-01-02T09:00:18Z",
+    "status": "pending"
+  },
+  "headers": {
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Content-Type, Authorization",
+    "access-control-allow-methods": "GET, POST, PUT, DELETE",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 31 Dec 2025 09:00:20 GMT",
+    "server": "railway-edge",
+    "x-railway-edge": "railway/us-east4-eqdc4a",
+    "x-railway-request-id": "VSq1nBYJQOqsmDBgwoOzXw",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "93",
+    "x-ratelimit-reset": "2025-12-31T10:00:06Z",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "response": [
+    {
+      "id": 62075382,
+      "home": "Detroit Red Wings",
+      "away": "Winnipeg Jets",
+      "date": "2025-12-31T23:30:00Z",
+      "sport": {
+        "name": "Ice Hockey",
+        "slug": "ice-hockey"
+      },
+      "league": {
+        "name": "USA - NHL",
+        "slug": "usa-nhl"
+      },
+      "urls": {
+        "Circa": "N/A",
+        "Pinnacle": "https://www.pinnacle.com/en/hockey/nhl/detroit-red-wings/1621780220/#all"
+      },
+      "bookmakers": {
+        "Circa": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T05:12:33.369Z",
+            "odds": [
+              {
+                "home": "1.813",
+                "away": "2.110"
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T05:13:15.896Z",
+            "odds": [
+              {
+                "hdp": -1.5,
+                "home": "3.050",
+                "away": "1.417"
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T03:59:35.51Z",
+            "odds": [
+              {
+                "hdp": 6,
+                "over": "2.000",
+                "under": "1.833"
+              }
+            ]
+          }
+        ],
+        "Pinnacle": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T06:51:59.264Z",
+            "odds": [
+              {
+                "home": "1.800",
+                "away": "2.110",
+                "max": 2500
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T06:51:59.264Z",
+            "odds": [
+              {
+                "hdp": 2.5,
+                "home": "1.153",
+                "away": "5.440",
+                "max": 1875
+              },
+              {
+                "hdp": -1.5,
+                "home": "2.970",
+                "away": "1.427",
+                "max": 1875
+              },
+              {
+                "hdp": 1.5,
+                "home": "1.287",
+                "away": "3.670",
+                "max": 1875
+              },
+              {
+                "hdp": -2.5,
+                "home": "4.270",
+                "away": "1.224",
+                "max": 1875
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T06:51:59.264Z",
+            "odds": [
+              {
+                "hdp": 6.5,
+                "over": "2.140",
+                "under": "1.740",
+                "max": 1875
+              },
+              {
+                "hdp": 5,
+                "over": "1.353",
+                "under": "3.290",
+                "max": 1875
+              },
+              {
+                "hdp": 5.5,
+                "over": "1.746",
+                "under": "2.130",
+                "max": 1875
+              },
+              {
+                "hdp": 6,
+                "over": "1.934",
+                "under": "1.934",
+                "max": 1875
+              },
+              {
+                "hdp": 7,
+                "over": "3.020",
+                "under": "1.404",
+                "max": 1875
+              },
+              {
+                "hdp": 8.5,
+                "over": "5.050",
+                "under": "1.184",
+                "max": 1875
+              }
+            ]
+          },
+          {
+            "name": "Spread HT",
+            "updatedAt": "2025-12-31T06:51:59.264Z",
+            "odds": [
+              {
+                "hdp": -0.5,
+                "home": "2.680",
+                "away": "1.512",
+                "max": 500
+              },
+              {
+                "hdp": 0.5,
+                "home": "1.416",
+                "away": "2.960",
+                "max": 500
+              }
+            ]
+          },
+          {
+            "name": "Totals HT",
+            "updatedAt": "2025-12-31T06:51:59.264Z",
+            "odds": [
+              {
+                "hdp": 1,
+                "over": "1.266",
+                "under": "3.870",
+                "max": 250
+              },
+              {
+                "hdp": 1.5,
+                "over": "1.806",
+                "under": "2.060",
+                "max": 250
+              },
+              {
+                "hdp": 2,
+                "over": "2.600",
+                "under": "1.510",
+                "max": 250
+              },
+              {
+                "hdp": 2.5,
+                "over": "3.480",
+                "under": "1.314",
+                "max": 250
+              }
+            ]
+          },
+          {
+            "name": "Player Props",
+            "updatedAt": "2025-12-31T08:46:26.578Z",
+            "odds": [
+              {
+                "label": "Kyle Connor (Assists)",
+                "hdp": 0.5,
+                "over": "1.862",
+                "under": "1.877",
+                "max": 250
+              },
+              {
+                "label": "Mark Scheifele (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.568",
+                "under": "2.31",
+                "max": 250
+              },
+              {
+                "label": "Mark Scheifele (Goals)",
+                "hdp": 0.5,
+                "over": "2.95",
+                "under": "1.368",
+                "max": 250
+              },
+              {
+                "label": "Mark Scheifele (Points)",
+                "hdp": 0.5,
+                "over": "1.446",
+                "under": "2.65",
+                "max": 250
+              },
+              {
+                "label": "Mark Scheifele (Assists)",
+                "hdp": 0.5,
+                "over": "1.935",
+                "under": "1.806",
+                "max": 250
+              },
+              {
+                "label": "Gustav Nyquist (Assists)",
+                "hdp": 0.5,
+                "over": "3.93",
+                "under": "1.227",
+                "max": 250
+              },
+              {
+                "label": "Josh Morrissey (Assists)",
+                "hdp": 0.5,
+                "over": "2.21",
+                "under": "1.621",
+                "max": 250
+              },
+              {
+                "label": "Josh Morrissey (Points)",
+                "hdp": 0.5,
+                "over": "1.885",
+                "under": "1.855",
+                "max": 250
+              },
+              {
+                "label": "Gustav Nyquist (Points)",
+                "hdp": 0.5,
+                "over": "2.69",
+                "under": "1.431",
+                "max": 250
+              },
+              {
+                "label": "Josh Morrissey (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.775",
+                "under": "1.971",
+                "max": 250
+              },
+              {
+                "label": "Kyle Connor (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.559",
+                "under": "2.34",
+                "max": 250
+              },
+              {
+                "label": "Alex DeBrincat (Points)",
+                "hdp": 0.5,
+                "over": "1.549",
+                "under": "2.35",
+                "max": 250
+              },
+              {
+                "label": "Gabriel Vilardi (Assists)",
+                "hdp": 0.5,
+                "over": "2.44",
+                "under": "1.515",
+                "max": 250
+              },
+              {
+                "label": "Gabriel Vilardi (Goals)",
+                "hdp": 0.5,
+                "over": "3.27",
+                "under": "1.31",
+                "max": 250
+              },
+              {
+                "label": "Kyle Connor (Goals)",
+                "hdp": 0.5,
+                "over": "2.45",
+                "under": "1.51",
+                "max": 250
+              },
+              {
+                "label": "Gabriel Vilardi (Points)",
+                "hdp": 0.5,
+                "over": "1.671",
+                "under": "2.12",
+                "max": 250
+              },
+              {
+                "label": "Neal Pionk (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.781",
+                "under": "1.971",
+                "max": 250
+              },
+              {
+                "label": "Cole Perfetti (Goals)",
+                "hdp": 0.5,
+                "over": "5.83",
+                "under": "1.113",
+                "max": 250
+              },
+              {
+                "label": "Cole Perfetti (Points)",
+                "hdp": 0.5,
+                "over": "2.86",
+                "under": "1.389",
+                "max": 250
+              },
+              {
+                "label": "Cole Perfetti (Assists)",
+                "hdp": 0.5,
+                "over": "4.67",
+                "under": "1.169",
+                "max": 250
+              },
+              {
+                "label": "Patrick Kane (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.26",
+                "under": "1.595",
+                "max": 250
+              },
+              {
+                "label": "Alex DeBrincat (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.541",
+                "under": "2.37",
+                "max": 250
+              },
+              {
+                "label": "Patrick Kane (Points)",
+                "hdp": 0.5,
+                "over": "1.685",
+                "under": "2.1",
+                "max": 250
+              },
+              {
+                "label": "Patrick Kane (Assists)",
+                "hdp": 0.5,
+                "over": "2.28",
+                "under": "1.581",
+                "max": 250
+              },
+              {
+                "label": "Dylan Larkin (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.8",
+                "under": "1.943",
+                "max": 250
+              },
+              {
+                "label": "Alex DeBrincat (Goals)",
+                "hdp": 0.5,
+                "over": "2.54",
+                "under": "1.481",
+                "max": 250
+              },
+              {
+                "label": "Dylan Larkin (Goals)",
+                "hdp": 0.5,
+                "over": "2.64",
+                "under": "1.446",
+                "max": 250
+              },
+              {
+                "label": "Dylan Larkin (Points)",
+                "hdp": 0.5,
+                "over": "1.568",
+                "under": "2.31",
+                "max": 250
+              },
+              {
+                "label": "Dylan Larkin (Assists)",
+                "hdp": 0.5,
+                "over": "2.5",
+                "under": "1.493",
+                "max": 250
+              },
+              {
+                "label": "Andrew Copp (Points)",
+                "hdp": 0.5,
+                "over": "2.32",
+                "under": "1.565",
+                "max": 250
+              },
+              {
+                "label": "Alex DeBrincat (Assists)",
+                "hdp": 0.5,
+                "over": "2.52",
+                "under": "1.485",
+                "max": 250
+              },
+              {
+                "label": "James van Riemsdyk (Goals)",
+                "hdp": 0.5,
+                "over": "5.32",
+                "under": "1.134",
+                "max": 250
+              },
+              {
+                "label": "Patrick Kane (Goals)",
+                "hdp": 0.5,
+                "over": "3.82",
+                "under": "1.238",
+                "max": 250
+              },
+              {
+                "label": "Andrew Copp (Assists)",
+                "hdp": 0.5,
+                "over": "3.23",
+                "under": "1.315",
+                "max": 250
+              },
+              {
+                "label": "Andrew Copp (Goals)",
+                "hdp": 0.5,
+                "over": "5.83",
+                "under": "1.113",
+                "max": 250
+              },
+              {
+                "label": "Emmitt Finnie (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.763",
+                "under": "1.99",
+                "max": 250
+              },
+              {
+                "label": "Moritz Seider (Points)",
+                "hdp": 0.5,
+                "over": "1.781",
+                "under": "1.971",
+                "max": 250
+              },
+              {
+                "label": "Lucas Raymond (Goals)",
+                "hdp": 0.5,
+                "over": "3.25",
+                "under": "1.312",
+                "max": 250
+              },
+              {
+                "label": "Lucas Raymond (Assists)",
+                "hdp": 0.5,
+                "over": "1.952",
+                "under": "1.794",
+                "max": 250
+              },
+              {
+                "label": "Moritz Seider (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.538",
+                "under": "2.39",
+                "max": 250
+              },
+              {
+                "label": "Moritz Seider (Assists)",
+                "hdp": 0.5,
+                "over": "2.07",
+                "under": "1.704",
+                "max": 250
+              },
+              {
+                "label": "Lucas Raymond (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.38",
+                "under": "1.541",
+                "max": 250
+              },
+              {
+                "label": "Lucas Raymond (Points)",
+                "hdp": 0.5,
+                "over": "1.485",
+                "under": "2.52",
+                "max": 250
+              },
+              {
+                "label": "Emmitt Finnie (Assists)",
+                "hdp": 0.5,
+                "over": "3.59",
+                "under": "1.264",
+                "max": 250
+              },
+              {
+                "label": "Emmitt Finnie (Goals)",
+                "hdp": 0.5,
+                "over": "4.44",
+                "under": "1.184",
+                "max": 250
+              },
+              {
+                "label": "Emmitt Finnie (Points)",
+                "hdp": 0.5,
+                "over": "2.26",
+                "under": "1.595",
+                "max": 250
+              },
+              {
+                "label": "Gabriel Vilardi (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.621",
+                "under": "2.21",
+                "max": 250
+              },
+              {
+                "label": "Kyle Connor (Points)",
+                "hdp": 1.5,
+                "over": "2.84",
+                "under": "1.394",
+                "max": 250
+              }
+            ]
+          },
+          {
+            "name": "Team Total Home",
+            "updatedAt": "2025-12-31T06:51:59.264Z",
+            "odds": [
+              {
+                "hdp": 3.5,
+                "over": "2.280",
+                "under": "1.645"
+              }
+            ]
+          },
+          {
+            "name": "Team Total Away",
+            "updatedAt": "2025-12-31T06:51:59.264Z",
+            "odds": [
+              {
+                "hdp": 2.5,
+                "over": "1.675",
+                "under": "2.220"
+              }
+            ]
+          },
+          {
+            "name": "3-Way Result",
+            "updatedAt": "2025-12-31T06:51:59.264Z",
+            "odds": [
+              {
+                "home": "2.250",
+                "draw": "4.170",
+                "away": "2.680",
+                "max": 1250
+              }
+            ]
+          }
+        ]
+      },
+      "status": "pending"
+    },
+    {
+      "id": 62075378,
+      "home": "San Jose Sharks",
+      "away": "Minnesota Wild",
+      "date": "2025-12-31T21:00:00Z",
+      "sport": {
+        "name": "Ice Hockey",
+        "slug": "ice-hockey"
+      },
+      "league": {
+        "name": "USA - NHL",
+        "slug": "usa-nhl"
+      },
+      "urls": {
+        "Circa": "N/A",
+        "Pinnacle": "https://www.pinnacle.com/en/hockey/nhl/san-jose-sharks/1621778648/#all"
+      },
+      "bookmakers": {
+        "Circa": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T03:29:11.506Z",
+            "odds": [
+              {
+                "home": "2.520",
+                "away": "1.588"
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T03:29:11.506Z",
+            "odds": [
+              {
+                "hdp": 1.5,
+                "home": "1.606",
+                "away": "2.450"
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T05:15:10.699Z",
+            "odds": [
+              {
+                "hdp": 6.5,
+                "over": "1.870",
+                "under": "1.952"
+              }
+            ]
+          }
+        ],
+        "Pinnacle": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T06:38:42.06Z",
+            "odds": [
+              {
+                "home": "2.510",
+                "away": "1.581",
+                "max": 2500
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T06:38:42.06Z",
+            "odds": [
+              {
+                "hdp": -1.5,
+                "home": "4.560",
+                "away": "1.203",
+                "max": 1875
+              },
+              {
+                "hdp": 1.5,
+                "home": "1.602",
+                "away": "2.430",
+                "max": 1875
+              },
+              {
+                "hdp": -2.5,
+                "home": "7.000",
+                "away": "1.103",
+                "max": 1875
+              },
+              {
+                "hdp": 2.5,
+                "home": "1.327",
+                "away": "3.390",
+                "max": 1875
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T06:38:42.06Z",
+            "odds": [
+              {
+                "hdp": 6.5,
+                "over": "2.030",
+                "under": "1.847",
+                "max": 1875
+              },
+              {
+                "hdp": 7.5,
+                "over": "3.440",
+                "under": "1.327",
+                "max": 1875
+              },
+              {
+                "hdp": 6,
+                "over": "1.800",
+                "under": "2.050",
+                "max": 1875
+              },
+              {
+                "hdp": 5.5,
+                "over": "1.645",
+                "under": "2.300",
+                "max": 1875
+              },
+              {
+                "hdp": 7,
+                "over": "2.780",
+                "under": "1.465",
+                "max": 1875
+              }
+            ]
+          },
+          {
+            "name": "Spread HT",
+            "updatedAt": "2025-12-31T05:10:23.425Z",
+            "odds": [
+              {
+                "hdp": -0.5,
+                "home": "3.230",
+                "away": "1.362",
+                "max": 500
+              },
+              {
+                "hdp": 1,
+                "home": "1.210",
+                "away": "4.610",
+                "max": 500
+              },
+              {
+                "hdp": 0.5,
+                "home": "1.598",
+                "away": "2.450",
+                "max": 500
+              }
+            ]
+          },
+          {
+            "name": "Totals HT",
+            "updatedAt": "2025-12-31T05:10:23.425Z",
+            "odds": [
+              {
+                "hdp": 1.5,
+                "over": "1.769",
+                "under": "2.120",
+                "max": 250
+              },
+              {
+                "hdp": 2.5,
+                "over": "3.360",
+                "under": "1.333",
+                "max": 250
+              },
+              {
+                "hdp": 1,
+                "over": "1.248",
+                "under": "4.040",
+                "max": 250
+              },
+              {
+                "hdp": 2,
+                "over": "2.500",
+                "under": "1.546",
+                "max": 250
+              }
+            ]
+          },
+          {
+            "name": "Player Props",
+            "updatedAt": "2025-12-31T08:41:24.693Z",
+            "odds": [
+              {
+                "label": "Kirill Kaprizov (Points)",
+                "hdp": 1.5,
+                "over": "2.54",
+                "under": "1.478",
+                "max": 250
+              },
+              {
+                "label": "Kirill Kaprizov (Goals)",
+                "hdp": 0.5,
+                "over": "2.07",
+                "under": "1.704",
+                "max": 250
+              },
+              {
+                "label": "Kirill Kaprizov (Shots On Goal)",
+                "hdp": 3.5,
+                "over": "1.926",
+                "under": "1.82",
+                "max": 250
+              },
+              {
+                "label": "Matt Boldy (Shots On Goal)",
+                "hdp": 3.5,
+                "over": "2.19",
+                "under": "1.633",
+                "max": 250
+              },
+              {
+                "label": "Matt Boldy (Assists)",
+                "hdp": 0.5,
+                "over": "1.98",
+                "under": "1.769",
+                "max": 250
+              },
+              {
+                "label": "Danila Yurov (Goals)",
+                "hdp": 0.5,
+                "over": "5.65",
+                "under": "1.12",
+                "max": 250
+              },
+              {
+                "label": "Matt Boldy (Points)",
+                "hdp": 1.5,
+                "over": "2.67",
+                "under": "1.439",
+                "max": 250
+              },
+              {
+                "label": "Tyler Toffoli (Assists)",
+                "hdp": 0.5,
+                "over": "3.06",
+                "under": "1.346",
+                "max": 250
+              },
+              {
+                "label": "Dmitry Orlov (Assists)",
+                "hdp": 0.5,
+                "over": "3.37",
+                "under": "1.294",
+                "max": 250
+              },
+              {
+                "label": "Tyler Toffoli (Goals)",
+                "hdp": 0.5,
+                "over": "3.53",
+                "under": "1.271",
+                "max": 250
+              },
+              {
+                "label": "John Klingberg (Points)",
+                "hdp": 0.5,
+                "over": "2.39",
+                "under": "1.538",
+                "max": 250
+              },
+              {
+                "label": "Alexander Wennberg (Goals)",
+                "hdp": 0.5,
+                "over": "4.62",
+                "under": "1.172",
+                "max": 250
+              },
+              {
+                "label": "Tyler Toffoli (Points)",
+                "hdp": 0.5,
+                "over": "1.917",
+                "under": "1.826",
+                "max": 250
+              },
+              {
+                "label": "William Eklund (Goals)",
+                "hdp": 0.5,
+                "over": "3.37",
+                "under": "1.293",
+                "max": 250
+              },
+              {
+                "label": "Alexander Wennberg (Assists)",
+                "hdp": 0.5,
+                "over": "2.67",
+                "under": "1.437",
+                "max": 250
+              },
+              {
+                "label": "John Klingberg (Assists)",
+                "hdp": 0.5,
+                "over": "3.05",
+                "under": "1.347",
+                "max": 250
+              },
+              {
+                "label": "William Eklund (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.07",
+                "under": "1.704",
+                "max": 250
+              },
+              {
+                "label": "Dmitry Orlov (Points)",
+                "hdp": 0.5,
+                "over": "2.93",
+                "under": "1.373",
+                "max": 250
+              },
+              {
+                "label": "Marcus Johansson (Assists)",
+                "hdp": 0.5,
+                "over": "3.06",
+                "under": "1.346",
+                "max": 250
+              },
+              {
+                "label": "Marcus Johansson (Goals)",
+                "hdp": 0.5,
+                "over": "5.42",
+                "under": "1.129",
+                "max": 250
+              },
+              {
+                "label": "Mats Zuccarello (Goals)",
+                "hdp": 0.5,
+                "over": "4.04",
+                "under": "1.216",
+                "max": 250
+              },
+              {
+                "label": "Marcus Johansson (Points)",
+                "hdp": 0.5,
+                "over": "2.22",
+                "under": "1.613",
+                "max": 250
+              },
+              {
+                "label": "Mats Zuccarello (Assists)",
+                "hdp": 0.5,
+                "over": "2.1",
+                "under": "1.685",
+                "max": 250
+              },
+              {
+                "label": "Mats Zuccarello (Points)",
+                "hdp": 0.5,
+                "over": "1.629",
+                "under": "2.19",
+                "max": 250
+              },
+              {
+                "label": "Mats Zuccarello (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.55",
+                "under": "1.476",
+                "max": 250
+              },
+              {
+                "label": "Vladimir Tarasenko (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.893",
+                "under": "1.847",
+                "max": 250
+              },
+              {
+                "label": "Vladimir Tarasenko (Points)",
+                "hdp": 0.5,
+                "over": "2.27",
+                "under": "1.588",
+                "max": 250
+              },
+              {
+                "label": "Ryan Hartman (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.538",
+                "under": "2.38",
+                "max": 250
+              },
+              {
+                "label": "Vladimir Tarasenko (Goals)",
+                "hdp": 0.5,
+                "over": "4.7",
+                "under": "1.167",
+                "max": 250
+              },
+              {
+                "label": "Vladimir Tarasenko (Assists)",
+                "hdp": 0.5,
+                "over": "3.49",
+                "under": "1.277",
+                "max": 250
+              },
+              {
+                "label": "Ryan Hartman (Goals)",
+                "hdp": 0.5,
+                "over": "4.78",
+                "under": "1.162",
+                "max": 250
+              },
+              {
+                "label": "Matt Boldy (Goals)",
+                "hdp": 0.5,
+                "over": "2.1",
+                "under": "1.685",
+                "max": 250
+              },
+              {
+                "label": "Brock Faber (Points)",
+                "hdp": 0.5,
+                "over": "2.63",
+                "under": "1.45",
+                "max": 250
+              },
+              {
+                "label": "Brock Faber (Assists)",
+                "hdp": 0.5,
+                "over": "3.32",
+                "under": "1.3",
+                "max": 250
+              },
+              {
+                "label": "Joel Eriksson Ek (Points)",
+                "hdp": 0.5,
+                "over": "1.637",
+                "under": "2.18",
+                "max": 250
+              },
+              {
+                "label": "Quinn Hughes (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.943",
+                "under": "1.8",
+                "max": 250
+              },
+              {
+                "label": "Quinn Hughes (Goals)",
+                "hdp": 0.5,
+                "over": "4.7",
+                "under": "1.167",
+                "max": 250
+              },
+              {
+                "label": "Joel Eriksson Ek (Assists)",
+                "hdp": 0.5,
+                "over": "2.37",
+                "under": "1.543",
+                "max": 250
+              },
+              {
+                "label": "Quinn Hughes (Assists)",
+                "hdp": 0.5,
+                "over": "1.654",
+                "under": "2.15",
+                "max": 250
+              },
+              {
+                "label": "Quinn Hughes (Points)",
+                "hdp": 0.5,
+                "over": "1.435",
+                "under": "2.68",
+                "max": 250
+              },
+              {
+                "label": "Joel Eriksson Ek (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.694",
+                "under": "2.08",
+                "max": 250
+              },
+              {
+                "label": "Joel Eriksson Ek (Goals)",
+                "hdp": 0.5,
+                "over": "3.2",
+                "under": "1.322",
+                "max": 250
+              },
+              {
+                "label": "Brock Faber (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.813",
+                "under": "1.926",
+                "max": 250
+              },
+              {
+                "label": "Kirill Kaprizov (Assists)",
+                "hdp": 0.5,
+                "over": "1.893",
+                "under": "1.847",
+                "max": 250
+              },
+              {
+                "label": "William Eklund (Points)",
+                "hdp": 0.5,
+                "over": "1.685",
+                "under": "2.1",
+                "max": 250
+              },
+              {
+                "label": "Tyler Toffoli (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.02",
+                "under": "1.741",
+                "max": 250
+              },
+              {
+                "label": "John Klingberg (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.826",
+                "under": "1.917",
+                "max": 250
+              },
+              {
+                "label": "Collin Graf (Goals)",
+                "hdp": 0.5,
+                "over": "4.12",
+                "under": "1.209",
+                "max": 250
+              },
+              {
+                "label": "Alexander Wennberg (Points)",
+                "hdp": 0.5,
+                "over": "1.952",
+                "under": "1.794",
+                "max": 250
+              },
+              {
+                "label": "Macklin Celebrini (Shots On Goal)",
+                "hdp": 3.5,
+                "over": "2.31",
+                "under": "1.568",
+                "max": 250
+              },
+              {
+                "label": "Macklin Celebrini (Points)",
+                "hdp": 1.5,
+                "over": "2.53",
+                "under": "1.481",
+                "max": 250
+              },
+              {
+                "label": "Collin Graf (Points)",
+                "hdp": 0.5,
+                "over": "2.24",
+                "under": "1.602",
+                "max": 250
+              },
+              {
+                "label": "Macklin Celebrini (Assists)",
+                "hdp": 0.5,
+                "over": "1.685",
+                "under": "2.1",
+                "max": 250
+              },
+              {
+                "label": "Igor Chernyshov (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.543",
+                "under": "2.37",
+                "max": 250
+              },
+              {
+                "label": "Igor Chernyshov (Points)",
+                "hdp": 0.5,
+                "over": "2.14",
+                "under": "1.658",
+                "max": 250
+              },
+              {
+                "label": "Igor Chernyshov (Goals)",
+                "hdp": 0.5,
+                "over": "4.46",
+                "under": "1.183",
+                "max": 250
+              },
+              {
+                "label": "Macklin Celebrini (Goals)",
+                "hdp": 0.5,
+                "over": "2.46",
+                "under": "1.508",
+                "max": 250
+              },
+              {
+                "label": "William Eklund (Assists)",
+                "hdp": 0.5,
+                "over": "2.43",
+                "under": "1.521",
+                "max": 250
+              },
+              {
+                "label": "Igor Chernyshov (Assists)",
+                "hdp": 0.5,
+                "over": "3.23",
+                "under": "1.315",
+                "max": 250
+              },
+              {
+                "label": "Collin Graf (Assists)",
+                "hdp": 0.5,
+                "over": "3.76",
+                "under": "1.244",
+                "max": 250
+              }
+            ]
+          },
+          {
+            "name": "Team Total Home",
+            "updatedAt": "2025-12-31T05:10:23.425Z",
+            "odds": [
+              {
+                "hdp": 2.5,
+                "over": "1.800",
+                "under": "2.030"
+              }
+            ]
+          },
+          {
+            "name": "Team Total Away",
+            "updatedAt": "2025-12-31T06:38:42.06Z",
+            "odds": [
+              {
+                "hdp": 3.5,
+                "over": "1.952",
+                "under": "1.869"
+              }
+            ]
+          },
+          {
+            "name": "3-Way Result",
+            "updatedAt": "2025-12-31T06:38:42.06Z",
+            "odds": [
+              {
+                "home": "3.250",
+                "draw": "4.340",
+                "away": "1.925",
+                "max": 1250
+              }
+            ]
+          }
+        ]
+      },
+      "status": "pending"
+    },
+    {
+      "id": 62075386,
+      "home": "Dallas Stars",
+      "away": "Buffalo Sabres",
+      "date": "2026-01-01T01:00:00Z",
+      "sport": {
+        "name": "Ice Hockey",
+        "slug": "ice-hockey"
+      },
+      "league": {
+        "name": "USA - NHL",
+        "slug": "usa-nhl"
+      },
+      "urls": {
+        "Circa": "N/A",
+        "Pinnacle": "https://www.pinnacle.com/en/hockey/nhl/dallas-stars/1621780223/#all"
+      },
+      "bookmakers": {
+        "Circa": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T04:05:36.371Z",
+            "odds": [
+              {
+                "home": "1.654",
+                "away": "2.370"
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T04:03:17.393Z",
+            "odds": [
+              {
+                "hdp": -1.5,
+                "home": "2.600",
+                "away": "1.541"
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T04:01:38.068Z",
+            "odds": [
+              {
+                "hdp": 6,
+                "over": "1.833",
+                "under": "2.000"
+              }
+            ]
+          }
+        ],
+        "Pinnacle": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T07:39:09.545Z",
+            "odds": [
+              {
+                "home": "1.628",
+                "away": "2.400",
+                "max": 2500
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T07:39:09.545Z",
+            "odds": [
+              {
+                "hdp": -2.5,
+                "home": "3.560",
+                "away": "1.301",
+                "max": 1875
+              },
+              {
+                "hdp": 1.5,
+                "home": "1.215",
+                "away": "4.390",
+                "max": 1875
+              },
+              {
+                "hdp": 2.5,
+                "home": "1.111",
+                "away": "6.680",
+                "max": 1875
+              },
+              {
+                "hdp": -1.5,
+                "home": "2.530",
+                "away": "1.561",
+                "max": 1875
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T07:09:30.173Z",
+            "odds": [
+              {
+                "hdp": 7.5,
+                "over": "3.430",
+                "under": "1.330",
+                "max": 1875
+              },
+              {
+                "hdp": 5.5,
+                "over": "1.649",
+                "under": "2.290",
+                "max": 1875
+              },
+              {
+                "hdp": 6,
+                "over": "1.806",
+                "under": "2.050",
+                "max": 1875
+              },
+              {
+                "hdp": 6.5,
+                "over": "2.040",
+                "under": "1.840",
+                "max": 1875
+              },
+              {
+                "hdp": 7,
+                "over": "2.770",
+                "under": "1.465",
+                "max": 1875
+              }
+            ]
+          },
+          {
+            "name": "Spread HT",
+            "updatedAt": "2025-12-31T04:01:12.604Z",
+            "odds": [
+              {
+                "hdp": 0.5,
+                "home": "1.370",
+                "away": "3.190",
+                "max": 500
+              },
+              {
+                "hdp": -1,
+                "home": "4.700",
+                "away": "1.204",
+                "max": 500
+              },
+              {
+                "hdp": -0.5,
+                "home": "2.480",
+                "away": "1.584",
+                "max": 500
+              }
+            ]
+          },
+          {
+            "name": "Totals HT",
+            "updatedAt": "2025-12-30T21:12:09.178Z",
+            "odds": [
+              {
+                "hdp": 1,
+                "over": "1.253",
+                "under": "4.000",
+                "max": 250
+              },
+              {
+                "hdp": 2.5,
+                "over": "3.390",
+                "under": "1.327",
+                "max": 250
+              },
+              {
+                "hdp": 2,
+                "over": "2.520",
+                "under": "1.534",
+                "max": 250
+              },
+              {
+                "hdp": 1.5,
+                "over": "1.775",
+                "under": "2.100",
+                "max": 250
+              }
+            ]
+          },
+          {
+            "name": "Player Props",
+            "updatedAt": "2025-12-31T08:26:22.924Z",
+            "odds": [
+              {
+                "label": "Zach Benson (Goals)",
+                "hdp": 0.5,
+                "over": "5.12",
+                "under": "1.144",
+                "max": 250
+              },
+              {
+                "label": "Owen Power (Assists)",
+                "hdp": 0.5,
+                "over": "4.34",
+                "under": "1.192",
+                "max": 250
+              },
+              {
+                "label": "Josh Doan (Points)",
+                "hdp": 0.5,
+                "over": "2.28",
+                "under": "1.585",
+                "max": 250
+              },
+              {
+                "label": "Wyatt Johnston (Points)",
+                "hdp": 0.5,
+                "over": "1.413",
+                "under": "2.76",
+                "max": 500
+              },
+              {
+                "label": "Owen Power (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "2.25",
+                "under": "1.599",
+                "max": 250
+              },
+              {
+                "label": "Jamie Benn (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.917",
+                "under": "1.82",
+                "max": 250
+              },
+              {
+                "label": "Jamie Benn (Assists)",
+                "hdp": 0.5,
+                "over": "3.81",
+                "under": "1.239",
+                "max": 250
+              },
+              {
+                "label": "Jamie Benn (Goals)",
+                "hdp": 0.5,
+                "over": "4.7",
+                "under": "1.167",
+                "max": 250
+              },
+              {
+                "label": "Matt Duchene (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.833",
+                "under": "1.909",
+                "max": 250
+              },
+              {
+                "label": "Mikko Rantanen (Goals)",
+                "hdp": 0.5,
+                "over": "2.57",
+                "under": "1.467",
+                "max": 250
+              },
+              {
+                "label": "Matt Duchene (Goals)",
+                "hdp": 0.5,
+                "over": "5.38",
+                "under": "1.132",
+                "max": 250
+              },
+              {
+                "label": "Matt Duchene (Points)",
+                "hdp": 0.5,
+                "over": "2.27",
+                "under": "1.588",
+                "max": 250
+              },
+              {
+                "label": "Jamie Benn (Points)",
+                "hdp": 0.5,
+                "over": "2.37",
+                "under": "1.543",
+                "max": 250
+              },
+              {
+                "label": "Matt Duchene (Assists)",
+                "hdp": 0.5,
+                "over": "3.23",
+                "under": "1.315",
+                "max": 250
+              },
+              {
+                "label": "Esa Lindell (Points)",
+                "hdp": 0.5,
+                "over": "3.01",
+                "under": "1.356",
+                "max": 250
+              },
+              {
+                "label": "Esa Lindell (Assists)",
+                "hdp": 0.5,
+                "over": "3.6",
+                "under": "1.262",
+                "max": 250
+              },
+              {
+                "label": "Mikko Rantanen (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.935",
+                "under": "1.806",
+                "max": 250
+              },
+              {
+                "label": "Mikko Rantanen (Assists)",
+                "hdp": 0.5,
+                "over": "1.521",
+                "under": "2.43",
+                "max": 250
+              },
+              {
+                "label": "Alex Tuch (Assists)",
+                "hdp": 0.5,
+                "over": "3.5",
+                "under": "1.275",
+                "max": 250
+              },
+              {
+                "label": "Alex Tuch (Points)",
+                "hdp": 0.5,
+                "over": "2.11",
+                "under": "1.68",
+                "max": 250
+              },
+              {
+                "label": "Roope Hintz (Goals)",
+                "hdp": 0.5,
+                "over": "3.15",
+                "under": "1.329",
+                "max": 250
+              },
+              {
+                "label": "Jason Robertson (Shots On Goal)",
+                "hdp": 3.5,
+                "over": "2.2",
+                "under": "1.625",
+                "max": 250
+              },
+              {
+                "label": "Roope Hintz (Points)",
+                "hdp": 0.5,
+                "over": "1.641",
+                "under": "2.17",
+                "max": 250
+              },
+              {
+                "label": "Roope Hintz (Assists)",
+                "hdp": 0.5,
+                "over": "2.41",
+                "under": "1.529",
+                "max": 250
+              },
+              {
+                "label": "Tage Thompson (Goals)",
+                "hdp": 0.5,
+                "over": "2.74",
+                "under": "1.418",
+                "max": 500
+              },
+              {
+                "label": "Tage Thompson (Assists)",
+                "hdp": 0.5,
+                "over": "2.9",
+                "under": "1.379",
+                "max": 250
+              },
+              {
+                "label": "Tage Thompson (Points)",
+                "hdp": 0.5,
+                "over": "1.694",
+                "under": "2.09",
+                "max": 250
+              },
+              {
+                "label": "Jason Robertson (Assists)",
+                "hdp": 0.5,
+                "over": "2",
+                "under": "1.752",
+                "max": 250
+              },
+              {
+                "label": "Jason Robertson (Goals)",
+                "hdp": 0.5,
+                "over": "2.15",
+                "under": "1.654",
+                "max": 250
+              },
+              {
+                "label": "Sam Steel (Goals)",
+                "hdp": 0.5,
+                "over": "5.65",
+                "under": "1.12",
+                "max": 250
+              },
+              {
+                "label": "Alex Tuch (Goals)",
+                "hdp": 0.5,
+                "over": "3.8",
+                "under": "1.239",
+                "max": 250
+              },
+              {
+                "label": "Alex Tuch (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.38",
+                "under": "1.541",
+                "max": 250
+              },
+              {
+                "label": "Roope Hintz (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.588",
+                "under": "2.27",
+                "max": 250
+              },
+              {
+                "label": "Jason Robertson (Points)",
+                "hdp": 1.5,
+                "over": "2.76",
+                "under": "1.415",
+                "max": 250
+              },
+              {
+                "label": "Miro Heiskanen (Points)",
+                "hdp": 0.5,
+                "over": "1.571",
+                "under": "2.31",
+                "max": 250
+              },
+              {
+                "label": "Miro Heiskanen (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.556",
+                "under": "2.34",
+                "max": 250
+              },
+              {
+                "label": "Miro Heiskanen (Assists)",
+                "hdp": 0.5,
+                "over": "1.8",
+                "under": "1.943",
+                "max": 250
+              },
+              {
+                "label": "Bowen Byram (Points)",
+                "hdp": 0.5,
+                "over": "3.19",
+                "under": "1.323",
+                "max": 250
+              },
+              {
+                "label": "Thomas Harley (Assists)",
+                "hdp": 0.5,
+                "over": "2.82",
+                "under": "1.398",
+                "max": 250
+              },
+              {
+                "label": "Thomas Harley (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.877",
+                "under": "2.02",
+                "max": 250
+              },
+              {
+                "label": "Josh Norris (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.885",
+                "under": "1.855",
+                "max": 250
+              },
+              {
+                "label": "Thomas Harley (Points)",
+                "hdp": 0.5,
+                "over": "2.37",
+                "under": "1.543",
+                "max": 250
+              },
+              {
+                "label": "Rasmus Dahlin (Points)",
+                "hdp": 0.5,
+                "over": "1.855",
+                "under": "1.885",
+                "max": 250
+              },
+              {
+                "label": "Rasmus Dahlin (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.15",
+                "under": "1.654",
+                "max": 250
+              },
+              {
+                "label": "Bowen Byram (Assists)",
+                "hdp": 0.5,
+                "over": "4.12",
+                "under": "1.21",
+                "max": 250
+              },
+              {
+                "label": "Rasmus Dahlin (Assists)",
+                "hdp": 0.5,
+                "over": "2.19",
+                "under": "1.629",
+                "max": 250
+              },
+              {
+                "label": "Ryan McLeod (Assists)",
+                "hdp": 0.5,
+                "over": "3.4",
+                "under": "1.29",
+                "max": 250
+              },
+              {
+                "label": "Jack Quinn (Assists)",
+                "hdp": 0.5,
+                "over": "4.19",
+                "under": "1.203",
+                "max": 250
+              },
+              {
+                "label": "Josh Norris (Goals)",
+                "hdp": 0.5,
+                "over": "4.19",
+                "under": "1.203",
+                "max": 250
+              },
+              {
+                "label": "Jack Quinn (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.87",
+                "under": "1.87",
+                "max": 250
+              },
+              {
+                "label": "Ryan McLeod (Points)",
+                "hdp": 0.5,
+                "over": "2.47",
+                "under": "1.505",
+                "max": 250
+              },
+              {
+                "label": "Jack Quinn (Goals)",
+                "hdp": 0.5,
+                "over": "5.83",
+                "under": "1.113",
+                "max": 250
+              },
+              {
+                "label": "Josh Norris (Assists)",
+                "hdp": 0.5,
+                "over": "3.15",
+                "under": "1.329",
+                "max": 250
+              },
+              {
+                "label": "Josh Norris (Points)",
+                "hdp": 0.5,
+                "over": "2.07",
+                "under": "1.704",
+                "max": 250
+              },
+              {
+                "label": "Mavrik Bourque (Goals)",
+                "hdp": 0.5,
+                "over": "5.12",
+                "under": "1.144",
+                "max": 250
+              },
+              {
+                "label": "Jack Quinn (Points)",
+                "hdp": 0.5,
+                "over": "2.69",
+                "under": "1.431",
+                "max": 250
+              },
+              {
+                "label": "Josh Doan (Assists)",
+                "hdp": 0.5,
+                "over": "3.67",
+                "under": "1.254",
+                "max": 250
+              },
+              {
+                "label": "Mikko Rantanen (Points)",
+                "hdp": 1.5,
+                "over": "2.29",
+                "under": "1.581",
+                "max": 250
+              },
+              {
+                "label": "Wyatt Johnston (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.3",
+                "under": "1.575",
+                "max": 250
+              },
+              {
+                "label": "Wyatt Johnston (Assists)",
+                "hdp": 0.5,
+                "over": "2.03",
+                "under": "1.735",
+                "max": 250
+              },
+              {
+                "label": "Owen Power (Points)",
+                "hdp": 0.5,
+                "over": "3.37",
+                "under": "1.293",
+                "max": 250
+              },
+              {
+                "label": "Wyatt Johnston (Goals)",
+                "hdp": 0.5,
+                "over": "2.53",
+                "under": "1.483",
+                "max": 250
+              },
+              {
+                "label": "Josh Doan (Goals)",
+                "hdp": 0.5,
+                "over": "4.45",
+                "under": "1.183",
+                "max": 250
+              },
+              {
+                "label": "Tage Thompson (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.625",
+                "under": "2.2",
+                "max": 500
+              },
+              {
+                "label": "Josh Doan (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.483",
+                "under": "2.53",
+                "max": 250
+              }
+            ]
+          },
+          {
+            "name": "Team Total Home",
+            "updatedAt": "2025-12-31T07:09:30.173Z",
+            "odds": [
+              {
+                "hdp": 3.5,
+                "over": "2.010",
+                "under": "1.819"
+              }
+            ]
+          },
+          {
+            "name": "Team Total Away",
+            "updatedAt": "2025-12-31T07:39:09.545Z",
+            "odds": [
+              {
+                "hdp": 2.5,
+                "over": "1.769",
+                "under": "2.070"
+              }
+            ]
+          },
+          {
+            "name": "3-Way Result",
+            "updatedAt": "2025-12-31T07:09:30.173Z",
+            "odds": [
+              {
+                "home": "2.010",
+                "draw": "4.250",
+                "away": "3.080",
+                "max": 1250
+              }
+            ]
+          }
+        ]
+      },
+      "status": "pending"
+    },
+    {
+      "id": 62075388,
+      "home": "Colorado Avalanche",
+      "away": "St. Louis Blues",
+      "date": "2026-01-01T02:00:00Z",
+      "sport": {
+        "name": "Ice Hockey",
+        "slug": "ice-hockey"
+      },
+      "league": {
+        "name": "USA - NHL",
+        "slug": "usa-nhl"
+      },
+      "urls": {
+        "Circa": "N/A",
+        "Pinnacle": "https://www.pinnacle.com/en/hockey/nhl/colorado-avalanche/1621777444/#all"
+      },
+      "bookmakers": {
+        "Circa": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T04:05:36.371Z",
+            "odds": [
+              {
+                "home": "1.308",
+                "away": "3.830"
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T04:05:36.371Z",
+            "odds": [
+              {
+                "hdp": -1.5,
+                "home": "1.833",
+                "away": "2.000"
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T04:05:36.371Z",
+            "odds": [
+              {
+                "hdp": 6,
+                "over": "1.909",
+                "under": "1.909"
+              }
+            ]
+          }
+        ],
+        "Pinnacle": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-30T23:16:26.731Z",
+            "odds": [
+              {
+                "home": "1.306",
+                "away": "3.720",
+                "max": 2500
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-30T23:16:26.731Z",
+            "odds": [
+              {
+                "hdp": -1.5,
+                "home": "1.819",
+                "away": "2.060",
+                "max": 1875
+              },
+              {
+                "hdp": -2.5,
+                "home": "2.390",
+                "away": "1.598",
+                "max": 1875
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-30T23:16:26.731Z",
+            "odds": [
+              {
+                "hdp": 6.5,
+                "over": "2.110",
+                "under": "1.757",
+                "max": 1875
+              },
+              {
+                "hdp": 6,
+                "over": "1.884",
+                "under": "1.990",
+                "max": 1875
+              },
+              {
+                "hdp": 5,
+                "over": "1.335",
+                "under": "3.400",
+                "max": 1875
+              },
+              {
+                "hdp": 7,
+                "over": "2.910",
+                "under": "1.429",
+                "max": 1875
+              },
+              {
+                "hdp": 8.5,
+                "over": "5.040",
+                "under": "1.184",
+                "max": 1875
+              },
+              {
+                "hdp": 5.5,
+                "over": "1.684",
+                "under": "2.230",
+                "max": 1875
+              }
+            ]
+          },
+          {
+            "name": "Spread HT",
+            "updatedAt": "2025-12-31T06:58:18.189Z",
+            "odds": [
+              {
+                "hdp": 0.5,
+                "home": "1.258",
+                "away": "4.020",
+                "max": 500
+              },
+              {
+                "hdp": -1,
+                "home": "3.500",
+                "away": "1.320",
+                "max": 500
+              },
+              {
+                "hdp": -0.5,
+                "home": "2.090",
+                "away": "1.800",
+                "max": 500
+              },
+              {
+                "hdp": -1.5,
+                "home": "4.650",
+                "away": "1.207",
+                "max": 500
+              }
+            ]
+          },
+          {
+            "name": "Totals HT",
+            "updatedAt": "2025-12-31T06:58:18.189Z",
+            "odds": [
+              {
+                "hdp": 2.5,
+                "over": "3.420",
+                "under": "1.322",
+                "max": 250
+              },
+              {
+                "hdp": 1.5,
+                "over": "1.787",
+                "under": "2.090",
+                "max": 250
+              },
+              {
+                "hdp": 2,
+                "over": "2.550",
+                "under": "1.526",
+                "max": 250
+              },
+              {
+                "hdp": 1,
+                "over": "1.256",
+                "under": "3.970",
+                "max": 250
+              }
+            ]
+          },
+          {
+            "name": "Player Props",
+            "updatedAt": "2025-12-31T08:41:24.693Z",
+            "odds": [
+              {
+                "label": "Brock Nelson (Points)",
+                "hdp": 0.5,
+                "over": "1.476",
+                "under": "2.55",
+                "max": 250
+              },
+              {
+                "label": "Brock Nelson (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.46",
+                "under": "1.508",
+                "max": 250
+              },
+              {
+                "label": "Brock Nelson (Assists)",
+                "hdp": 0.5,
+                "over": "2.18",
+                "under": "1.637",
+                "max": 250
+              },
+              {
+                "label": "Nathan MacKinnon (Points)",
+                "hdp": 1.5,
+                "over": "1.641",
+                "under": "2.17",
+                "max": 250
+              },
+              {
+                "label": "Valeri Nichushkin (Goals)",
+                "hdp": 0.5,
+                "over": "2.87",
+                "under": "1.386",
+                "max": 250
+              },
+              {
+                "label": "Jordan Kyrou (Goals)",
+                "hdp": 0.5,
+                "over": "3.98",
+                "under": "1.221",
+                "max": 250
+              },
+              {
+                "label": "Artturi Lehkonen (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.32",
+                "under": "1.565",
+                "max": 250
+              },
+              {
+                "label": "Devon Toews (Assists)",
+                "hdp": 0.5,
+                "over": "2.72",
+                "under": "1.426",
+                "max": 250
+              },
+              {
+                "label": "Brent Burns (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.585",
+                "under": "2.28",
+                "max": 250
+              },
+              {
+                "label": "Brayden Schenn (Goals)",
+                "hdp": 0.5,
+                "over": "5.65",
+                "under": "1.12",
+                "max": 250
+              },
+              {
+                "label": "Brock Nelson (Goals)",
+                "hdp": 0.5,
+                "over": "2.62",
+                "under": "1.455",
+                "max": 250
+              },
+              {
+                "label": "Brayden Schenn (Points)",
+                "hdp": 0.5,
+                "over": "2.75",
+                "under": "1.417",
+                "max": 250
+              },
+              {
+                "label": "Justin Faulk (Points)",
+                "hdp": 0.5,
+                "over": "2.81",
+                "under": "1.402",
+                "max": 500
+              },
+              {
+                "label": "Cam Fowler (Points)",
+                "hdp": 0.5,
+                "over": "3.32",
+                "under": "1.302",
+                "max": 250
+              },
+              {
+                "label": "Gabriel Landeskog (Assists)",
+                "hdp": 0.5,
+                "over": "2.29",
+                "under": "1.581",
+                "max": 250
+              },
+              {
+                "label": "Gabriel Landeskog (Goals)",
+                "hdp": 0.5,
+                "over": "2.75",
+                "under": "1.417",
+                "max": 250
+              },
+              {
+                "label": "Cam Fowler (Assists)",
+                "hdp": 0.5,
+                "over": "3.93",
+                "under": "1.226",
+                "max": 250
+              },
+              {
+                "label": "Gabriel Landeskog (Points)",
+                "hdp": 0.5,
+                "over": "1.535",
+                "under": "2.39",
+                "max": 250
+              },
+              {
+                "label": "Nathan MacKinnon (Assists)",
+                "hdp": 0.5,
+                "over": "1.398",
+                "under": "2.82",
+                "max": 250
+              },
+              {
+                "label": "Jordan Kyrou (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.26",
+                "under": "1.592",
+                "max": 250
+              },
+              {
+                "label": "Jordan Kyrou (Assists)",
+                "hdp": 0.5,
+                "over": "3.45",
+                "under": "1.282",
+                "max": 250
+              },
+              {
+                "label": "Jordan Kyrou (Points)",
+                "hdp": 0.5,
+                "over": "2.13",
+                "under": "1.667",
+                "max": 250
+              },
+              {
+                "label": "Pavel Buchnevich (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.763",
+                "under": "1.99",
+                "max": 250
+              },
+              {
+                "label": "Pavel Buchnevich (Points)",
+                "hdp": 0.5,
+                "over": "2.11",
+                "under": "1.676",
+                "max": 250
+              },
+              {
+                "label": "Pavel Buchnevich (Assists)",
+                "hdp": 0.5,
+                "over": "3.23",
+                "under": "1.316",
+                "max": 250
+              },
+              {
+                "label": "Valeri Nichushkin (Assists)",
+                "hdp": 0.5,
+                "over": "2.65",
+                "under": "1.442",
+                "max": 250
+              },
+              {
+                "label": "Valeri Nichushkin (Points)",
+                "hdp": 0.5,
+                "over": "1.658",
+                "under": "2.14",
+                "max": 250
+              },
+              {
+                "label": "Pavel Buchnevich (Goals)",
+                "hdp": 0.5,
+                "over": "4.29",
+                "under": "1.195",
+                "max": 250
+              },
+              {
+                "label": "Brent Burns (Assists)",
+                "hdp": 0.5,
+                "over": "2.82",
+                "under": "1.398",
+                "max": 250
+              },
+              {
+                "label": "Artturi Lehkonen (Assists)",
+                "hdp": 0.5,
+                "over": "2.72",
+                "under": "1.424",
+                "max": 250
+              },
+              {
+                "label": "Artturi Lehkonen (Points)",
+                "hdp": 0.5,
+                "over": "1.68",
+                "under": "2.11",
+                "max": 250
+              },
+              {
+                "label": "Devon Toews (Points)",
+                "hdp": 0.5,
+                "over": "2.32",
+                "under": "1.565",
+                "max": 250
+              },
+              {
+                "label": "Robert Thomas (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "2.06",
+                "under": "1.714",
+                "max": 250
+              },
+              {
+                "label": "Robert Thomas (Assists)",
+                "hdp": 0.5,
+                "over": "2.43",
+                "under": "1.521",
+                "max": 250
+              },
+              {
+                "label": "Martin Necas (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.25",
+                "under": "1.599",
+                "max": 250
+              },
+              {
+                "label": "Martin Necas (Assists)",
+                "hdp": 0.5,
+                "over": "1.741",
+                "under": "2.02",
+                "max": 250
+              },
+              {
+                "label": "Robert Thomas (Goals)",
+                "hdp": 0.5,
+                "over": "4.59",
+                "under": "1.174",
+                "max": 250
+              },
+              {
+                "label": "Robert Thomas (Points)",
+                "hdp": 0.5,
+                "over": "1.833",
+                "under": "1.909",
+                "max": 250
+              },
+              {
+                "label": "Victor Olofsson (Goals)",
+                "hdp": 0.5,
+                "over": "5.8",
+                "under": "1.114",
+                "max": 250
+              },
+              {
+                "label": "Martin Necas (Goals)",
+                "hdp": 0.5,
+                "over": "2.6",
+                "under": "1.461",
+                "max": 250
+              },
+              {
+                "label": "Cale Makar (Goals)",
+                "hdp": 0.5,
+                "over": "3.7",
+                "under": "1.251",
+                "max": 250
+              },
+              {
+                "label": "Jake Neighbours (Points)",
+                "hdp": 0.5,
+                "over": "2.59",
+                "under": "1.463",
+                "max": 250
+              },
+              {
+                "label": "Jimmy Snuggerud (Assists)",
+                "hdp": 0.5,
+                "over": "4.29",
+                "under": "1.195",
+                "max": 250
+              },
+              {
+                "label": "Jimmy Snuggerud (Points)",
+                "hdp": 0.5,
+                "over": "2.73",
+                "under": "1.422",
+                "max": 250
+              },
+              {
+                "label": "Martin Necas (Points)",
+                "hdp": 1.5,
+                "over": "2.71",
+                "under": "1.426",
+                "max": 250
+              },
+              {
+                "label": "Cale Makar (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.746",
+                "under": "2.01",
+                "max": 250
+              },
+              {
+                "label": "Cale Makar (Assists)",
+                "hdp": 0.5,
+                "over": "1.571",
+                "under": "2.31",
+                "max": 250
+              },
+              {
+                "label": "Cale Makar (Points)",
+                "hdp": 1.5,
+                "over": "2.79",
+                "under": "1.407",
+                "max": 250
+              },
+              {
+                "label": "Jake Neighbours (Goals)",
+                "hdp": 0.5,
+                "over": "5.24",
+                "under": "1.138",
+                "max": 250
+              },
+              {
+                "label": "Jake Neighbours (Assists)",
+                "hdp": 0.5,
+                "over": "4.15",
+                "under": "1.207",
+                "max": 250
+              },
+              {
+                "label": "Justin Faulk (Assists)",
+                "hdp": 0.5,
+                "over": "3.66",
+                "under": "1.255",
+                "max": 250
+              },
+              {
+                "label": "Gabriel Landeskog (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.02",
+                "under": "1.741",
+                "max": 250
+              },
+              {
+                "label": "Nathan MacKinnon (Shots On Goal)",
+                "hdp": 4.5,
+                "over": "2.23",
+                "under": "1.606",
+                "max": 250
+              },
+              {
+                "label": "Brayden Schenn (Assists)",
+                "hdp": 0.5,
+                "over": "4.44",
+                "under": "1.184",
+                "max": 250
+              },
+              {
+                "label": "Valeri Nichushkin (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.14",
+                "under": "1.658",
+                "max": 250
+              },
+              {
+                "label": "Devon Toews (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.935",
+                "under": "1.813",
+                "max": 250
+              },
+              {
+                "label": "Jimmy Snuggerud (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.971",
+                "under": "1.775",
+                "max": 250
+              },
+              {
+                "label": "Jimmy Snuggerud (Goals)",
+                "hdp": 0.5,
+                "over": "5.87",
+                "under": "1.112",
+                "max": 250
+              },
+              {
+                "label": "Artturi Lehkonen (Goals)",
+                "hdp": 0.5,
+                "over": "2.88",
+                "under": "1.383",
+                "max": 250
+              },
+              {
+                "label": "Brent Burns (Points)",
+                "hdp": 0.5,
+                "over": "2.37",
+                "under": "1.543",
+                "max": 250
+              },
+              {
+                "label": "Justin Faulk (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.893",
+                "under": "1.84",
+                "max": 250
+              },
+              {
+                "label": "Nathan MacKinnon (Goals)",
+                "hdp": 0.5,
+                "over": "1.68",
+                "under": "2.11",
+                "max": 250
+              }
+            ]
+          },
+          {
+            "name": "Team Total Home",
+            "updatedAt": "2025-12-30T23:16:26.731Z",
+            "odds": [
+              {
+                "hdp": 3.5,
+                "over": "1.666",
+                "under": "2.230"
+              }
+            ]
+          },
+          {
+            "name": "Team Total Away",
+            "updatedAt": "2025-12-30T23:16:26.731Z",
+            "odds": [
+              {
+                "hdp": 2.5,
+                "over": "2.330",
+                "under": "1.617"
+              }
+            ]
+          },
+          {
+            "name": "3-Way Result",
+            "updatedAt": "2025-12-31T06:53:27.002Z",
+            "odds": [
+              {
+                "home": "1.526",
+                "draw": "4.940",
+                "away": "5.010",
+                "max": 1250
+              }
+            ]
+          }
+        ]
+      },
+      "status": "pending"
+    },
+    {
+      "id": 62075390,
+      "home": "Edmonton Oilers",
+      "away": "Boston Bruins",
+      "date": "2026-01-01T02:30:00Z",
+      "sport": {
+        "name": "Ice Hockey",
+        "slug": "ice-hockey"
+      },
+      "league": {
+        "name": "USA - NHL",
+        "slug": "usa-nhl"
+      },
+      "urls": {
+        "Circa": "N/A",
+        "Pinnacle": "https://www.pinnacle.com/en/hockey/nhl/edmonton-oilers/1621778664/#all"
+      },
+      "bookmakers": {
+        "Circa": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T04:07:30.553Z",
+            "odds": [
+              {
+                "home": "1.535",
+                "away": "2.670"
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T04:07:30.553Z",
+            "odds": [
+              {
+                "hdp": -1.5,
+                "home": "2.350",
+                "away": "1.645"
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T04:07:30.553Z",
+            "odds": [
+              {
+                "hdp": 6.5,
+                "over": "2.050",
+                "under": "1.800"
+              }
+            ]
+          }
+        ],
+        "Pinnacle": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T03:20:27.909Z",
+            "odds": [
+              {
+                "home": "1.515",
+                "away": "2.700",
+                "max": 2500
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T07:11:58.685Z",
+            "odds": [
+              {
+                "hdp": -2.5,
+                "home": "3.130",
+                "away": "1.371",
+                "max": 1875
+              },
+              {
+                "hdp": -1.5,
+                "home": "2.290",
+                "away": "1.671",
+                "max": 1875
+              },
+              {
+                "hdp": 1.5,
+                "home": "1.179",
+                "away": "4.930",
+                "max": 1875
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T07:11:58.685Z",
+            "odds": [
+              {
+                "hdp": 7.5,
+                "over": "3.320",
+                "under": "1.347",
+                "max": 1875
+              },
+              {
+                "hdp": 7,
+                "over": "2.660",
+                "under": "1.497",
+                "max": 1875
+              },
+              {
+                "hdp": 6.5,
+                "over": "1.970",
+                "under": "1.900",
+                "max": 1875
+              },
+              {
+                "hdp": 6,
+                "over": "1.751",
+                "under": "2.120",
+                "max": 1875
+              },
+              {
+                "hdp": 5.5,
+                "over": "1.609",
+                "under": "2.370",
+                "max": 1875
+              }
+            ]
+          },
+          {
+            "name": "Spread HT",
+            "updatedAt": "2025-12-31T07:11:58.685Z",
+            "odds": [
+              {
+                "hdp": 0.5,
+                "home": "1.343",
+                "away": "3.340",
+                "max": 500
+              },
+              {
+                "hdp": -0.5,
+                "home": "2.370",
+                "away": "1.636",
+                "max": 500
+              },
+              {
+                "hdp": -1,
+                "home": "4.310",
+                "away": "1.233",
+                "max": 500
+              }
+            ]
+          },
+          {
+            "name": "Totals HT",
+            "updatedAt": "2025-12-31T07:11:58.685Z",
+            "odds": [
+              {
+                "hdp": 1,
+                "over": "1.243",
+                "under": "4.100",
+                "max": 250
+              },
+              {
+                "hdp": 1.5,
+                "over": "1.751",
+                "under": "2.140",
+                "max": 250
+              },
+              {
+                "hdp": 2,
+                "over": "2.470",
+                "under": "1.558",
+                "max": 250
+              },
+              {
+                "hdp": 2.5,
+                "over": "3.320",
+                "under": "1.338",
+                "max": 250
+              }
+            ]
+          },
+          {
+            "name": "Player Props",
+            "updatedAt": "2025-12-31T07:30:59.526Z",
+            "odds": [
+              {
+                "label": "Ryan Nugent-Hopkins (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.621",
+                "under": "2.21",
+                "max": 250
+              },
+              {
+                "label": "Ryan Nugent-Hopkins (Goals)",
+                "hdp": 0.5,
+                "over": "3.38",
+                "under": "1.292",
+                "max": 250
+              },
+              {
+                "label": "Ryan Nugent-Hopkins (Assists)",
+                "hdp": 0.5,
+                "over": "1.935",
+                "under": "1.952",
+                "max": 250
+              },
+              {
+                "label": "Hampus Lindholm (Assists)",
+                "hdp": 0.5,
+                "over": "3.93",
+                "under": "1.227",
+                "max": 250
+              },
+              {
+                "label": "Mattias Ekholm (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.704",
+                "under": "2.07",
+                "max": 250
+              },
+              {
+                "label": "Zach Hyman (Goals)",
+                "hdp": 0.5,
+                "over": "2.34",
+                "under": "1.559",
+                "max": 250
+              },
+              {
+                "label": "Hampus Lindholm (Points)",
+                "hdp": 0.5,
+                "over": "3.17",
+                "under": "1.325",
+                "max": 250
+              },
+              {
+                "label": "Elias Lindholm (Goals)",
+                "hdp": 0.5,
+                "over": "4.63",
+                "under": "1.171",
+                "max": 250
+              },
+              {
+                "label": "Elias Lindholm (Assists)",
+                "hdp": 0.5,
+                "over": "2.56",
+                "under": "1.472",
+                "max": 250
+              },
+              {
+                "label": "Darnell Nurse (Points)",
+                "hdp": 0.5,
+                "over": "2.72",
+                "under": "1.426",
+                "max": 250
+              },
+              {
+                "label": "Charlie McAvoy (Assists)",
+                "hdp": 0.5,
+                "over": "2.37",
+                "under": "1.543",
+                "max": 250
+              },
+              {
+                "label": "Darnell Nurse (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.535",
+                "under": "2.39",
+                "max": 500
+              },
+              {
+                "label": "Leon Draisaitl (Goals)",
+                "hdp": 0.5,
+                "over": "2.07",
+                "under": "1.704",
+                "max": 500
+              },
+              {
+                "label": "Leon Draisaitl (Points)",
+                "hdp": 1.5,
+                "over": "1.87",
+                "under": "1.87",
+                "max": 500
+              },
+              {
+                "label": "David Pastrnak (Points)",
+                "hdp": 0.5,
+                "over": "1.375",
+                "under": "2.92",
+                "max": 250
+              },
+              {
+                "label": "Connor McDavid (Goals)",
+                "hdp": 0.5,
+                "over": "2.15",
+                "under": "1.654",
+                "max": 250
+              },
+              {
+                "label": "Viktor Arvidsson (Assists)",
+                "hdp": 0.5,
+                "over": "3.99",
+                "under": "1.221",
+                "max": 250
+              },
+              {
+                "label": "Pavel Zacha (Goals)",
+                "hdp": 0.5,
+                "over": "4.75",
+                "under": "1.164",
+                "max": 250
+              },
+              {
+                "label": "Connor McDavid (Assists)",
+                "hdp": 1.5,
+                "over": "2.74",
+                "under": "1.418",
+                "max": 250
+              },
+              {
+                "label": "Connor McDavid (Points)",
+                "hdp": 1.5,
+                "over": "1.769",
+                "under": "1.98",
+                "max": 250
+              },
+              {
+                "label": "Charlie McAvoy (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.885",
+                "under": "1.855",
+                "max": 250
+              },
+              {
+                "label": "Jack Roslovic (Goals)",
+                "hdp": 0.5,
+                "over": "4.44",
+                "under": "1.184",
+                "max": 250
+              },
+              {
+                "label": "Morgan Geekie (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.552",
+                "under": "2.35",
+                "max": 250
+              },
+              {
+                "label": "Morgan Geekie (Assists)",
+                "hdp": 0.5,
+                "over": "2.77",
+                "under": "1.412",
+                "max": 250
+              },
+              {
+                "label": "Evan Bouchard (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.806",
+                "under": "1.935",
+                "max": 500
+              },
+              {
+                "label": "Charlie McAvoy (Points)",
+                "hdp": 0.5,
+                "over": "2.05",
+                "under": "1.719",
+                "max": 250
+              },
+              {
+                "label": "Morgan Geekie (Goals)",
+                "hdp": 0.5,
+                "over": "3.09",
+                "under": "1.341",
+                "max": 250
+              },
+              {
+                "label": "Jack Roslovic (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.746",
+                "under": "2.01",
+                "max": 250
+              },
+              {
+                "label": "Evan Bouchard (Goals)",
+                "hdp": 0.5,
+                "over": "5.03",
+                "under": "1.148",
+                "max": 250
+              },
+              {
+                "label": "Vasily Podkolzin (Goals)",
+                "hdp": 0.5,
+                "over": "5.65",
+                "under": "1.12",
+                "max": 250
+              },
+              {
+                "label": "Pavel Zacha (Points)",
+                "hdp": 0.5,
+                "over": "2.07",
+                "under": "1.704",
+                "max": 250
+              },
+              {
+                "label": "Evan Bouchard (Points)",
+                "hdp": 0.5,
+                "over": "1.437",
+                "under": "2.68",
+                "max": 500
+              },
+              {
+                "label": "Evan Bouchard (Assists)",
+                "hdp": 0.5,
+                "over": "1.592",
+                "under": "2.27",
+                "max": 500
+              },
+              {
+                "label": "Mattias Ekholm (Assists)",
+                "hdp": 0.5,
+                "over": "3.11",
+                "under": "1.336",
+                "max": 250
+              },
+              {
+                "label": "Zach Hyman (Points)",
+                "hdp": 0.5,
+                "over": "1.435",
+                "under": "2.68",
+                "max": 250
+              },
+              {
+                "label": "Ryan Nugent-Hopkins (Points)",
+                "hdp": 0.5,
+                "over": "1.493",
+                "under": "2.5",
+                "max": 250
+              },
+              {
+                "label": "Elias Lindholm (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.8",
+                "under": "1.943",
+                "max": 250
+              },
+              {
+                "label": "Elias Lindholm (Points)",
+                "hdp": 0.5,
+                "over": "1.901",
+                "under": "1.84",
+                "max": 500
+              },
+              {
+                "label": "Leon Draisaitl (Assists)",
+                "hdp": 0.5,
+                "over": "1.413",
+                "under": "2.76",
+                "max": 500
+              },
+              {
+                "label": "Darnell Nurse (Assists)",
+                "hdp": 0.5,
+                "over": "3.4",
+                "under": "1.29",
+                "max": 250
+              },
+              {
+                "label": "Leon Draisaitl (Shots On Goal)",
+                "hdp": 3.5,
+                "over": "2.33",
+                "under": "1.559",
+                "max": 250
+              },
+              {
+                "label": "David Pastrnak (Goals)",
+                "hdp": 0.5,
+                "over": "2.44",
+                "under": "1.515",
+                "max": 500
+              },
+              {
+                "label": "David Pastrnak (Shots On Goal)",
+                "hdp": 3.5,
+                "over": "2.25",
+                "under": "1.599",
+                "max": 500
+              },
+              {
+                "label": "David Pastrnak (Assists)",
+                "hdp": 0.5,
+                "over": "1.943",
+                "under": "1.8",
+                "max": 500
+              },
+              {
+                "label": "Mattias Ekholm (Points)",
+                "hdp": 0.5,
+                "over": "2.59",
+                "under": "1.461",
+                "max": 250
+              },
+              {
+                "label": "Pavel Zacha (Assists)",
+                "hdp": 0.5,
+                "over": "2.91",
+                "under": "1.376",
+                "max": 250
+              },
+              {
+                "label": "Connor McDavid (Shots On Goal)",
+                "hdp": 3.5,
+                "over": "2.13",
+                "under": "1.667",
+                "max": 250
+              },
+              {
+                "label": "Morgan Geekie (Points)",
+                "hdp": 0.5,
+                "over": "1.741",
+                "under": "2.02",
+                "max": 500
+              },
+              {
+                "label": "Casey Mittelstadt (Assists)",
+                "hdp": 0.5,
+                "over": "4.54",
+                "under": "1.177",
+                "max": 250
+              },
+              {
+                "label": "Casey Mittelstadt (Points)",
+                "hdp": 0.5,
+                "over": "2.81",
+                "under": "1.402",
+                "max": 250
+              },
+              {
+                "label": "Casey Mittelstadt (Goals)",
+                "hdp": 0.5,
+                "over": "5.83",
+                "under": "1.113",
+                "max": 250
+              },
+              {
+                "label": "Viktor Arvidsson (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.481",
+                "under": "2.53",
+                "max": 250
+              },
+              {
+                "label": "Zach Hyman (Shots On Goal)",
+                "hdp": 3.5,
+                "over": "2.29",
+                "under": "1.581",
+                "max": 250
+              },
+              {
+                "label": "Viktor Arvidsson (Points)",
+                "hdp": 0.5,
+                "over": "2.43",
+                "under": "1.521",
+                "max": 250
+              },
+              {
+                "label": "Zach Hyman (Assists)",
+                "hdp": 0.5,
+                "over": "2.24",
+                "under": "1.602",
+                "max": 250
+              }
+            ]
+          },
+          {
+            "name": "Team Total Home",
+            "updatedAt": "2025-12-31T07:11:58.685Z",
+            "odds": [
+              {
+                "hdp": 3.5,
+                "over": "1.862",
+                "under": "1.961"
+              }
+            ]
+          },
+          {
+            "name": "Team Total Away",
+            "updatedAt": "2025-12-31T07:11:58.685Z",
+            "odds": [
+              {
+                "hdp": 2.5,
+                "over": "1.854",
+                "under": "1.970"
+              }
+            ]
+          },
+          {
+            "name": "3-Way Result",
+            "updatedAt": "2025-12-31T03:20:27.909Z",
+            "odds": [
+              {
+                "home": "1.833",
+                "draw": "4.400",
+                "away": "3.510",
+                "max": 1250
+              }
+            ]
+          }
+        ]
+      },
+      "status": "pending"
+    },
+    {
+      "id": 62075384,
+      "home": "Columbus Blue Jackets",
+      "away": "New Jersey Devils",
+      "date": "2026-01-01T00:00:00Z",
+      "sport": {
+        "name": "Ice Hockey",
+        "slug": "ice-hockey"
+      },
+      "league": {
+        "name": "USA - NHL",
+        "slug": "usa-nhl"
+      },
+      "urls": {
+        "Pinnacle": "https://www.pinnacle.com/en/hockey/nhl/columbus-blue-jackets/1621777439/#all"
+      },
+      "bookmakers": {
+        "Pinnacle": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T06:43:41.675Z",
+            "odds": [
+              {
+                "home": "1.900",
+                "away": "1.990",
+                "max": 2500
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T06:43:41.675Z",
+            "odds": [
+              {
+                "hdp": -1.5,
+                "home": "3.170",
+                "away": "1.384",
+                "max": 1875
+              },
+              {
+                "hdp": -2.5,
+                "home": "4.590",
+                "away": "1.201",
+                "max": 1875
+              },
+              {
+                "hdp": 1.5,
+                "home": "1.335",
+                "away": "3.330",
+                "max": 1875
+              },
+              {
+                "hdp": 2.5,
+                "home": "1.179",
+                "away": "4.940",
+                "max": 1875
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T06:43:41.675Z",
+            "odds": [
+              {
+                "hdp": 6,
+                "over": "1.884",
+                "under": "1.990",
+                "max": 1875
+              },
+              {
+                "hdp": 7,
+                "over": "2.890",
+                "under": "1.434",
+                "max": 1875
+              },
+              {
+                "hdp": 5.5,
+                "over": "1.699",
+                "under": "2.200",
+                "max": 1875
+              },
+              {
+                "hdp": 8.5,
+                "over": "4.780",
+                "under": "1.199",
+                "max": 1875
+              },
+              {
+                "hdp": 5,
+                "over": "1.323",
+                "under": "3.470",
+                "max": 1875
+              },
+              {
+                "hdp": 6.5,
+                "over": "2.080",
+                "under": "1.775",
+                "max": 1875
+              }
+            ]
+          },
+          {
+            "name": "Spread HT",
+            "updatedAt": "2025-12-31T06:43:41.675Z",
+            "odds": [
+              {
+                "hdp": -0.5,
+                "home": "2.770",
+                "away": "1.485",
+                "max": 500
+              },
+              {
+                "hdp": 0.5,
+                "home": "1.446",
+                "away": "2.840",
+                "max": 500
+              }
+            ]
+          },
+          {
+            "name": "Totals HT",
+            "updatedAt": "2025-12-31T06:43:41.675Z",
+            "odds": [
+              {
+                "hdp": 1.5,
+                "over": "1.781",
+                "under": "2.100",
+                "max": 250
+              },
+              {
+                "hdp": 2.5,
+                "over": "3.400",
+                "under": "1.326",
+                "max": 250
+              },
+              {
+                "hdp": 1,
+                "over": "1.254",
+                "under": "3.980",
+                "max": 250
+              },
+              {
+                "hdp": 2,
+                "over": "2.530",
+                "under": "1.534",
+                "max": 250
+              }
+            ]
+          },
+          {
+            "name": "Player Props",
+            "updatedAt": "2025-12-31T08:56:33.161Z",
+            "odds": [
+              {
+                "label": "Denton Mateychuk (Assists)",
+                "hdp": 0.5,
+                "over": "2.55",
+                "under": "1.474",
+                "max": 250
+              },
+              {
+                "label": "Boone Jenner (Assists)",
+                "hdp": 0.5,
+                "over": "3.3",
+                "under": "1.304",
+                "max": 250
+              },
+              {
+                "label": "Denton Mateychuk (Points)",
+                "hdp": 0.5,
+                "over": "2.15",
+                "under": "1.654",
+                "max": 250
+              },
+              {
+                "label": "Cole Sillinger (Goals)",
+                "hdp": 0.5,
+                "over": "5.54",
+                "under": "1.124",
+                "max": 250
+              },
+              {
+                "label": "Jack Hughes (Shots On Goal)",
+                "hdp": 3.5,
+                "over": "2.27",
+                "under": "1.592",
+                "max": 250
+              },
+              {
+                "label": "Luke Hughes (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.25",
+                "under": "1.602",
+                "max": 250
+              },
+              {
+                "label": "Kirill Marchenko (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.746",
+                "under": "2.01",
+                "max": 250
+              },
+              {
+                "label": "Kirill Marchenko (Assists)",
+                "hdp": 0.5,
+                "over": "2.25",
+                "under": "1.599",
+                "max": 250
+              },
+              {
+                "label": "Adam Fantilli (Goals)",
+                "hdp": 0.5,
+                "over": "2.69",
+                "under": "1.435",
+                "max": 250
+              },
+              {
+                "label": "Arseny Gritsyuk (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.575",
+                "under": "2.3",
+                "max": 250
+              },
+              {
+                "label": "Arseny Gritsyuk (Goals)",
+                "hdp": 0.5,
+                "over": "5.24",
+                "under": "1.138",
+                "max": 250
+              },
+              {
+                "label": "Boone Jenner (Goals)",
+                "hdp": 0.5,
+                "over": "4.04",
+                "under": "1.216",
+                "max": 250
+              },
+              {
+                "label": "Dmitri Voronkov (Points)",
+                "hdp": 0.5,
+                "over": "2.05",
+                "under": "1.714",
+                "max": 250
+              },
+              {
+                "label": "Boone Jenner (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.41",
+                "under": "1.526",
+                "max": 250
+              },
+              {
+                "label": "Dougie Hamilton (Points)",
+                "hdp": 0.5,
+                "over": "2.85",
+                "under": "1.391",
+                "max": 250
+              },
+              {
+                "label": "Mason Marchment (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.549",
+                "under": "2.36",
+                "max": 250
+              },
+              {
+                "label": "Nico Hischier (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.34",
+                "under": "1.556",
+                "max": 250
+              },
+              {
+                "label": "Jesper Bratt (Assists)",
+                "hdp": 0.5,
+                "over": "2.28",
+                "under": "1.585",
+                "max": 250
+              },
+              {
+                "label": "Charlie Coyle (Assists)",
+                "hdp": 0.5,
+                "over": "3.29",
+                "under": "1.307",
+                "max": 250
+              },
+              {
+                "label": "Charlie Coyle (Goals)",
+                "hdp": 0.5,
+                "over": "5.62",
+                "under": "1.121",
+                "max": 250
+              },
+              {
+                "label": "Charlie Coyle (Points)",
+                "hdp": 0.5,
+                "over": "2.36",
+                "under": "1.546",
+                "max": 250
+              },
+              {
+                "label": "Boone Jenner (Points)",
+                "hdp": 0.5,
+                "over": "2.1",
+                "under": "1.69",
+                "max": 250
+              },
+              {
+                "label": "Dougie Hamilton (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.99",
+                "under": "1.763",
+                "max": 250
+              },
+              {
+                "label": "Timo Meier (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.568",
+                "under": "2.31",
+                "max": 250
+              },
+              {
+                "label": "Dougie Hamilton (Assists)",
+                "hdp": 0.5,
+                "over": "3.79",
+                "under": "1.241",
+                "max": 250
+              },
+              {
+                "label": "Mason Marchment (Assists)",
+                "hdp": 0.5,
+                "over": "3.01",
+                "under": "1.356",
+                "max": 250
+              },
+              {
+                "label": "Mason Marchment (Goals)",
+                "hdp": 0.5,
+                "over": "4.01",
+                "under": "1.219",
+                "max": 250
+              },
+              {
+                "label": "Timo Meier (Goals)",
+                "hdp": 0.5,
+                "over": "3.08",
+                "under": "1.341",
+                "max": 250
+              },
+              {
+                "label": "Ivan Provorov (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "2.02",
+                "under": "1.735",
+                "max": 250
+              },
+              {
+                "label": "Timo Meier (Points)",
+                "hdp": 0.5,
+                "over": "1.833",
+                "under": "1.909",
+                "max": 250
+              },
+              {
+                "label": "Timo Meier (Assists)",
+                "hdp": 0.5,
+                "over": "3.13",
+                "under": "1.332",
+                "max": 250
+              },
+              {
+                "label": "Ivan Provorov (Points)",
+                "hdp": 0.5,
+                "over": "2.37",
+                "under": "1.543",
+                "max": 250
+              },
+              {
+                "label": "Ivan Provorov (Assists)",
+                "hdp": 0.5,
+                "over": "2.87",
+                "under": "1.386",
+                "max": 250
+              },
+              {
+                "label": "Mason Marchment (Points)",
+                "hdp": 0.5,
+                "over": "1.99",
+                "under": "1.763",
+                "max": 250
+              },
+              {
+                "label": "Jesper Bratt (Goals)",
+                "hdp": 0.5,
+                "over": "3.87",
+                "under": "1.233",
+                "max": 250
+              },
+              {
+                "label": "Jesper Bratt (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.49",
+                "under": "1.498",
+                "max": 250
+              },
+              {
+                "label": "Jesper Bratt (Points)",
+                "hdp": 0.5,
+                "over": "1.694",
+                "under": "2.08",
+                "max": 250
+              },
+              {
+                "label": "Nico Hischier (Goals)",
+                "hdp": 0.5,
+                "over": "3.08",
+                "under": "1.342",
+                "max": 250
+              },
+              {
+                "label": "Nico Hischier (Points)",
+                "hdp": 0.5,
+                "over": "1.645",
+                "under": "2.16",
+                "max": 250
+              },
+              {
+                "label": "Jack Hughes (Points)",
+                "hdp": 0.5,
+                "over": "1.526",
+                "under": "2.41",
+                "max": 250
+              },
+              {
+                "label": "Dawson Mercer (Goals)",
+                "hdp": 0.5,
+                "over": "4.35",
+                "under": "1.19",
+                "max": 250
+              },
+              {
+                "label": "Dawson Mercer (Assists)",
+                "hdp": 0.5,
+                "over": "3.36",
+                "under": "1.296",
+                "max": 250
+              },
+              {
+                "label": "Cole Sillinger (Points)",
+                "hdp": 0.5,
+                "over": "2.58",
+                "under": "1.465",
+                "max": 250
+              },
+              {
+                "label": "Luke Hughes (Points)",
+                "hdp": 0.5,
+                "over": "2.06",
+                "under": "1.709",
+                "max": 250
+              },
+              {
+                "label": "Connor Brown (Goals)",
+                "hdp": 0.5,
+                "over": "5.78",
+                "under": "1.115",
+                "max": 250
+              },
+              {
+                "label": "Nico Hischier (Assists)",
+                "hdp": 0.5,
+                "over": "2.45",
+                "under": "1.51",
+                "max": 250
+              },
+              {
+                "label": "Jack Hughes (Assists)",
+                "hdp": 0.5,
+                "over": "2.28",
+                "under": "1.585",
+                "max": 250
+              },
+              {
+                "label": "Dawson Mercer (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.529",
+                "under": "2.4",
+                "max": 250
+              },
+              {
+                "label": "Dawson Mercer (Points)",
+                "hdp": 0.5,
+                "over": "2.17",
+                "under": "1.641",
+                "max": 250
+              },
+              {
+                "label": "Luke Hughes (Assists)",
+                "hdp": 0.5,
+                "over": "2.49",
+                "under": "1.498",
+                "max": 250
+              },
+              {
+                "label": "Cole Sillinger (Assists)",
+                "hdp": 0.5,
+                "over": "3.99",
+                "under": "1.221",
+                "max": 250
+              },
+              {
+                "label": "Kirill Marchenko (Goals)",
+                "hdp": 0.5,
+                "over": "2.79",
+                "under": "1.405",
+                "max": 500
+              },
+              {
+                "label": "Kirill Marchenko (Points)",
+                "hdp": 0.5,
+                "over": "1.529",
+                "under": "2.41",
+                "max": 250
+              },
+              {
+                "label": "Dmitri Voronkov (Assists)",
+                "hdp": 0.5,
+                "over": "3.31",
+                "under": "1.303",
+                "max": 250
+              },
+              {
+                "label": "Adam Fantilli (Assists)",
+                "hdp": 0.5,
+                "over": "2.62",
+                "under": "1.455",
+                "max": 250
+              },
+              {
+                "label": "Adam Fantilli (Points)",
+                "hdp": 0.5,
+                "over": "1.606",
+                "under": "2.24",
+                "max": 250
+              },
+              {
+                "label": "Jack Hughes (Goals)",
+                "hdp": 0.5,
+                "over": "2.73",
+                "under": "1.42",
+                "max": 250
+              },
+              {
+                "label": "Dmitri Voronkov (Goals)",
+                "hdp": 0.5,
+                "over": "3.83",
+                "under": "1.236",
+                "max": 250
+              },
+              {
+                "label": "Dmitri Voronkov (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.658",
+                "under": "2.14",
+                "max": 250
+              },
+              {
+                "label": "Adam Fantilli (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.699",
+                "under": "2.08",
+                "max": 250
+              }
+            ]
+          },
+          {
+            "name": "Team Total Home",
+            "updatedAt": "2025-12-31T06:43:41.675Z",
+            "odds": [
+              {
+                "hdp": 3.5,
+                "over": "2.330",
+                "under": "1.617"
+              }
+            ]
+          },
+          {
+            "name": "Team Total Away",
+            "updatedAt": "2025-12-31T06:43:41.675Z",
+            "odds": [
+              {
+                "hdp": 2.5,
+                "over": "1.598",
+                "under": "2.370"
+              }
+            ]
+          },
+          {
+            "name": "3-Way Result",
+            "updatedAt": "2025-12-31T06:43:41.675Z",
+            "odds": [
+              {
+                "home": "2.380",
+                "draw": "4.190",
+                "away": "2.510",
+                "max": 1250
+              }
+            ]
+          }
+        ]
+      },
+      "status": "pending"
+    },
+    {
+      "id": 62075374,
+      "home": "Washington Capitals",
+      "away": "New York Rangers",
+      "date": "2025-12-31T17:30:00Z",
+      "sport": {
+        "name": "Ice Hockey",
+        "slug": "ice-hockey"
+      },
+      "league": {
+        "name": "USA - NHL",
+        "slug": "usa-nhl"
+      },
+      "urls": {
+        "Circa": "N/A",
+        "Pinnacle": "https://www.pinnacle.com/en/hockey/nhl/washington-capitals/1621777400/#all"
+      },
+      "bookmakers": {
+        "Circa": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T03:19:21.302Z",
+            "odds": [
+              {
+                "home": "1.676",
+                "away": "2.330"
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T03:19:21.302Z",
+            "odds": [
+              {
+                "hdp": -1.5,
+                "home": "2.750",
+                "away": "1.500"
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T03:19:21.302Z",
+            "odds": [
+              {
+                "hdp": 5.5,
+                "over": "2.000",
+                "under": "1.833"
+              }
+            ]
+          }
+        ],
+        "Pinnacle": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T08:15:52.427Z",
+            "odds": [
+              {
+                "home": "1.666",
+                "away": "2.330",
+                "max": 2500
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T08:15:52.427Z",
+            "odds": [
+              {
+                "hdp": 2.5,
+                "home": "1.114",
+                "away": "6.560",
+                "max": 1875
+              },
+              {
+                "hdp": -1.5,
+                "home": "2.700",
+                "away": "1.502",
+                "max": 1875
+              },
+              {
+                "hdp": 1.5,
+                "home": "1.226",
+                "away": "4.260",
+                "max": 1875
+              },
+              {
+                "hdp": -2.5,
+                "home": "3.850",
+                "away": "1.265",
+                "max": 1875
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T08:15:52.427Z",
+            "odds": [
+              {
+                "hdp": 6,
+                "over": "2.110",
+                "under": "1.757",
+                "max": 1875
+              },
+              {
+                "hdp": 8.5,
+                "over": "5.890",
+                "under": "1.146",
+                "max": 1875
+              },
+              {
+                "hdp": 6.5,
+                "over": "2.350",
+                "under": "1.621",
+                "max": 1875
+              },
+              {
+                "hdp": 4.5,
+                "over": "1.293",
+                "under": "3.700",
+                "max": 1875
+              },
+              {
+                "hdp": 5,
+                "over": "1.440",
+                "under": "2.870",
+                "max": 1875
+              },
+              {
+                "hdp": 5.5,
+                "over": "1.892",
+                "under": "1.980",
+                "max": 1875
+              }
+            ]
+          },
+          {
+            "name": "Spread HT",
+            "updatedAt": "2025-12-31T07:22:35.241Z",
+            "odds": [
+              {
+                "hdp": -0.5,
+                "home": "2.570",
+                "away": "1.549",
+                "max": 500
+              },
+              {
+                "hdp": 0.5,
+                "home": "1.375",
+                "away": "3.160",
+                "max": 500
+              }
+            ]
+          },
+          {
+            "name": "Totals HT",
+            "updatedAt": "2025-12-31T07:22:35.241Z",
+            "odds": [
+              {
+                "hdp": 1,
+                "over": "1.289",
+                "under": "3.660",
+                "max": 250
+              },
+              {
+                "hdp": 1.5,
+                "over": "1.854",
+                "under": "2.000",
+                "max": 250
+              },
+              {
+                "hdp": 2.5,
+                "over": "3.690",
+                "under": "1.286",
+                "max": 250
+              },
+              {
+                "hdp": 2,
+                "over": "2.750",
+                "under": "1.460",
+                "max": 250
+              }
+            ]
+          },
+          {
+            "name": "Player Props",
+            "updatedAt": "2025-12-31T08:56:33.161Z",
+            "odds": [
+              {
+                "label": "Will Cuylle (Assists)",
+                "hdp": 0.5,
+                "over": "3.74",
+                "under": "1.246",
+                "max": 250
+              },
+              {
+                "label": "Will Cuylle (Points)",
+                "hdp": 0.5,
+                "over": "2.38",
+                "under": "1.541",
+                "max": 250
+              },
+              {
+                "label": "Ryan Leonard (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.24",
+                "under": "1.602",
+                "max": 250
+              },
+              {
+                "label": "Ryan Leonard (Goals)",
+                "hdp": 0.5,
+                "over": "4.42",
+                "under": "1.186",
+                "max": 250
+              },
+              {
+                "label": "Will Cuylle (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.794",
+                "under": "1.952",
+                "max": 250
+              },
+              {
+                "label": "Will Cuylle (Goals)",
+                "hdp": 0.5,
+                "over": "4.79",
+                "under": "1.161",
+                "max": 250
+              },
+              {
+                "label": "Ryan Leonard (Points)",
+                "hdp": 0.5,
+                "over": "2.08",
+                "under": "1.694",
+                "max": 250
+              },
+              {
+                "label": "Ryan Leonard (Assists)",
+                "hdp": 0.5,
+                "over": "3.08",
+                "under": "1.341",
+                "max": 250
+              },
+              {
+                "label": "Alex Ovechkin (Points)",
+                "hdp": 0.5,
+                "over": "1.565",
+                "under": "2.32",
+                "max": 250
+              },
+              {
+                "label": "John Carlson (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.758",
+                "under": "1.99",
+                "max": 250
+              },
+              {
+                "label": "Alex Ovechkin (Assists)",
+                "hdp": 0.5,
+                "over": "2.41",
+                "under": "1.526",
+                "max": 250
+              },
+              {
+                "label": "John Carlson (Points)",
+                "hdp": 0.5,
+                "over": "2.06",
+                "under": "1.714",
+                "max": 250
+              },
+              {
+                "label": "Vincent Trocheck (Goals)",
+                "hdp": 0.5,
+                "over": "3.5",
+                "under": "1.275",
+                "max": 250
+              },
+              {
+                "label": "Vincent Trocheck (Assists)",
+                "hdp": 0.5,
+                "over": "2.5",
+                "under": "1.493",
+                "max": 250
+              },
+              {
+                "label": "Mika Zibanejad (Goals)",
+                "hdp": 0.5,
+                "over": "3.49",
+                "under": "1.277",
+                "max": 250
+              },
+              {
+                "label": "Alex Ovechkin (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.613",
+                "under": "2.22",
+                "max": 250
+              },
+              {
+                "label": "Mika Zibanejad (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.28",
+                "under": "1.585",
+                "max": 250
+              },
+              {
+                "label": "Alex Ovechkin (Goals)",
+                "hdp": 0.5,
+                "over": "2.72",
+                "under": "1.424",
+                "max": 250
+              },
+              {
+                "label": "John Carlson (Assists)",
+                "hdp": 0.5,
+                "over": "2.37",
+                "under": "1.543",
+                "max": 250
+              },
+              {
+                "label": "Vincent Trocheck (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.513",
+                "under": "2.45",
+                "max": 250
+              },
+              {
+                "label": "Mika Zibanejad (Assists)",
+                "hdp": 0.5,
+                "over": "2.54",
+                "under": "1.478",
+                "max": 250
+              },
+              {
+                "label": "Mika Zibanejad (Points)",
+                "hdp": 0.5,
+                "over": "1.741",
+                "under": "2.02",
+                "max": 500
+              },
+              {
+                "label": "Tom Wilson (Goals)",
+                "hdp": 0.5,
+                "over": "2.77",
+                "under": "1.412",
+                "max": 250
+              },
+              {
+                "label": "Tom Wilson (Assists)",
+                "hdp": 0.5,
+                "over": "2.33",
+                "under": "1.562",
+                "max": 250
+              },
+              {
+                "label": "Artemi Panarin (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.61",
+                "under": "2.23",
+                "max": 250
+              },
+              {
+                "label": "Dylan Strome (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.575",
+                "under": "2.3",
+                "max": 250
+              },
+              {
+                "label": "Artemi Panarin (Goals)",
+                "hdp": 0.5,
+                "over": "2.76",
+                "under": "1.415",
+                "max": 250
+              },
+              {
+                "label": "Tom Wilson (Points)",
+                "hdp": 0.5,
+                "over": "1.546",
+                "under": "2.36",
+                "max": 250
+              },
+              {
+                "label": "Jakob Chychrun (Shots On Goal)",
+                "hdp": 3.5,
+                "over": "2.15",
+                "under": "1.649",
+                "max": 250
+              },
+              {
+                "label": "Anthony Beauvillier (Goals)",
+                "hdp": 0.5,
+                "over": "4.89",
+                "under": "1.156",
+                "max": 250
+              },
+              {
+                "label": "Dylan Strome (Points)",
+                "hdp": 0.5,
+                "over": "1.562",
+                "under": "2.33",
+                "max": 250
+              },
+              {
+                "label": "Dylan Strome (Assists)",
+                "hdp": 0.5,
+                "over": "2.1",
+                "under": "1.685",
+                "max": 250
+              },
+              {
+                "label": "Artemi Panarin (Points)",
+                "hdp": 0.5,
+                "over": "1.472",
+                "under": "2.56",
+                "max": 250
+              },
+              {
+                "label": "Artemi Panarin (Assists)",
+                "hdp": 0.5,
+                "over": "2.08",
+                "under": "1.694",
+                "max": 250
+              },
+              {
+                "label": "Anthony Beauvillier (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.746",
+                "under": "2.01",
+                "max": 250
+              },
+              {
+                "label": "Dylan Strome (Goals)",
+                "hdp": 0.5,
+                "over": "3.4",
+                "under": "1.29",
+                "max": 250
+              },
+              {
+                "label": "Adam Fox (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.704",
+                "under": "2.07",
+                "max": 250
+              },
+              {
+                "label": "Jakob Chychrun (Assists)",
+                "hdp": 0.5,
+                "over": "2.37",
+                "under": "1.543",
+                "max": 250
+              },
+              {
+                "label": "Jakob Chychrun (Points)",
+                "hdp": 0.5,
+                "over": "1.8",
+                "under": "1.943",
+                "max": 250
+              },
+              {
+                "label": "Aliaksei Protas (Assists)",
+                "hdp": 0.5,
+                "over": "3.23",
+                "under": "1.315",
+                "max": 250
+              },
+              {
+                "label": "Adam Fox (Points)",
+                "hdp": 0.5,
+                "over": "1.917",
+                "under": "1.82",
+                "max": 250
+              },
+              {
+                "label": "Aliaksei Protas (Points)",
+                "hdp": 0.5,
+                "over": "2.05",
+                "under": "1.719",
+                "max": 250
+              },
+              {
+                "label": "Tom Wilson (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.52",
+                "under": "1.488",
+                "max": 500
+              },
+              {
+                "label": "Adam Fox (Assists)",
+                "hdp": 0.5,
+                "over": "2.03",
+                "under": "1.735",
+                "max": 250
+              },
+              {
+                "label": "Connor McMichael (Goals)",
+                "hdp": 0.5,
+                "over": "4.82",
+                "under": "1.16",
+                "max": 250
+              },
+              {
+                "label": "Connor McMichael (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.806",
+                "under": "1.935",
+                "max": 250
+              },
+              {
+                "label": "Jakob Chychrun (Goals)",
+                "hdp": 0.5,
+                "over": "4.51",
+                "under": "1.179",
+                "max": 250
+              },
+              {
+                "label": "Connor McMichael (Points)",
+                "hdp": 0.5,
+                "over": "2.26",
+                "under": "1.592",
+                "max": 250
+              },
+              {
+                "label": "Aliaksei Protas (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.37",
+                "under": "1.543",
+                "max": 250
+              },
+              {
+                "label": "Connor McMichael (Assists)",
+                "hdp": 0.5,
+                "over": "3.4",
+                "under": "1.289",
+                "max": 250
+              },
+              {
+                "label": "Alexis Lafreniere (Goals)",
+                "hdp": 0.5,
+                "over": "4.51",
+                "under": "1.179",
+                "max": 250
+              },
+              {
+                "label": "Alexis Lafreniere (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.69",
+                "under": "2.09",
+                "max": 250
+              },
+              {
+                "label": "Alexis Lafreniere (Assists)",
+                "hdp": 0.5,
+                "over": "3.49",
+                "under": "1.277",
+                "max": 250
+              },
+              {
+                "label": "Alexis Lafreniere (Points)",
+                "hdp": 0.5,
+                "over": "2.24",
+                "under": "1.602",
+                "max": 250
+              },
+              {
+                "label": "Vincent Trocheck (Points)",
+                "hdp": 0.5,
+                "over": "1.73",
+                "under": "2.04",
+                "max": 250
+              },
+              {
+                "label": "Aliaksei Protas (Goals)",
+                "hdp": 0.5,
+                "over": "3.93",
+                "under": "1.227",
+                "max": 250
+              }
+            ]
+          },
+          {
+            "name": "Team Total Home",
+            "updatedAt": "2025-12-31T08:15:52.427Z",
+            "odds": [
+              {
+                "hdp": 3.5,
+                "over": "2.260",
+                "under": "1.653"
+              }
+            ]
+          },
+          {
+            "name": "Team Total Away",
+            "updatedAt": "2025-12-31T08:15:52.427Z",
+            "odds": [
+              {
+                "hdp": 2.5,
+                "over": "1.862",
+                "under": "1.961"
+              }
+            ]
+          },
+          {
+            "name": "3-Way Result",
+            "updatedAt": "2025-12-31T08:42:40.635Z",
+            "odds": [
+              {
+                "home": "2.060",
+                "draw": "4.150",
+                "away": "3.010",
+                "max": 1250
+              }
+            ]
+          }
+        ]
+      },
+      "status": "pending"
+    },
+    {
+      "id": 62075376,
+      "home": "Vegas Golden Knights",
+      "away": "Nashville Predators",
+      "date": "2025-12-31T20:00:00Z",
+      "sport": {
+        "name": "Ice Hockey",
+        "slug": "ice-hockey"
+      },
+      "league": {
+        "name": "USA - NHL",
+        "slug": "usa-nhl"
+      },
+      "urls": {
+        "Circa": "N/A"
+      },
+      "bookmakers": {
+        "Circa": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T03:26:51.333Z",
+            "odds": [
+              {
+                "home": "1.556",
+                "away": "2.610"
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T03:26:51.333Z",
+            "odds": [
+              {
+                "hdp": -1.5,
+                "home": "2.400",
+                "away": "1.625"
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T03:22:51.275Z",
+            "odds": [
+              {
+                "hdp": 6,
+                "over": "1.870",
+                "under": "1.952"
+              }
+            ]
+          }
+        ]
+      },
+      "status": "pending"
+    },
+    {
+      "id": 62075380,
+      "home": "Anaheim Ducks",
+      "away": "Tampa Bay Lightning",
+      "date": "2025-12-31T21:00:00Z",
+      "sport": {
+        "name": "Ice Hockey",
+        "slug": "ice-hockey"
+      },
+      "league": {
+        "name": "USA - NHL",
+        "slug": "usa-nhl"
+      },
+      "urls": {
+        "Circa": "N/A",
+        "Pinnacle": "https://www.pinnacle.com/en/hockey/nhl/anaheim-ducks/1621780213/#all"
+      },
+      "bookmakers": {
+        "Circa": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T03:24:50.542Z",
+            "odds": [
+              {
+                "home": "2.260",
+                "away": "1.714"
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T03:24:50.542Z",
+            "odds": [
+              {
+                "hdp": 1.5,
+                "home": "1.500",
+                "away": "2.750"
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T03:24:50.542Z",
+            "odds": [
+              {
+                "hdp": 6.5,
+                "over": "1.909",
+                "under": "1.909"
+              }
+            ]
+          }
+        ],
+        "Pinnacle": [
+          {
+            "name": "ML",
+            "updatedAt": "2025-12-31T06:56:54.044Z",
+            "odds": [
+              {
+                "home": "2.270",
+                "away": "1.694",
+                "max": 2500
+              }
+            ]
+          },
+          {
+            "name": "Spread",
+            "updatedAt": "2025-12-31T06:56:54.044Z",
+            "odds": [
+              {
+                "hdp": 1.5,
+                "home": "1.502",
+                "away": "2.700",
+                "max": 1875
+              },
+              {
+                "hdp": 2.5,
+                "home": "1.268",
+                "away": "3.830",
+                "max": 1875
+              },
+              {
+                "hdp": -1.5,
+                "home": "3.880",
+                "away": "1.262",
+                "max": 1875
+              },
+              {
+                "hdp": -2.5,
+                "home": "5.730",
+                "away": "1.141",
+                "max": 1875
+              }
+            ]
+          },
+          {
+            "name": "Totals",
+            "updatedAt": "2025-12-31T06:56:54.044Z",
+            "odds": [
+              {
+                "hdp": 6,
+                "over": "1.689",
+                "under": "2.220",
+                "max": 1875
+              },
+              {
+                "hdp": 5.5,
+                "over": "1.564",
+                "under": "2.470",
+                "max": 1875
+              },
+              {
+                "hdp": 6.5,
+                "over": "1.900",
+                "under": "1.970",
+                "max": 1875
+              },
+              {
+                "hdp": 7,
+                "over": "2.480",
+                "under": "1.561",
+                "max": 1875
+              },
+              {
+                "hdp": 7.5,
+                "over": "3.080",
+                "under": "1.392",
+                "max": 1875
+              }
+            ]
+          },
+          {
+            "name": "Spread HT",
+            "updatedAt": "2025-12-31T06:56:54.044Z",
+            "odds": [
+              {
+                "hdp": -0.5,
+                "home": "3.010",
+                "away": "1.406",
+                "max": 500
+              },
+              {
+                "hdp": 0.5,
+                "home": "1.555",
+                "away": "2.560",
+                "max": 500
+              }
+            ]
+          },
+          {
+            "name": "Totals HT",
+            "updatedAt": "2025-12-31T06:56:54.044Z",
+            "odds": [
+              {
+                "hdp": 1,
+                "over": "1.224",
+                "under": "4.330",
+                "max": 250
+              },
+              {
+                "hdp": 2.5,
+                "over": "3.180",
+                "under": "1.363",
+                "max": 250
+              },
+              {
+                "hdp": 2,
+                "over": "2.360",
+                "under": "1.606",
+                "max": 250
+              },
+              {
+                "hdp": 1.5,
+                "over": "1.714",
+                "under": "2.200",
+                "max": 250
+              }
+            ]
+          },
+          {
+            "name": "Player Props",
+            "updatedAt": "2025-12-31T08:46:26.578Z",
+            "odds": [
+              {
+                "label": "Brandon Hagel (Assists)",
+                "hdp": 0.5,
+                "over": "2.93",
+                "under": "1.372",
+                "max": 250
+              },
+              {
+                "label": "Jake Guentzel (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.16",
+                "under": "1.649",
+                "max": 250
+              },
+              {
+                "label": "Anthony Cirelli (Assists)",
+                "hdp": 0.5,
+                "over": "3.47",
+                "under": "1.279",
+                "max": 250
+              },
+              {
+                "label": "Jake Guentzel (Assists)",
+                "hdp": 0.5,
+                "over": "2.22",
+                "under": "1.617",
+                "max": 250
+              },
+              {
+                "label": "Jake Guentzel (Goals)",
+                "hdp": 0.5,
+                "over": "2.78",
+                "under": "1.408",
+                "max": 250
+              },
+              {
+                "label": "Anthony Cirelli (Points)",
+                "hdp": 0.5,
+                "over": "2.22",
+                "under": "1.613",
+                "max": 250
+              },
+              {
+                "label": "Jake Guentzel (Points)",
+                "hdp": 0.5,
+                "over": "1.515",
+                "under": "2.44",
+                "max": 250
+              },
+              {
+                "label": "Darren Raddysh (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.54",
+                "under": "1.481",
+                "max": 250
+              },
+              {
+                "label": "Darren Raddysh (Assists)",
+                "hdp": 0.5,
+                "over": "2.22",
+                "under": "1.613",
+                "max": 250
+              },
+              {
+                "label": "Beckett Sennecke (Goals)",
+                "hdp": 0.5,
+                "over": "4.05",
+                "under": "1.215",
+                "max": 250
+              },
+              {
+                "label": "Beckett Sennecke (Assists)",
+                "hdp": 0.5,
+                "over": "2.82",
+                "under": "1.398",
+                "max": 250
+              },
+              {
+                "label": "Cutter Gauthier (Goals)",
+                "hdp": 0.5,
+                "over": "3.12",
+                "under": "1.334",
+                "max": 250
+              },
+              {
+                "label": "Cutter Gauthier (Assists)",
+                "hdp": 0.5,
+                "over": "3.01",
+                "under": "1.356",
+                "max": 250
+              },
+              {
+                "label": "Jackson LaCombe (Assists)",
+                "hdp": 0.5,
+                "over": "2.34",
+                "under": "1.559",
+                "max": 250
+              },
+              {
+                "label": "Leo Carlsson (Goals)",
+                "hdp": 0.5,
+                "over": "3.27",
+                "under": "1.309",
+                "max": 250
+              },
+              {
+                "label": "Troy Terry (Goals)",
+                "hdp": 0.5,
+                "over": "3.87",
+                "under": "1.233",
+                "max": 250
+              },
+              {
+                "label": "Jackson LaCombe (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.813",
+                "under": "1.935",
+                "max": 250
+              },
+              {
+                "label": "Darren Raddysh (Points)",
+                "hdp": 0.5,
+                "over": "1.862",
+                "under": "1.877",
+                "max": 250
+              },
+              {
+                "label": "Mason McTavish (Goals)",
+                "hdp": 0.5,
+                "over": "3.72",
+                "under": "1.249",
+                "max": 250
+              },
+              {
+                "label": "Chris Kreider (Points)",
+                "hdp": 0.5,
+                "over": "2.12",
+                "under": "1.671",
+                "max": 250
+              },
+              {
+                "label": "Chris Kreider (Assists)",
+                "hdp": 0.5,
+                "over": "3.71",
+                "under": "1.25",
+                "max": 250
+              },
+              {
+                "label": "Mikael Granlund (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.752",
+                "under": "2",
+                "max": 250
+              },
+              {
+                "label": "Mikael Granlund (Assists)",
+                "hdp": 0.5,
+                "over": "2.83",
+                "under": "1.397",
+                "max": 250
+              },
+              {
+                "label": "Chris Kreider (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.621",
+                "under": "2.21",
+                "max": 250
+              },
+              {
+                "label": "Chris Kreider (Goals)",
+                "hdp": 0.5,
+                "over": "3.61",
+                "under": "1.262",
+                "max": 250
+              },
+              {
+                "label": "Jacob Trouba (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.87",
+                "under": "1.87",
+                "max": 250
+              },
+              {
+                "label": "Oliver Bjorkstrand (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "2.02",
+                "under": "1.741",
+                "max": 250
+              },
+              {
+                "label": "Mikael Granlund (Goals)",
+                "hdp": 0.5,
+                "over": "4.01",
+                "under": "1.219",
+                "max": 250
+              },
+              {
+                "label": "Mikael Granlund (Points)",
+                "hdp": 0.5,
+                "over": "1.935",
+                "under": "1.813",
+                "max": 250
+              },
+              {
+                "label": "Nikita Kucherov (Points)",
+                "hdp": 1.5,
+                "over": "2.29",
+                "under": "1.581",
+                "max": 250
+              },
+              {
+                "label": "Nikita Kucherov (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.562",
+                "under": "2.33",
+                "max": 250
+              },
+              {
+                "label": "Nikita Kucherov (Assists)",
+                "hdp": 0.5,
+                "over": "1.529",
+                "under": "2.4",
+                "max": 250
+              },
+              {
+                "label": "Nikita Kucherov (Goals)",
+                "hdp": 0.5,
+                "over": "2.54",
+                "under": "1.478",
+                "max": 250
+              },
+              {
+                "label": "Anthony Cirelli (Goals)",
+                "hdp": 0.5,
+                "over": "4.44",
+                "under": "1.184",
+                "max": 250
+              },
+              {
+                "label": "Brandon Hagel (Goals)",
+                "hdp": 0.5,
+                "over": "3.12",
+                "under": "1.334",
+                "max": 250
+              },
+              {
+                "label": "Brayden Point (Points)",
+                "hdp": 0.5,
+                "over": "1.602",
+                "under": "2.24",
+                "max": 500
+              },
+              {
+                "label": "Brayden Point (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.52",
+                "under": "1.488",
+                "max": 250
+              },
+              {
+                "label": "Anthony Cirelli (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.806",
+                "under": "1.943",
+                "max": 250
+              },
+              {
+                "label": "Brandon Hagel (Points)",
+                "hdp": 0.5,
+                "over": "1.787",
+                "under": "1.952",
+                "max": 250
+              },
+              {
+                "label": "Oliver Bjorkstrand (Points)",
+                "hdp": 0.5,
+                "over": "2.33",
+                "under": "1.562",
+                "max": 250
+              },
+              {
+                "label": "Oliver Bjorkstrand (Goals)",
+                "hdp": 0.5,
+                "over": "4.83",
+                "under": "1.159",
+                "max": 250
+              },
+              {
+                "label": "Brayden Point (Goals)",
+                "hdp": 0.5,
+                "over": "3.01",
+                "under": "1.357",
+                "max": 250
+              },
+              {
+                "label": "Oliver Bjorkstrand (Assists)",
+                "hdp": 0.5,
+                "over": "3.59",
+                "under": "1.264",
+                "max": 250
+              },
+              {
+                "label": "Brayden Point (Assists)",
+                "hdp": 0.5,
+                "over": "2.37",
+                "under": "1.543",
+                "max": 500
+              },
+              {
+                "label": "Brandon Hagel (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.935",
+                "under": "1.806",
+                "max": 250
+              },
+              {
+                "label": "Beckett Sennecke (Points)",
+                "hdp": 0.5,
+                "over": "1.935",
+                "under": "1.806",
+                "max": 250
+              },
+              {
+                "label": "Troy Terry (Assists)",
+                "hdp": 0.5,
+                "over": "2.68",
+                "under": "1.437",
+                "max": 250
+              },
+              {
+                "label": "Mason McTavish (Assists)",
+                "hdp": 0.5,
+                "over": "3.12",
+                "under": "1.334",
+                "max": 500
+              },
+              {
+                "label": "Leo Carlsson (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.49",
+                "under": "2.51",
+                "max": 250
+              },
+              {
+                "label": "Cutter Gauthier (Points)",
+                "hdp": 0.5,
+                "over": "1.806",
+                "under": "1.935",
+                "max": 250
+              },
+              {
+                "label": "Jackson LaCombe (Points)",
+                "hdp": 0.5,
+                "over": "1.99",
+                "under": "1.763",
+                "max": 250
+              },
+              {
+                "label": "Leo Carlsson (Assists)",
+                "hdp": 0.5,
+                "over": "2.3",
+                "under": "1.578",
+                "max": 250
+              },
+              {
+                "label": "Leo Carlsson (Points)",
+                "hdp": 0.5,
+                "over": "1.621",
+                "under": "2.21",
+                "max": 250
+              },
+              {
+                "label": "Troy Terry (Points)",
+                "hdp": 0.5,
+                "over": "1.862",
+                "under": "1.877",
+                "max": 250
+              },
+              {
+                "label": "Cutter Gauthier (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "1.575",
+                "under": "2.3",
+                "max": 250
+              },
+              {
+                "label": "Troy Terry (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.532",
+                "under": "2.4",
+                "max": 250
+              },
+              {
+                "label": "Mason McTavish (Shots On Goal)",
+                "hdp": 2.5,
+                "over": "2.44",
+                "under": "1.515",
+                "max": 250
+              },
+              {
+                "label": "Mason McTavish (Points)",
+                "hdp": 0.5,
+                "over": "1.971",
+                "under": "1.775",
+                "max": 500
+              },
+              {
+                "label": "Beckett Sennecke (Shots On Goal)",
+                "hdp": 1.5,
+                "over": "1.833",
+                "under": "1.909",
+                "max": 250
+              }
+            ]
+          },
+          {
+            "name": "Team Total Home",
+            "updatedAt": "2025-12-31T06:56:54.044Z",
+            "odds": [
+              {
+                "hdp": 2.5,
+                "over": "1.641",
+                "under": "2.290"
+              }
+            ]
+          },
+          {
+            "name": "Team Total Away",
+            "updatedAt": "2025-12-31T06:56:54.044Z",
+            "odds": [
+              {
+                "hdp": 3.5,
+                "over": "1.990",
+                "under": "1.833"
+              }
+            ]
+          },
+          {
+            "name": "3-Way Result",
+            "updatedAt": "2025-12-31T06:56:54.044Z",
+            "odds": [
+              {
+                "home": "2.900",
+                "draw": "4.270",
+                "away": "2.090",
+                "max": 1250
+              }
+            ]
+          }
+        ]
+      },
+      "status": "pending"
+    }
+  ]
+}

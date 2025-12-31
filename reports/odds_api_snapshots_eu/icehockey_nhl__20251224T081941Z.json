@@ -1,0 +1,2773 @@
+{
+  "requested": {
+    "sport": "icehockey_nhl",
+    "regions": [
+      "eu"
+    ],
+    "markets": [
+      "h2h",
+      "spreads",
+      "totals"
+    ],
+    "date": "2025-12-24T08:19:41Z",
+    "odds_format": "decimal"
+  },
+  "headers": {
+    "date": "Wed, 31 Dec 2025 08:19:42 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "30593",
+    "connection": "close",
+    "x-requests-used": "16095",
+    "x-requests-remaining": "3905",
+    "x-requests-last": "30",
+    "vary": "Accept-Encoding",
+    "apigw-requestid": "Wcdo3iQUoAMEYrg="
+  },
+  "response": {
+    "timestamp": "2025-12-24T08:15:37Z",
+    "previous_timestamp": "2025-12-24T08:10:37Z",
+    "next_timestamp": "2025-12-24T08:20:37Z",
+    "data": [
+      {
+        "id": "c879e04a4e0908e4b522759ff86d391f",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-27T23:00:00Z",
+        "home_team": "New York Islanders",
+        "away_team": "New York Rangers",
+        "bookmakers": [
+          {
+            "key": "marathonbet",
+            "title": "Marathon Bet",
+            "last_update": "2025-12-24T08:15:10Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:10Z",
+                "outcomes": [
+                  {
+                    "name": "New York Islanders",
+                    "price": 2.3
+                  },
+                  {
+                    "name": "New York Rangers",
+                    "price": 2.6
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "onexbet",
+            "title": "1xBet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "New York Islanders",
+                    "price": 2.33
+                  },
+                  {
+                    "name": "New York Rangers",
+                    "price": 2.64
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.46
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "New York Islanders",
+                    "price": 1.83,
+                    "point": 0.0
+                  },
+                  {
+                    "name": "New York Rangers",
+                    "price": 2.06,
+                    "point": 0.0
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.89,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.99,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_se",
+            "title": "Unibet (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "New York Islanders",
+                    "price": 2.2
+                  },
+                  {
+                    "name": "New York Rangers",
+                    "price": 2.8
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_nl",
+            "title": "Unibet (NL)",
+            "last_update": "2025-12-24T08:15:32Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:32Z",
+                "outcomes": [
+                  {
+                    "name": "New York Islanders",
+                    "price": 2.2
+                  },
+                  {
+                    "name": "New York Rangers",
+                    "price": 2.8
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "leovegas_se",
+            "title": "LeoVegas (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "New York Islanders",
+                    "price": 2.2
+                  },
+                  {
+                    "name": "New York Rangers",
+                    "price": 2.8
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betsson",
+            "title": "Betsson",
+            "last_update": "2025-12-24T08:14:46Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:46Z",
+                "outcomes": [
+                  {
+                    "name": "New York Islanders",
+                    "price": 1.78
+                  },
+                  {
+                    "name": "New York Rangers",
+                    "price": 2.03
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "nordicbet",
+            "title": "Nordic Bet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "New York Islanders",
+                    "price": 1.78
+                  },
+                  {
+                    "name": "New York Rangers",
+                    "price": 2.03
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "57a82963f8df12f11b2b39ea10785e8c",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-28T00:00:00Z",
+        "home_team": "Buffalo Sabres",
+        "away_team": "Boston Bruins",
+        "bookmakers": [
+          {
+            "key": "marathonbet",
+            "title": "Marathon Bet",
+            "last_update": "2025-12-24T08:15:10Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:10Z",
+                "outcomes": [
+                  {
+                    "name": "Boston Bruins",
+                    "price": 2.77
+                  },
+                  {
+                    "name": "Buffalo Sabres",
+                    "price": 2.16
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "onexbet",
+            "title": "1xBet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Boston Bruins",
+                    "price": 2.81
+                  },
+                  {
+                    "name": "Buffalo Sabres",
+                    "price": 2.19
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.57
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Boston Bruins",
+                    "price": 2.21,
+                    "point": 0.0
+                  },
+                  {
+                    "name": "Buffalo Sabres",
+                    "price": 1.73,
+                    "point": 0.0
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.74,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 2.2,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_se",
+            "title": "Unibet (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Boston Bruins",
+                    "price": 2.63
+                  },
+                  {
+                    "name": "Buffalo Sabres",
+                    "price": 2.32
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_nl",
+            "title": "Unibet (NL)",
+            "last_update": "2025-12-24T08:15:32Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:32Z",
+                "outcomes": [
+                  {
+                    "name": "Boston Bruins",
+                    "price": 2.63
+                  },
+                  {
+                    "name": "Buffalo Sabres",
+                    "price": 2.32
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "leovegas_se",
+            "title": "LeoVegas (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Boston Bruins",
+                    "price": 2.63
+                  },
+                  {
+                    "name": "Buffalo Sabres",
+                    "price": 2.32
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betsson",
+            "title": "Betsson",
+            "last_update": "2025-12-24T08:14:46Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:46Z",
+                "outcomes": [
+                  {
+                    "name": "Boston Bruins",
+                    "price": 1.99
+                  },
+                  {
+                    "name": "Buffalo Sabres",
+                    "price": 1.82
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "nordicbet",
+            "title": "Nordic Bet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Boston Bruins",
+                    "price": 1.99
+                  },
+                  {
+                    "name": "Buffalo Sabres",
+                    "price": 1.82
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "672939884c16f6c6fae2cb9085f0080f",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-28T00:00:00Z",
+        "home_team": "Carolina Hurricanes",
+        "away_team": "Detroit Red Wings",
+        "bookmakers": [
+          {
+            "key": "marathonbet",
+            "title": "Marathon Bet",
+            "last_update": "2025-12-24T08:15:10Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:10Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 2.08
+                  },
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 2.91
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "onexbet",
+            "title": "1xBet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 2.11
+                  },
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 2.95
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.57
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.67,
+                    "point": 0.0
+                  },
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 2.31,
+                    "point": 0.0
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.79,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 2.12,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_se",
+            "title": "Unibet (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.88
+                  },
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 3.4
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_nl",
+            "title": "Unibet (NL)",
+            "last_update": "2025-12-24T08:15:32Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:32Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.88
+                  },
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 3.4
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "leovegas_se",
+            "title": "LeoVegas (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.88
+                  },
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 3.4
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betsson",
+            "title": "Betsson",
+            "last_update": "2025-12-24T08:14:46Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:46Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.54
+                  },
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 2.49
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "nordicbet",
+            "title": "Nordic Bet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.54
+                  },
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 2.49
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9b3be72c05fadea6cec8bd6fa074b53b",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-28T00:00:00Z",
+        "home_team": "Florida Panthers",
+        "away_team": "Tampa Bay Lightning",
+        "bookmakers": [
+          {
+            "key": "marathonbet",
+            "title": "Marathon Bet",
+            "last_update": "2025-12-24T08:15:10Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:10Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 2.29
+                  },
+                  {
+                    "name": "Tampa Bay Lightning",
+                    "price": 2.6
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.45
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "onexbet",
+            "title": "1xBet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 2.32
+                  },
+                  {
+                    "name": "Tampa Bay Lightning",
+                    "price": 2.64
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.51
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 1.83,
+                    "point": 0.0
+                  },
+                  {
+                    "name": "Tampa Bay Lightning",
+                    "price": 2.06,
+                    "point": 0.0
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.79,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 2.12,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_se",
+            "title": "Unibet (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 2.25
+                  },
+                  {
+                    "name": "Tampa Bay Lightning",
+                    "price": 2.7
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_nl",
+            "title": "Unibet (NL)",
+            "last_update": "2025-12-24T08:15:32Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:32Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 2.25
+                  },
+                  {
+                    "name": "Tampa Bay Lightning",
+                    "price": 2.7
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "leovegas_se",
+            "title": "LeoVegas (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 2.25
+                  },
+                  {
+                    "name": "Tampa Bay Lightning",
+                    "price": 2.7
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "coolbet",
+            "title": "Coolbet",
+            "last_update": "2025-12-24T08:15:32Z",
+            "markets": [
+              {
+                "key": "spreads",
+                "last_update": "2025-12-24T08:15:32Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 3.03,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Tampa Bay Lightning",
+                    "price": 1.39,
+                    "point": 1.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betsson",
+            "title": "Betsson",
+            "last_update": "2025-12-24T08:14:46Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:46Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 1.8
+                  },
+                  {
+                    "name": "Tampa Bay Lightning",
+                    "price": 2.01
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "nordicbet",
+            "title": "Nordic Bet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 1.8
+                  },
+                  {
+                    "name": "Tampa Bay Lightning",
+                    "price": 2.01
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dd35a23211f922955ef1d49873f26bed",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-28T00:00:00Z",
+        "home_team": "Winnipeg Jets",
+        "away_team": "Minnesota Wild",
+        "bookmakers": [
+          {
+            "key": "marathonbet",
+            "title": "Marathon Bet",
+            "last_update": "2025-12-24T08:15:10Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:10Z",
+                "outcomes": [
+                  {
+                    "name": "Minnesota Wild",
+                    "price": 2.44
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 2.45
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "onexbet",
+            "title": "1xBet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Minnesota Wild",
+                    "price": 2.47
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 2.48
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.46
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Minnesota Wild",
+                    "price": 1.94,
+                    "point": 0.0
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 1.94,
+                    "point": 0.0
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.84,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 2.05,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_se",
+            "title": "Unibet (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Minnesota Wild",
+                    "price": 2.5
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 2.4
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_nl",
+            "title": "Unibet (NL)",
+            "last_update": "2025-12-24T08:15:32Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:32Z",
+                "outcomes": [
+                  {
+                    "name": "Minnesota Wild",
+                    "price": 2.5
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 2.4
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "leovegas_se",
+            "title": "LeoVegas (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Minnesota Wild",
+                    "price": 2.5
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 2.4
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betsson",
+            "title": "Betsson",
+            "last_update": "2025-12-24T08:14:46Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:46Z",
+                "outcomes": [
+                  {
+                    "name": "Minnesota Wild",
+                    "price": 1.92
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 1.88
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "nordicbet",
+            "title": "Nordic Bet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Minnesota Wild",
+                    "price": 1.92
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 1.88
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "db1b91270c006d5fd99bd5c2256c8fe3",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-28T00:00:00Z",
+        "home_team": "New Jersey Devils",
+        "away_team": "Washington Capitals",
+        "bookmakers": [
+          {
+            "key": "marathonbet",
+            "title": "Marathon Bet",
+            "last_update": "2025-12-24T08:15:10Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:10Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 2.24
+                  },
+                  {
+                    "name": "Washington Capitals",
+                    "price": 2.69
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "onexbet",
+            "title": "1xBet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 2.27
+                  },
+                  {
+                    "name": "Washington Capitals",
+                    "price": 2.73
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.46
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 1.78,
+                    "point": 0.0
+                  },
+                  {
+                    "name": "Washington Capitals",
+                    "price": 2.13,
+                    "point": 0.0
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.89,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.99,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_se",
+            "title": "Unibet (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 2.23
+                  },
+                  {
+                    "name": "Washington Capitals",
+                    "price": 2.75
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_nl",
+            "title": "Unibet (NL)",
+            "last_update": "2025-12-24T08:15:32Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:32Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 2.23
+                  },
+                  {
+                    "name": "Washington Capitals",
+                    "price": 2.75
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "leovegas_se",
+            "title": "LeoVegas (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 2.23
+                  },
+                  {
+                    "name": "Washington Capitals",
+                    "price": 2.75
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betsson",
+            "title": "Betsson",
+            "last_update": "2025-12-24T08:14:46Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:46Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 1.76
+                  },
+                  {
+                    "name": "Washington Capitals",
+                    "price": 2.07
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "nordicbet",
+            "title": "Nordic Bet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 1.76
+                  },
+                  {
+                    "name": "Washington Capitals",
+                    "price": 2.07
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8eb8ff0355d871fe8cfc8b010c287f34",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-28T00:00:00Z",
+        "home_team": "Toronto Maple Leafs",
+        "away_team": "Ottawa Senators",
+        "bookmakers": [
+          {
+            "key": "marathonbet",
+            "title": "Marathon Bet",
+            "last_update": "2025-12-24T08:15:10Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:10Z",
+                "outcomes": [
+                  {
+                    "name": "Ottawa Senators",
+                    "price": 2.66
+                  },
+                  {
+                    "name": "Toronto Maple Leafs",
+                    "price": 2.22
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.55
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "onexbet",
+            "title": "1xBet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Ottawa Senators",
+                    "price": 2.7
+                  },
+                  {
+                    "name": "Toronto Maple Leafs",
+                    "price": 2.25
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.62
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Ottawa Senators",
+                    "price": 2.13,
+                    "point": 0.0
+                  },
+                  {
+                    "name": "Toronto Maple Leafs",
+                    "price": 1.78,
+                    "point": 0.0
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 2.17,
+                    "point": 6.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.76,
+                    "point": 6.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_se",
+            "title": "Unibet (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Ottawa Senators",
+                    "price": 2.7
+                  },
+                  {
+                    "name": "Toronto Maple Leafs",
+                    "price": 2.23
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.35
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_nl",
+            "title": "Unibet (NL)",
+            "last_update": "2025-12-24T08:15:32Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:32Z",
+                "outcomes": [
+                  {
+                    "name": "Ottawa Senators",
+                    "price": 2.7
+                  },
+                  {
+                    "name": "Toronto Maple Leafs",
+                    "price": 2.23
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "leovegas_se",
+            "title": "LeoVegas (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Ottawa Senators",
+                    "price": 2.7
+                  },
+                  {
+                    "name": "Toronto Maple Leafs",
+                    "price": 2.23
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.35
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betsson",
+            "title": "Betsson",
+            "last_update": "2025-12-24T08:14:46Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:46Z",
+                "outcomes": [
+                  {
+                    "name": "Ottawa Senators",
+                    "price": 2.06
+                  },
+                  {
+                    "name": "Toronto Maple Leafs",
+                    "price": 1.76
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "nordicbet",
+            "title": "Nordic Bet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Ottawa Senators",
+                    "price": 2.06
+                  },
+                  {
+                    "name": "Toronto Maple Leafs",
+                    "price": 1.76
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3fadc9ee3c0ce5e570f352fcb7e0e453",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-28T01:00:00Z",
+        "home_team": "Dallas Stars",
+        "away_team": "Chicago Blackhawks",
+        "bookmakers": [
+          {
+            "key": "marathonbet",
+            "title": "Marathon Bet",
+            "last_update": "2025-12-24T08:15:10Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:10Z",
+                "outcomes": [
+                  {
+                    "name": "Chicago Blackhawks",
+                    "price": 4.7
+                  },
+                  {
+                    "name": "Dallas Stars",
+                    "price": 1.57
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 5.1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "onexbet",
+            "title": "1xBet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Chicago Blackhawks",
+                    "price": 4.76
+                  },
+                  {
+                    "name": "Dallas Stars",
+                    "price": 1.59
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 5.17
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Chicago Blackhawks",
+                    "price": 2.02,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Dallas Stars",
+                    "price": 1.86,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.73,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 2.21,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_se",
+            "title": "Unibet (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Chicago Blackhawks",
+                    "price": 5.75
+                  },
+                  {
+                    "name": "Dallas Stars",
+                    "price": 1.44
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 5.4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_nl",
+            "title": "Unibet (NL)",
+            "last_update": "2025-12-24T08:15:32Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:32Z",
+                "outcomes": [
+                  {
+                    "name": "Chicago Blackhawks",
+                    "price": 5.6
+                  },
+                  {
+                    "name": "Dallas Stars",
+                    "price": 1.44
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 5.3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "leovegas_se",
+            "title": "LeoVegas (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Chicago Blackhawks",
+                    "price": 5.75
+                  },
+                  {
+                    "name": "Dallas Stars",
+                    "price": 1.44
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 5.4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betsson",
+            "title": "Betsson",
+            "last_update": "2025-12-24T08:14:46Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:46Z",
+                "outcomes": [
+                  {
+                    "name": "Chicago Blackhawks",
+                    "price": 3.62
+                  },
+                  {
+                    "name": "Dallas Stars",
+                    "price": 1.29
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "nordicbet",
+            "title": "Nordic Bet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Chicago Blackhawks",
+                    "price": 3.62
+                  },
+                  {
+                    "name": "Dallas Stars",
+                    "price": 1.29
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "507731bcfc7784820c49b65e90be0b8b",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-28T01:00:00Z",
+        "home_team": "St Louis Blues",
+        "away_team": "Nashville Predators",
+        "bookmakers": [
+          {
+            "key": "marathonbet",
+            "title": "Marathon Bet",
+            "last_update": "2025-12-24T08:15:10Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:10Z",
+                "outcomes": [
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.77
+                  },
+                  {
+                    "name": "St Louis Blues",
+                    "price": 2.17
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.45
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "onexbet",
+            "title": "1xBet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.81
+                  },
+                  {
+                    "name": "St Louis Blues",
+                    "price": 2.2
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.51
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.21,
+                    "point": 0.0
+                  },
+                  {
+                    "name": "St Louis Blues",
+                    "price": 1.73,
+                    "point": 0.0
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.84,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 2.05,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_se",
+            "title": "Unibet (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.7
+                  },
+                  {
+                    "name": "St Louis Blues",
+                    "price": 2.2
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.35
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_nl",
+            "title": "Unibet (NL)",
+            "last_update": "2025-12-24T08:15:32Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:32Z",
+                "outcomes": [
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.7
+                  },
+                  {
+                    "name": "St Louis Blues",
+                    "price": 2.2
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.35
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "leovegas_se",
+            "title": "LeoVegas (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.7
+                  },
+                  {
+                    "name": "St Louis Blues",
+                    "price": 2.2
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.35
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betsson",
+            "title": "Betsson",
+            "last_update": "2025-12-24T08:14:46Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:46Z",
+                "outcomes": [
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.06
+                  },
+                  {
+                    "name": "St Louis Blues",
+                    "price": 1.76
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "nordicbet",
+            "title": "Nordic Bet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.06
+                  },
+                  {
+                    "name": "St Louis Blues",
+                    "price": 1.76
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bc64b01a8dac45b5941acd9ae8cc3ce9",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-28T02:00:00Z",
+        "home_team": "Los Angeles Kings",
+        "away_team": "Anaheim Ducks",
+        "bookmakers": [
+          {
+            "key": "marathonbet",
+            "title": "Marathon Bet",
+            "last_update": "2025-12-24T08:15:10Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:10Z",
+                "outcomes": [
+                  {
+                    "name": "Anaheim Ducks",
+                    "price": 2.77
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 2.17
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.45
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "onexbet",
+            "title": "1xBet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Anaheim Ducks",
+                    "price": 2.81
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 2.2
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.51
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Anaheim Ducks",
+                    "price": 2.21,
+                    "point": 0.0
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.73,
+                    "point": 0.0
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.84,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 2.05,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_se",
+            "title": "Unibet (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Anaheim Ducks",
+                    "price": 3.15
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.97
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.35
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_nl",
+            "title": "Unibet (NL)",
+            "last_update": "2025-12-24T08:15:32Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:32Z",
+                "outcomes": [
+                  {
+                    "name": "Anaheim Ducks",
+                    "price": 3.15
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.97
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.35
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "leovegas_se",
+            "title": "LeoVegas (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Anaheim Ducks",
+                    "price": 3.15
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.97
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.35
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betsson",
+            "title": "Betsson",
+            "last_update": "2025-12-24T08:14:46Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:46Z",
+                "outcomes": [
+                  {
+                    "name": "Anaheim Ducks",
+                    "price": 2.31
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.62
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "nordicbet",
+            "title": "Nordic Bet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Anaheim Ducks",
+                    "price": 2.31
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.62
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "996b29f578e963fccb6ae76df0ce4c18",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-28T03:00:00Z",
+        "home_team": "Calgary Flames",
+        "away_team": "Edmonton Oilers",
+        "bookmakers": [
+          {
+            "key": "marathonbet",
+            "title": "Marathon Bet",
+            "last_update": "2025-12-24T08:15:10Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:10Z",
+                "outcomes": [
+                  {
+                    "name": "Calgary Flames",
+                    "price": 2.85
+                  },
+                  {
+                    "name": "Edmonton Oilers",
+                    "price": 2.09
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "onexbet",
+            "title": "1xBet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Calgary Flames",
+                    "price": 2.89
+                  },
+                  {
+                    "name": "Edmonton Oilers",
+                    "price": 2.12
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.67
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Calgary Flames",
+                    "price": 2.27,
+                    "point": 0.0
+                  },
+                  {
+                    "name": "Edmonton Oilers",
+                    "price": 1.69,
+                    "point": 0.0
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 2.17,
+                    "point": 6.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.76,
+                    "point": 6.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_se",
+            "title": "Unibet (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Calgary Flames",
+                    "price": 2.88
+                  },
+                  {
+                    "name": "Edmonton Oilers",
+                    "price": 2.08
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_nl",
+            "title": "Unibet (NL)",
+            "last_update": "2025-12-24T08:15:32Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:32Z",
+                "outcomes": [
+                  {
+                    "name": "Calgary Flames",
+                    "price": 2.88
+                  },
+                  {
+                    "name": "Edmonton Oilers",
+                    "price": 2.08
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "leovegas_se",
+            "title": "LeoVegas (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Calgary Flames",
+                    "price": 2.88
+                  },
+                  {
+                    "name": "Edmonton Oilers",
+                    "price": 2.08
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "nordicbet",
+            "title": "Nordic Bet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Calgary Flames",
+                    "price": 2.16
+                  },
+                  {
+                    "name": "Edmonton Oilers",
+                    "price": 1.7
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betsson",
+            "title": "Betsson",
+            "last_update": "2025-12-24T08:14:46Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:46Z",
+                "outcomes": [
+                  {
+                    "name": "Calgary Flames",
+                    "price": 2.16
+                  },
+                  {
+                    "name": "Edmonton Oilers",
+                    "price": 1.7
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0fe4c3c7f4f1d2ad537081b404becefc",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-28T03:00:00Z",
+        "home_team": "Vegas Golden Knights",
+        "away_team": "Colorado Avalanche",
+        "bookmakers": [
+          {
+            "key": "marathonbet",
+            "title": "Marathon Bet",
+            "last_update": "2025-12-24T08:15:10Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:10Z",
+                "outcomes": [
+                  {
+                    "name": "Colorado Avalanche",
+                    "price": 2.15
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 2.77
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.55
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "onexbet",
+            "title": "1xBet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Colorado Avalanche",
+                    "price": 2.18
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 2.81
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.62
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Colorado Avalanche",
+                    "price": 1.73,
+                    "point": 0.0
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 2.21,
+                    "point": 0.0
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 2.26,
+                    "point": 6.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.7,
+                    "point": 6.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_se",
+            "title": "Unibet (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Colorado Avalanche",
+                    "price": 2.05
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 3.0
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.35
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_nl",
+            "title": "Unibet (NL)",
+            "last_update": "2025-12-24T08:15:32Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:32Z",
+                "outcomes": [
+                  {
+                    "name": "Colorado Avalanche",
+                    "price": 2.05
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 3.0
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.35
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "leovegas_se",
+            "title": "LeoVegas (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "Colorado Avalanche",
+                    "price": 2.05
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 3.0
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.35
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betsson",
+            "title": "Betsson",
+            "last_update": "2025-12-24T08:14:46Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:46Z",
+                "outcomes": [
+                  {
+                    "name": "Colorado Avalanche",
+                    "price": 1.72
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 2.13
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "nordicbet",
+            "title": "Nordic Bet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Colorado Avalanche",
+                    "price": 1.72
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 2.13
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "858c71ca4b63a288127569604a9d9d61",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-28T03:00:00Z",
+        "home_team": "Vancouver Canucks",
+        "away_team": "San Jose Sharks",
+        "bookmakers": [
+          {
+            "key": "marathonbet",
+            "title": "Marathon Bet",
+            "last_update": "2025-12-24T08:15:10Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:10Z",
+                "outcomes": [
+                  {
+                    "name": "San Jose Sharks",
+                    "price": 3.62
+                  },
+                  {
+                    "name": "Vancouver Canucks",
+                    "price": 1.78
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_se",
+            "title": "Unibet (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "San Jose Sharks",
+                    "price": 3.75
+                  },
+                  {
+                    "name": "Vancouver Canucks",
+                    "price": 1.79
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "onexbet",
+            "title": "1xBet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "San Jose Sharks",
+                    "price": 3.67
+                  },
+                  {
+                    "name": "Vancouver Canucks",
+                    "price": 1.81
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.87
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "San Jose Sharks",
+                    "price": 1.77,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Vancouver Canucks",
+                    "price": 2.15,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 2.26,
+                    "point": 6.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.7,
+                    "point": 6.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "unibet_nl",
+            "title": "Unibet (NL)",
+            "last_update": "2025-12-24T08:15:32Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:32Z",
+                "outcomes": [
+                  {
+                    "name": "San Jose Sharks",
+                    "price": 3.75
+                  },
+                  {
+                    "name": "Vancouver Canucks",
+                    "price": 1.79
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "leovegas_se",
+            "title": "LeoVegas (SE)",
+            "last_update": "2025-12-24T08:15:09Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:15:09Z",
+                "outcomes": [
+                  {
+                    "name": "San Jose Sharks",
+                    "price": 3.75
+                  },
+                  {
+                    "name": "Vancouver Canucks",
+                    "price": 1.79
+                  },
+                  {
+                    "name": "Draw",
+                    "price": 4.4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "nordicbet",
+            "title": "Nordic Bet",
+            "last_update": "2025-12-24T08:14:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:58Z",
+                "outcomes": [
+                  {
+                    "name": "San Jose Sharks",
+                    "price": 2.6
+                  },
+                  {
+                    "name": "Vancouver Canucks",
+                    "price": 1.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betsson",
+            "title": "Betsson",
+            "last_update": "2025-12-24T08:14:46Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-24T08:14:46Z",
+                "outcomes": [
+                  {
+                    "name": "San Jose Sharks",
+                    "price": 2.6
+                  },
+                  {
+                    "name": "Vancouver Canucks",
+                    "price": 1.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

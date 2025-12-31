@@ -1,0 +1,36 @@
+{
+  "requested": {
+    "target": "ice-hockey:usa-nhl",
+    "event_ids": [
+      62075394,
+      62075396,
+      62075408,
+      62075400,
+      62075402,
+      62075398,
+      62075404,
+      62075406
+    ],
+    "bookmakers": "Pinnacle,Circa",
+    "from": "2025-12-31T09:00:18Z",
+    "to": "2026-01-02T09:00:18Z",
+    "status": "pending"
+  },
+  "headers": {
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Content-Type, Authorization",
+    "access-control-allow-methods": "GET, POST, PUT, DELETE",
+    "access-control-allow-origin": "*",
+    "content-length": "2",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 31 Dec 2025 09:00:22 GMT",
+    "server": "railway-edge",
+    "x-railway-edge": "railway/us-east4-eqdc4a",
+    "x-railway-request-id": "qUbGR51jTSObK26qCx5-qw",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "92",
+    "x-ratelimit-reset": "2025-12-31T10:00:06Z",
+    "connection": "close"
+  },
+  "response": []
+}

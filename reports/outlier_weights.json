@@ -1,0 +1,88 @@
+{
+  "generated_at": "2025-12-31T09:58:51.105848Z",
+  "latest_date": "2025-12-30",
+  "sources": {
+    "total": "total_transactions.csv",
+    "today": "transactions(1).csv",
+    "odds_api_weights": "reports\\odds_api_io_book_weights.json"
+  },
+  "ev_unit": "decimal",
+  "method": {
+    "signal": "max(0, avg_clv) + roi_weight * max(0, roi)",
+    "roi_weight": 0.5,
+    "sample_floor_total": 20,
+    "sample_floor_today": 3,
+    "shrink_total": 200,
+    "shrink_today": 10,
+    "today_blend_weight": 0.3,
+    "odds_api_weight_alpha": 0.4,
+    "min_weight": 0.01,
+    "weights_scale": "max=100",
+    "prop_prior_alpha": 1.0
+  },
+  "profiles": {
+    "props_core": {
+      "bet_type": "Player Props",
+      "weights": {
+        "Pinnacle": 100.0,
+        "BetOnline.ag": 50.0,
+        "Caesars": 57.05,
+        "BookMaker.eu": 60.0,
+        "BetMGM": 65.69,
+        "DraftKings": 71.21,
+        "FanDuel": 67.47
+      },
+      "weights_normalized": {
+        "Pinnacle": 0.212121,
+        "BetOnline.ag": 0.106061,
+        "Caesars": 0.12102,
+        "BookMaker.eu": 0.127273,
+        "BetMGM": 0.139348,
+        "DraftKings": 0.151052,
+        "FanDuel": 0.143125
+      },
+      "required_books": [],
+      "optional_books": [
+        "Pinnacle",
+        "BetOnline.ag",
+        "Caesars",
+        "BookMaker.eu",
+        "BetMGM",
+        "DraftKings",
+        "FanDuel"
+      ],
+      "min_books": 1,
+      "devig_method": "power",
+      "ev_min_pct": 5.76,
+      "ev_min_pct_source": "total_transactions_ev_p60_clv_pos_floor_1pct",
+      "weights_source": "priors_blended_with_props_ml"
+    },
+    "gamelines_expansion": {
+      "bet_type": "Gamelines",
+      "weights": {
+        "BetOnline.ag": 7.27,
+        "BookMaker.eu": 6.82,
+        "Circa": 2.81,
+        "Pinnacle": 100.0
+      },
+      "weights_normalized": {
+        "BetOnline.ag": 0.062202,
+        "BookMaker.eu": 0.058349,
+        "Circa": 0.024046,
+        "Pinnacle": 0.855403
+      },
+      "required_books": [],
+      "optional_books": [
+        "BetOnline.ag",
+        "BookMaker.eu",
+        "Circa",
+        "Pinnacle"
+      ],
+      "min_books": 1,
+      "devig_method": "probit",
+      "ev_min_pct": 1.0,
+      "ev_min_pct_source": "total_transactions_ev_p50_floor_1pct",
+      "weights_source": "odds_api_only"
+    }
+  }
+}

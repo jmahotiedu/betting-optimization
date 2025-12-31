@@ -1,0 +1,2998 @@
+{
+  "requested": {
+    "sport": "icehockey_nhl",
+    "regions": [
+      "us"
+    ],
+    "markets": [
+      "h2h",
+      "spreads",
+      "totals"
+    ],
+    "date": "2025-12-17T11:23:08Z",
+    "odds_format": "decimal"
+  },
+  "headers": {
+    "date": "Wed, 31 Dec 2025 07:49:04 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "31906",
+    "connection": "close",
+    "x-requests-used": "600",
+    "x-requests-remaining": "19400",
+    "x-requests-last": "30",
+    "vary": "Accept-Encoding",
+    "apigw-requestid": "WcZJlgNNoAMEMSA="
+  },
+  "response": {
+    "timestamp": "2025-12-17T11:20:37Z",
+    "previous_timestamp": "2025-12-17T11:15:37Z",
+    "next_timestamp": "2025-12-17T11:25:37Z",
+    "data": [
+      {
+        "id": "b32681a645193226aa78e32a80d782dd",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-18T00:10:00Z",
+        "home_team": "Florida Panthers",
+        "away_team": "Los Angeles Kings",
+        "bookmakers": [
+          {
+            "key": "betrivers",
+            "title": "BetRivers",
+            "last_update": "2025-12-17T11:19:35Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 1.68
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 2.17
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 2.7,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.45,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.85,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.93,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "fanduel",
+            "title": "FanDuel",
+            "last_update": "2025-12-17T11:20:26Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:20:26Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 1.7
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 2.18
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:20:26Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 2.8,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.44,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:20:26Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.83,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.98,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "mybookieag",
+            "title": "MyBookie.ag",
+            "last_update": "2025-12-17T11:19:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 1.72
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 2.14
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 2.71,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.45,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.81,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.97,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "draftkings",
+            "title": "DraftKings",
+            "last_update": "2025-12-17T11:19:47Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:47Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 1.7
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 2.2
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:47Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 2.9,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.43,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:47Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.83,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 2.0,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betmgm",
+            "title": "BetMGM",
+            "last_update": "2025-12-17T11:19:35Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:35Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 1.71
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 2.15
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:35Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 2.8,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.45,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:35Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.85,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.98,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "fanatics",
+            "title": "Fanatics",
+            "last_update": "2025-12-17T11:19:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 1.71
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 2.15
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 2.85,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.44,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.83,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 2.0,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "williamhill_us",
+            "title": "Caesars",
+            "last_update": "2025-12-17T11:16:48Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:16:48Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 1.71
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 2.18
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:16:48Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 2.85,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.44,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:16:48Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.83,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 2.0,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "bovada",
+            "title": "Bovada",
+            "last_update": "2025-12-17T11:20:33Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:20:33Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 1.71
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 2.2
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:20:33Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 2.85,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.44,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:20:33Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 2.02,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.82,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "lowvig",
+            "title": "LowVig.ag",
+            "last_update": "2025-12-17T11:19:34Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 1.72
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 2.22
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 2.86,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.45,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.87,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.99,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betonlineag",
+            "title": "BetOnline.ag",
+            "last_update": "2025-12-17T11:20:14Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:20:14Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 1.72
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 2.22
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:20:14Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 2.86,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.45,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:20:14Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.87,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.99,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betus",
+            "title": "BetUS",
+            "last_update": "2025-12-17T11:19:48Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:48Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 1.71
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 2.2
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:48Z",
+                "outcomes": [
+                  {
+                    "name": "Florida Panthers",
+                    "price": 2.88,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Los Angeles Kings",
+                    "price": 1.45,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:48Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.87,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.95,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5ba327a174863a724ce8dade2ffd10d3",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-18T00:40:00Z",
+        "home_team": "Detroit Red Wings",
+        "away_team": "Utah Mammoth",
+        "bookmakers": [
+          {
+            "key": "betrivers",
+            "title": "BetRivers",
+            "last_update": "2025-12-17T11:19:35Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 1.77
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 2.05
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 2.88,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 1.42,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.93,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.87,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "fanduel",
+            "title": "FanDuel",
+            "last_update": "2025-12-17T11:20:26Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:20:26Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 1.79
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 2.05
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:20:26Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 2.9,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 1.42,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:20:26Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 2.04,
+                    "point": 6.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.78,
+                    "point": 6.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "mybookieag",
+            "title": "MyBookie.ag",
+            "last_update": "2025-12-17T11:19:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 1.79
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 2.04
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 2.81,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 1.42,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.79,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.99,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "draftkings",
+            "title": "DraftKings",
+            "last_update": "2025-12-17T11:19:47Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:47Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 1.8
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 2.05
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:47Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 2.95,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 1.42,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:47Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 2.05,
+                    "point": 6.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.8,
+                    "point": 6.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betmgm",
+            "title": "BetMGM",
+            "last_update": "2025-12-17T11:19:35Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:35Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 1.8
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 2.05
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:35Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 2.85,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 1.44,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:35Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.83,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "price": 2.0,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "fanatics",
+            "title": "Fanatics",
+            "last_update": "2025-12-17T11:19:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 1.83
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 2.0
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 3.0,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 1.4,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 2.05,
+                    "point": 6.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.8,
+                    "point": 6.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "williamhill_us",
+            "title": "Caesars",
+            "last_update": "2025-12-17T11:16:48Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:16:48Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 1.8
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 2.05
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:16:48Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 2.96,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 1.42,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:16:48Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.83,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "price": 2.0,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "bovada",
+            "title": "Bovada",
+            "last_update": "2025-12-17T11:20:33Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:20:33Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 1.83
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 2.0
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:20:33Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 3.1,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 1.4,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:20:33Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 2.02,
+                    "point": 6.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.82,
+                    "point": 6.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betonlineag",
+            "title": "BetOnline.ag",
+            "last_update": "2025-12-17T11:20:14Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:20:14Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 1.83
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 2.06
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:20:14Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 2.95,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 1.43,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:20:14Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.87,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.99,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "lowvig",
+            "title": "LowVig.ag",
+            "last_update": "2025-12-17T11:19:34Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 1.83
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 2.06
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 2.95,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 1.43,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.87,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.99,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betus",
+            "title": "BetUS",
+            "last_update": "2025-12-17T11:19:48Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:48Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 1.83
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 2.0
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:48Z",
+                "outcomes": [
+                  {
+                    "name": "Detroit Red Wings",
+                    "price": 3.0,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Utah Mammoth",
+                    "price": 1.43,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:48Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.87,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.95,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1f777fc1203b4bc00c54fc6b816030a1",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-18T01:10:00Z",
+        "home_team": "Nashville Predators",
+        "away_team": "Carolina Hurricanes",
+        "bookmakers": [
+          {
+            "key": "betrivers",
+            "title": "BetRivers",
+            "last_update": "2025-12-17T11:19:35Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.51
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.5
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 2.33,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 1.6,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.89,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.89,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "fanduel",
+            "title": "FanDuel",
+            "last_update": "2025-12-17T11:20:26Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:20:26Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.55
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.5
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:20:26Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 2.36,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 1.6,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:20:26Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 2.14,
+                    "point": 6.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.71,
+                    "point": 6.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "mybookieag",
+            "title": "MyBookie.ag",
+            "last_update": "2025-12-17T11:19:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.55
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.47
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 2.3,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 1.6,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.85,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.92,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "draftkings",
+            "title": "DraftKings",
+            "last_update": "2025-12-17T11:19:47Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:47Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.56
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.5
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:47Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 2.4,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 1.6,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:47Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 2.14,
+                    "point": 6.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.74,
+                    "point": 6.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "lowvig",
+            "title": "LowVig.ag",
+            "last_update": "2025-12-17T11:19:34Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.57
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.54
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 2.48,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 1.6,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.88,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.97,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betonlineag",
+            "title": "BetOnline.ag",
+            "last_update": "2025-12-17T11:20:14Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:20:14Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.57
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.54
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:20:14Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 2.48,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 1.6,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:20:14Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.88,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.97,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betmgm",
+            "title": "BetMGM",
+            "last_update": "2025-12-17T11:19:35Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:35Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.54
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.5
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:35Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 2.35,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 1.62,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:35Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.85,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.98,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "fanatics",
+            "title": "Fanatics",
+            "last_update": "2025-12-17T11:19:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.56
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.5
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 2.4,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 1.59,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 2.1,
+                    "point": 6.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.77,
+                    "point": 6.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betus",
+            "title": "BetUS",
+            "last_update": "2025-12-17T11:19:48Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:48Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.57
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.5
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:48Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 2.48,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 1.59,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:48Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.87,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.95,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "williamhill_us",
+            "title": "Caesars",
+            "last_update": "2025-12-17T11:16:48Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:16:48Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.56
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.5
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:16:48Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 2.43,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 1.59,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:16:48Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.87,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.95,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "bovada",
+            "title": "Bovada",
+            "last_update": "2025-12-17T11:20:33Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:20:33Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 1.56
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 2.53
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:20:33Z",
+                "outcomes": [
+                  {
+                    "name": "Carolina Hurricanes",
+                    "price": 2.42,
+                    "point": -1.5
+                  },
+                  {
+                    "name": "Nashville Predators",
+                    "price": 1.6,
+                    "point": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:20:33Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.89,
+                    "point": 6.0
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.93,
+                    "point": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3b8f1cb6275a2a64b2309a4754c99a0f",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-18T01:10:00Z",
+        "home_team": "St Louis Blues",
+        "away_team": "Winnipeg Jets",
+        "bookmakers": [
+          {
+            "key": "betrivers",
+            "title": "BetRivers",
+            "last_update": "2025-12-17T11:19:35Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 2.2
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 1.67
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 1.47,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 2.65,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.92,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.88,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "fanduel",
+            "title": "FanDuel",
+            "last_update": "2025-12-17T11:20:26Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:20:26Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 2.22
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 1.68
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:20:26Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 1.47,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 2.72,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:20:26Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.91,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.91,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "mybookieag",
+            "title": "MyBookie.ag",
+            "last_update": "2025-12-17T11:19:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 2.19
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 1.69
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 1.46,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 2.66,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.88,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.88,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "draftkings",
+            "title": "DraftKings",
+            "last_update": "2025-12-17T11:19:47Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:47Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 2.3
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 1.65
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:47Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 1.46,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 2.8,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:47Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.89,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.93,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betonlineag",
+            "title": "BetOnline.ag",
+            "last_update": "2025-12-17T11:20:14Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:20:14Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 2.32
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 1.67
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:20:14Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 1.48,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 2.8,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:20:14Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.94,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.91,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "lowvig",
+            "title": "LowVig.ag",
+            "last_update": "2025-12-17T11:19:34Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 2.32
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 1.67
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 1.48,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 2.8,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.94,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.91,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betmgm",
+            "title": "BetMGM",
+            "last_update": "2025-12-17T11:19:35Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:35Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 2.25
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 1.67
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:35Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 1.5,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 2.65,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:35Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.91,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.91,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betus",
+            "title": "BetUS",
+            "last_update": "2025-12-17T11:19:48Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:48Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 2.29
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 1.67
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:48Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 1.48,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 2.8,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:48Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.91,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.91,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "fanatics",
+            "title": "Fanatics",
+            "last_update": "2025-12-17T11:19:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 2.25
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 1.67
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 1.48,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 2.75,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.91,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.91,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "williamhill_us",
+            "title": "Caesars",
+            "last_update": "2025-12-17T11:16:48Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:16:48Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 2.3
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 1.65
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:16:48Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 1.45,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 2.8,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:16:48Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.91,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.91,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "bovada",
+            "title": "Bovada",
+            "last_update": "2025-12-17T11:20:33Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:20:33Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 2.3
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 1.67
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:20:33Z",
+                "outcomes": [
+                  {
+                    "name": "St Louis Blues",
+                    "price": 1.47,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Winnipeg Jets",
+                    "price": 2.78,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:20:33Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.93,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.89,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "977e2d27188bf727b2d515b50e47eb51",
+        "sport_key": "icehockey_nhl",
+        "sport_title": "NHL",
+        "commence_time": "2025-12-18T03:10:00Z",
+        "home_team": "Vegas Golden Knights",
+        "away_team": "New Jersey Devils",
+        "bookmakers": [
+          {
+            "key": "betrivers",
+            "title": "BetRivers",
+            "last_update": "2025-12-17T11:19:35Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 2.55
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 1.5
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 1.61,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 2.3,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.93,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.85,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "fanduel",
+            "title": "FanDuel",
+            "last_update": "2025-12-17T11:20:26Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:20:26Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 2.52
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 1.54
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:20:26Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 1.59,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 2.38,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:20:26Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.95,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.87,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "mybookieag",
+            "title": "MyBookie.ag",
+            "last_update": "2025-12-17T11:19:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 2.44
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 1.56
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 1.56,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 2.39,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.93,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.85,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "draftkings",
+            "title": "DraftKings",
+            "last_update": "2025-12-17T11:19:47Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:47Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 2.54
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 1.54
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:47Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 1.59,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 2.42,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:47Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.95,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.87,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "lowvig",
+            "title": "LowVig.ag",
+            "last_update": "2025-12-17T11:19:34Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 2.55
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 1.56
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 1.61,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 2.45,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:34Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 2.04,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.83,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betonlineag",
+            "title": "BetOnline.ag",
+            "last_update": "2025-12-17T11:20:14Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:20:14Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 2.55
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 1.56
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:20:14Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 1.61,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 2.45,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:20:14Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 2.04,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.83,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betmgm",
+            "title": "BetMGM",
+            "last_update": "2025-12-17T11:19:35Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:35Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 2.5
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 1.54
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:35Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 1.59,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 2.4,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:35Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.98,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.85,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "betus",
+            "title": "BetUS",
+            "last_update": "2025-12-17T11:19:48Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:48Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 2.5
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 1.57
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:48Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 1.61,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 2.44,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:48Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 2.0,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.83,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "williamhill_us",
+            "title": "Caesars",
+            "last_update": "2025-12-17T11:16:48Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:16:48Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 2.58
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 1.53
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:16:48Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 1.59,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 2.43,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:16:48Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.95,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.87,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "bovada",
+            "title": "Bovada",
+            "last_update": "2025-12-17T11:20:33Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:20:33Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 2.6
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 1.54
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:20:33Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 1.6,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 2.42,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:20:33Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.93,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.89,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "fanatics",
+            "title": "Fanatics",
+            "last_update": "2025-12-17T11:19:58Z",
+            "markets": [
+              {
+                "key": "h2h",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 2.5
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 1.56
+                  }
+                ]
+              },
+              {
+                "key": "spreads",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "New Jersey Devils",
+                    "price": 1.59,
+                    "point": 1.5
+                  },
+                  {
+                    "name": "Vegas Golden Knights",
+                    "price": 2.4,
+                    "point": -1.5
+                  }
+                ]
+              },
+              {
+                "key": "totals",
+                "last_update": "2025-12-17T11:19:58Z",
+                "outcomes": [
+                  {
+                    "name": "Over",
+                    "price": 1.95,
+                    "point": 5.5
+                  },
+                  {
+                    "name": "Under",
+                    "price": 1.87,
+                    "point": 5.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

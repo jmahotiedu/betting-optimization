@@ -1,0 +1,214 @@
+// --- Panel position fixed script ---
+var initialOffsetLeft = document.getElementById('panel').offsetLeft;
+
+window.addEventListener('DOMContentLoaded', function() {
+  var div = document.getElementById('panel');
+  var initialOffsetLeft = div.offsetLeft;
+  var scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+  var translateX = initialOffsetLeft + scrollLeft - 10;
+
+  div.style.transform = 'translateX(' + translateX + 'px)';
+});
+
+window.addEventListener('scroll', function() {
+  var div = document.getElementById('panel');
+  var scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+  var translateX = initialOffsetLeft + scrollLeft - 10;
+
+  div.style.transform = 'translateX(' + translateX + 'px)';
+});
+// --- End -----
+
+
+//--- Hide DIV by ID and checkbox -----
+function toggleDivVisibilityDiv(checkboxId) {
+  const checkbox = document.getElementById(checkboxId);
+  const divId = checkbox.name;
+  const divs = document.querySelectorAll(`div[id="${divId}"]`);
+
+  if (checkbox.checked) {
+    divs.forEach(function(div) {
+      div.classList.remove("hidden");
+    });
+  } else {
+    divs.forEach(function(div) {
+      div.classList.add("hidden");
+    });
+  }
+
+  // Save checkbox state to localStorage
+  localStorage.setItem(checkboxId, checkbox.checked);
+}
+
+//--- Hide TD by NAME and checkbox -----
+function toggleTdVisibility(checkboxId) {
+  const checkbox = document.getElementById(checkboxId);
+  const tdName = checkbox.name;
+  const tds = document.querySelectorAll(`td[data-name="${tdName}"]`);
+
+  if (checkbox.checked) {
+    tds.forEach(function(td) {
+      td.classList.remove("hidden");
+    });
+  } else {
+    tds.forEach(function(td) {
+      td.classList.add("hidden");
+    });
+  }
+
+  // Save checkbox state to localStorage
+  localStorage.setItem(checkboxId, checkbox.checked);
+}
+
+
+
+// Retrieve checkbox states from localStorage and apply them
+document.addEventListener("DOMContentLoaded", function() {
+  const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+  checkboxes.forEach(function(checkbox) {
+    const checkboxId = checkbox.id;
+    const savedState = localStorage.getItem(checkboxId);
+
+    if (savedState === "true") {
+      checkbox.checked = true;
+    } else if (savedState === "false") {
+      checkbox.checked = false;
+    }
+
+    toggleDivVisibilityDiv(checkboxId);
+    toggleTdVisibility(checkboxId);
+  });
+});
+// --- End -----
+
+
+
+
+
+//--- Disallow copy -----
+const allowedIds = ['timestamp_field', 'country_field', 'league_field', 'home_field', 'away_field'];
+
+document.oncopy = function (event) {
+  const selection = window.getSelection();
+  const selectedText = selection.toString().trim();
+  let isAllowed = false;
+
+  for (const id of allowedIds) {
+    const allowedTds = document.querySelectorAll(`td#${id}`);
+    for (const allowedTd of allowedTds) {
+      const allowedText = allowedTd.textContent.trim();
+      if (allowedTd.contains(selection.anchorNode) && selectedText === allowedText) {
+        isAllowed = true;
+        break;
+      }
+    }
+    if (isAllowed) {
+      break;
+    }
+  }
+
+  if (!isAllowed) {
+    event.preventDefault();
+    alert('Copying is not allowed on this text.');
+  }
+};
+
+// Disable text selection on mousedown and mouseup for <td> elements only
+document.onmousedown = function (event) {
+  if (event.target.tagName.toLowerCase() === 'td') {
+    const selection = window.getSelection();
+    let isAllowed = false;
+
+    for (const id of allowedIds) {
+      const allowedTds = document.querySelectorAll(`td#${id}`);
+      for (const allowedTd of allowedTds) {
+        if (allowedTd.contains(event.target)) {
+          isAllowed = true;
+          break;
+        }
+      }
+      if (isAllowed) {
+        break;
+      }
+    }
+
+    if (!isAllowed) {
+      selection.removeAllRanges(); // Clear any existing selection
+    }
+  }
+};
+
+document.onmouseup = function (event) {
+  if (event.target.tagName.toLowerCase() === 'td') {
+    const selection = window.getSelection();
+    let isAllowed = false;
+
+    for (const id of allowedIds) {
+      const allowedTds = document.querySelectorAll(`td#${id}`);
+      for (const allowedTd of allowedTds) {
+        if (allowedTd.contains(event.target)) {
+          isAllowed = true;
+          break;
+        }
+      }
+      if (isAllowed) {
+        break;
+      }
+    }
+
+    if (!isAllowed) {
+      selection.removeAllRanges(); // Clear any new selection
+    }
+  }
+};
+
+// Disable text selection for keyboard events (e.g., Shift + Arrow keys) in <td> elements only
+document.onkeydown = function (event) {
+  if (document.activeElement.tagName.toLowerCase() === 'td') {
+    const selection = window.getSelection();
+    let isAllowed = false;
+
+    for (const id of allowedIds) {
+      const allowedTds = document.querySelectorAll(`td#${id}`);
+      for (const allowedTd of allowedTds) {
+        if (allowedTd.contains(document.activeElement)) {
+          isAllowed = true;
+          break;
+        }
+      }
+      if (isAllowed) {
+        break;
+      }
+    }
+
+    if (!isAllowed && (event.shiftKey || event.ctrlKey)) {
+      selection.removeAllRanges(); // Clear any new selection
+    }
+  }
+};
+
+// Prevent other methods from enabling selection (works with some extensions) for <td> elements only
+document.onselectstart = function (event) {
+  if (event.target.tagName.toLowerCase() === 'td') {
+    let isAllowed = false;
+
+    for (const id of allowedIds) {
+      const allowedTds = document.querySelectorAll(`td#${id}`);
+      for (const allowedTd of allowedTds) {
+        if (allowedTd.contains(event.target)) {
+          isAllowed = true;
+          break;
+        }
+      }
+      if (isAllowed) {
+        break;
+      }
+    }
+
+    if (!isAllowed) {
+      event.preventDefault();
+    }
+  }
+};
+// --- End -----
+
