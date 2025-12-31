@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-31T09:58:51.105848Z",
+  "generated_at": "2025-12-31T10:45:51.745037Z",
   "latest_date": "2025-12-30",
   "sources": {
     "total": "total_transactions.csv",
@@ -24,32 +24,32 @@
     "props_core": {
       "bet_type": "Player Props",
       "weights": {
-        "Pinnacle": 100.0,
-        "BetOnline.ag": 50.0,
-        "Caesars": 57.05,
-        "BookMaker.eu": 60.0,
         "BetMGM": 65.69,
-        "DraftKings": 71.21,
-        "FanDuel": 67.47
+        "BetOnline.ag": 50.0,
+        "Pinnacle": 100.0,
+        "Caesars": 57.05,
+        "FanDuel": 67.47,
+        "BookMaker.eu": 60.0,
+        "DraftKings": 71.21
       },
       "weights_normalized": {
-        "Pinnacle": 0.212121,
-        "BetOnline.ag": 0.106061,
-        "Caesars": 0.12102,
-        "BookMaker.eu": 0.127273,
         "BetMGM": 0.139348,
-        "DraftKings": 0.151052,
-        "FanDuel": 0.143125
+        "BetOnline.ag": 0.106061,
+        "Pinnacle": 0.212121,
+        "Caesars": 0.12102,
+        "FanDuel": 0.143125,
+        "BookMaker.eu": 0.127273,
+        "DraftKings": 0.151052
       },
       "required_books": [],
       "optional_books": [
-        "Pinnacle",
-        "BetOnline.ag",
-        "Caesars",
-        "BookMaker.eu",
         "BetMGM",
-        "DraftKings",
-        "FanDuel"
+        "BetOnline.ag",
+        "Pinnacle",
+        "Caesars",
+        "FanDuel",
+        "BookMaker.eu",
+        "DraftKings"
       ],
       "min_books": 1,
       "devig_method": "power",
@@ -60,16 +60,16 @@
     "gamelines_expansion": {
       "bet_type": "Gamelines",
       "weights": {
-        "BetOnline.ag": 7.27,
-        "BookMaker.eu": 6.82,
-        "Circa": 2.81,
+        "BetOnline.ag": 41.99,
+        "BookMaker.eu": 44.33,
+        "Circa": 76.5,
         "Pinnacle": 100.0
       },
       "weights_normalized": {
-        "BetOnline.ag": 0.062202,
-        "BookMaker.eu": 0.058349,
-        "Circa": 0.024046,
-        "Pinnacle": 0.855403
+        "BetOnline.ag": 0.159756,
+        "BookMaker.eu": 0.16867,
+        "Circa": 0.291082,
+        "Pinnacle": 0.380491
       },
       "required_books": [],
       "optional_books": [

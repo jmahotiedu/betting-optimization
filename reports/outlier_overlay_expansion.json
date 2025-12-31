@@ -1,6 +1,31 @@
 {
-  "validation_failed": true,
-  "warnings": [
-    "EV unit ambiguity detected. EV values must be explicitly labeled as percent or decimal. Execution halted."
-  ]
+  "profile": "expansion",
+  "leagues": [
+    "NBA",
+    "NHL"
+  ],
+  "markets": [
+    "Total Assists",
+    "Total Saves"
+  ],
+  "bet_types": [
+    "Player Props"
+  ],
+  "sportsbooks": [
+    "BetMGM",
+    "ProphetX"
+  ],
+  "ev_min_pct": 0.0,
+  "min_bets_per_combo": 5,
+  "min_roi_per_combo": 0.0,
+  "min_worst_decile_clv_per_combo": 0.0,
+  "odds_min_decimal": 1.77,
+  "odds_max_decimal": 2.3,
+  "odds_min_american": -130.0,
+  "odds_max_american": 130.0,
+  "time_window_days": 90,
+  "stake_cap_pct_bankroll": 0.02,
+  "max_drawdown": 0.25,
+  "drawdown_constraint_met": true,
+  "overlay_role": "execution_discipline_only"
 }

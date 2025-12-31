@@ -12,9 +12,9 @@
 - date_filter: Any time
 - bet_types: ['Player Props']
 - required_books: []
-- optional_books: ['Pinnacle', 'BetOnline.ag', 'Caesars', 'BookMaker.eu', 'BetMGM', 'DraftKings', 'FanDuel']
+- optional_books: ['BetMGM', 'BetOnline.ag', 'Pinnacle', 'Caesars', 'FanDuel', 'BookMaker.eu', 'DraftKings']
 - min_books: 1
-- weights: {'Pinnacle': 100.0, 'BetOnline.ag': 50.0, 'Caesars': 57.05, 'BookMaker.eu': 60.0, 'BetMGM': 65.69, 'DraftKings': 71.21, 'FanDuel': 67.47}
+- weights: {'BetMGM': 65.69, 'BetOnline.ag': 50.0, 'Pinnacle': 100.0, 'Caesars': 57.05, 'FanDuel': 67.47, 'BookMaker.eu': 60.0, 'DraftKings': 71.21}
 - devig_method: Power
 - variation_max_pct: 3.0
 - vig_max_pct: None
@@ -22,7 +22,7 @@
 - ev_min_pct: 5.76
 - kelly_multiplier: 1/4
 - weights_source: priors_blended_with_props_ml
-- weights_generated_at: 2025-12-31T09:58:51.105848Z
+- weights_generated_at: 2025-12-31T10:45:51.745037Z
 - ev_min_pct_source: total_transactions_ev_p60_clv_pos_floor_1pct
 
 ## Preset Expansion Profile
@@ -33,7 +33,7 @@
 - required_books: []
 - optional_books: ['BetOnline.ag', 'BookMaker.eu', 'Circa', 'Pinnacle']
 - min_books: 1
-- weights: {'BetOnline.ag': 7.27, 'BookMaker.eu': 6.82, 'Circa': 2.81, 'Pinnacle': 100.0}
+- weights: {'BetOnline.ag': 41.99, 'BookMaker.eu': 44.33, 'Circa': 76.5, 'Pinnacle': 100.0}
 - devig_method: Probit
 - variation_max_pct: 3.0
 - vig_max_pct: 8.0
@@ -41,7 +41,7 @@
 - ev_min_pct: 1.0
 - kelly_multiplier: 1/2
 - weights_source: odds_api_only
-- weights_generated_at: 2025-12-31T09:58:51.105848Z
+- weights_generated_at: 2025-12-31T10:45:51.745037Z
 - ev_min_pct_source: total_transactions_ev_p50_floor_1pct
 
 ## Overlay Core Profile (Execution Discipline Only)
@@ -87,6 +87,6 @@
 - overlay_role: execution_discipline_only
 
 ## Notes
-- Weights are derived from settled bets and blended with today using a small-weight uplift.
+- Weights derived from settled bets; props blend sharp priors with props ML.
+- Gamelines weights come from outcome-based Odds-API.io snapshots.
 - EV thresholds are based on total_transactions percentiles and floored at 1%.
-- Gamelines weights are blended with Odds-API.io snapshots.

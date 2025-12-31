@@ -1,6 +1,73 @@
 {
-  "validation_failed": true,
-  "warnings": [
-    "EV unit ambiguity detected. EV values must be explicitly labeled as percent or decimal. Execution halted."
-  ]
+  "profile": "core",
+  "leagues": [
+    "Bundesliga",
+    "NBA",
+    "NCAAFB",
+    "NCAAM",
+    "NFL",
+    "NHL",
+    "TENNIS",
+    "UEFA Champions League",
+    "UFC",
+    "other"
+  ],
+  "markets": [
+    "3-Pointers",
+    "Assists",
+    "Blocks",
+    "Moneyline",
+    "Other",
+    "Point Spread",
+    "Points",
+    "Points + Assists",
+    "Points + Rebounds",
+    "Points + Rebounds + Assists",
+    "Rebounds",
+    "Rebounds + Assists",
+    "Steals",
+    "Steals + Blocks",
+    "Team Total",
+    "Total",
+    "Total Assists",
+    "Total Points",
+    "Total Receiving Yards",
+    "Total Receptions",
+    "Total Rushing Yards",
+    "Total Saves",
+    "Total Shots on Goal"
+  ],
+  "bet_types": [
+    "Gamelines",
+    "Player Props"
+  ],
+  "sportsbooks": [
+    "Bally Bet",
+    "Bet365",
+    "BetMGM",
+    "BetRivers - Indiana",
+    "Caesars",
+    "DraftKings",
+    "FanDuel",
+    "Fanatics",
+    "Hard Rock",
+    "Kalshi",
+    "Novig",
+    "Onyx",
+    "ProphetX",
+    "theScore Bet"
+  ],
+  "ev_min_pct": 0.0,
+  "min_bets_per_combo": 0,
+  "min_roi_per_combo": 0.0,
+  "min_worst_decile_clv_per_combo": 0.0,
+  "odds_min_decimal": 1.01,
+  "odds_max_decimal": 20.0,
+  "odds_min_american": -10000.0,
+  "odds_max_american": 1900.0,
+  "time_window_days": null,
+  "stake_cap_pct_bankroll": 0.02,
+  "max_drawdown": 0.25,
+  "drawdown_constraint_met": false,
+  "overlay_role": "execution_discipline_only"
 }

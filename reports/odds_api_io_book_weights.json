@@ -1,46 +1,40 @@
 {
-  "generated_at": "2025-12-31T09:15:20.348208Z",
-  "snapshots_dir": [
-    "reports\\odds_api_io_snapshots_pinnacle",
-    "reports\\odds_api_io_snapshots_pinny_bookmaker",
-    "reports\\odds_api_io_snapshots_pinny_betonline",
-    "reports\\odds_api_io_snapshots_pinny_circa2"
-  ],
-  "markets": [
-    "ML",
-    "Spread",
-    "Totals"
-  ],
+  "generated_at": "2025-12-31T10:43:57.697914Z",
+  "source": "odds_api_io_snapshots + event_results_aligned.csv",
   "weights": {
-    "BetOnline.ag": 0.062202,
-    "BookMaker.eu": 0.058349,
-    "Circa": 0.024046,
-    "Pinnacle": 0.855403
+    "BetOnline.ag": 0.159756,
+    "BookMaker.eu": 0.16867,
+    "Circa": 0.291082,
+    "Pinnacle": 0.380491
   },
-  "book_stats": {
+  "details": {
     "BetOnline.ag": {
-      "observations": 54,
-      "avg_abs_diff": 0.0051241835466922184,
-      "avg_overround": 0.04430580733087241,
-      "score": 32360.632388612103
+      "observations": 29,
+      "brier": 0.4038204653182142,
+      "logloss": 1.0602941117643145,
+      "score": 5.0789349316433805
     },
     "BookMaker.eu": {
-      "observations": 98,
-      "avg_abs_diff": 0.006923830681710888,
-      "avg_overround": 0.04709240123911143,
-      "score": 30355.949462428045
+      "observations": 31,
+      "brier": 0.3930369702307297,
+      "logloss": 1.038310715987971,
+      "score": 5.362329668503772
     },
     "Circa": {
-      "observations": 120,
-      "avg_abs_diff": 0.019102265404285012,
-      "avg_overround": 0.04583799304312664,
-      "score": 12509.73024336082
+      "observations": 80,
+      "brier": 0.36484878524114983,
+      "logloss": 0.9665303073675908,
+      "score": 9.254000451476244
     },
     "Pinnacle": {
-      "observations": 1200,
-      "avg_abs_diff": 0.00234751979593919,
-      "avg_overround": 0.03314381935010139,
-      "score": 445021.2419958726
+      "observations": 144,
+      "brier": 0.3737990135710223,
+      "logloss": 0.992023886902986,
+      "score": 12.096482903618877
     }
+  },
+  "coverage": {
+    "events_scored": 32,
+    "observations": 284
   }
 }

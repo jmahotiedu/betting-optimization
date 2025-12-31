@@ -5,7 +5,6 @@ from typing import Dict, Any, List
 
 import pandas as pd
 
-from .outlier_fair_value import preset_props_core, preset_gamelines_expansion
 from .outlier_overlay import optimize_outlier_overlay
 
 
@@ -22,38 +21,46 @@ class OutlierOverlay:
     backtest: pd.DataFrame
 
 
-def build_presets() -> List[OutlierPreset]:
-    core = preset_props_core()
-    expansion = preset_gamelines_expansion()
+def build_presets(weight_settings: Dict[str, Any]) -> List[OutlierPreset]:
+    profiles = weight_settings.get("profiles", {})
+    props = profiles.get("props_core", {})
+    games = profiles.get("gamelines_expansion", {})
+
     core_settings = {
-        "profile": core.name,
-        "date_filter": core.date_filter,
-        "bet_types": list(core.bet_types),
-        "required_books": list(core.required_books),
-        "optional_books": list(core.optional_books),
-        "min_books": core.min_books,
-        "weights": core.weights,
-        "devig_method": core.devig_method.title(),
-        "variation_max_pct": core.variation_max_pct,
-        "vig_max_pct": core.vig_max_pct,
-        "fair_value_max_american": core.fair_value_max_american,
-        "ev_min_pct": core.ev_min_pct,
-        "kelly_multiplier": core.kelly_multiplier,
+        "profile": "Props Core",
+        "date_filter": "Any time",
+        "bet_types": ["Player Props"],
+        "required_books": props.get("required_books", []),
+        "optional_books": props.get("optional_books", []),
+        "min_books": props.get("min_books", 1),
+        "weights": props.get("weights", {}),
+        "devig_method": str(props.get("devig_method", "power")).title(),
+        "variation_max_pct": 3.0,
+        "vig_max_pct": None,
+        "fair_value_max_american": None,
+        "ev_min_pct": props.get("ev_min_pct", 1.0),
+        "kelly_multiplier": "1/4",
+        "weights_source": props.get("weights_source"),
+        "weights_generated_at": weight_settings.get("generated_at"),
+        "ev_min_pct_source": props.get("ev_min_pct_source"),
     }
     expansion_settings = {
-        "profile": expansion.name,
-        "date_filter": expansion.date_filter,
-        "bet_types": list(expansion.bet_types),
-        "required_books": list(expansion.required_books),
-        "optional_books": list(expansion.optional_books),
-        "min_books": expansion.min_books,
-        "weights": expansion.weights,
-        "devig_method": expansion.devig_method.title(),
-        "variation_max_pct": expansion.variation_max_pct,
-        "vig_max_pct": expansion.vig_max_pct,
-        "fair_value_max_american": expansion.fair_value_max_american,
-        "ev_min_pct": expansion.ev_min_pct,
-        "kelly_multiplier": expansion.kelly_multiplier,
+        "profile": "Gamelines Expansion",
+        "date_filter": "In the next 24 hours",
+        "bet_types": ["Gamelines"],
+        "required_books": games.get("required_books", []),
+        "optional_books": games.get("optional_books", []),
+        "min_books": games.get("min_books", 1),
+        "weights": games.get("weights", {}),
+        "devig_method": str(games.get("devig_method", "probit")).title(),
+        "variation_max_pct": 3.0,
+        "vig_max_pct": games.get("vig_max_pct", 8.0),
+        "fair_value_max_american": games.get("fair_value_max_american", 200.0),
+        "ev_min_pct": games.get("ev_min_pct", 1.0),
+        "kelly_multiplier": "1/2",
+        "weights_source": games.get("weights_source"),
+        "weights_generated_at": weight_settings.get("generated_at"),
+        "ev_min_pct_source": games.get("ev_min_pct_source"),
     }
     return [OutlierPreset("Core", core_settings), OutlierPreset("Expansion", expansion_settings)]
 

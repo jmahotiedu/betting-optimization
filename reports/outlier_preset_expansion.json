@@ -1,6 +1,30 @@
 {
-  "validation_failed": true,
-  "warnings": [
-    "EV unit ambiguity detected. EV values must be explicitly labeled as percent or decimal. Execution halted."
-  ]
+  "profile": "Gamelines Expansion",
+  "date_filter": "In the next 24 hours",
+  "bet_types": [
+    "Gamelines"
+  ],
+  "required_books": [],
+  "optional_books": [
+    "BetOnline.ag",
+    "BookMaker.eu",
+    "Circa",
+    "Pinnacle"
+  ],
+  "min_books": 1,
+  "weights": {
+    "BetOnline.ag": 41.99,
+    "BookMaker.eu": 44.33,
+    "Circa": 76.5,
+    "Pinnacle": 100.0
+  },
+  "devig_method": "Probit",
+  "variation_max_pct": 3.0,
+  "vig_max_pct": 8.0,
+  "fair_value_max_american": 200.0,
+  "ev_min_pct": 1.0,
+  "kelly_multiplier": "1/2",
+  "weights_source": "odds_api_only",
+  "weights_generated_at": "2025-12-31T10:45:51.745037Z",
+  "ev_min_pct_source": "total_transactions_ev_p50_floor_1pct"
 }

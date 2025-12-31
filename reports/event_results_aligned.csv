@@ -1,0 +1,300 @@
+event_id,sport_key,commence_time,home_team,away_team,home_score,away_score,source_url
+ac7881cc5a498c5b72680498d3fa8f6e,americanfootball_nfl,2025-12-19T01:15:57Z,Seattle Seahawks,Los Angeles Rams,,,
+18fe4528a0bc43d9cd64bd09c0d5019f,americanfootball_nfl,2025-12-20T22:03:00Z,Washington Commanders,Philadelphia Eagles,18,29,https://www.espn.com/nfl/game/_/gameId/401772612/eagles-commanders
+9f70d98bc6918dc8e21f329405b649fe,americanfootball_nfl,2025-12-21T01:20:19Z,Chicago Bears,Green Bay Packers,22,16,https://www.espn.com/nfl/game/_/gameId/401772613/packers-bears
+2557976e0e66ab698539b543de125469,americanfootball_nfl,2025-12-21T18:02:22Z,Cleveland Browns,Buffalo Bills,20,23,https://www.espn.com/nfl/game/_/gameId/401772802/bills-browns
+d056f31082bdea4d018a26ba274b8430,americanfootball_nfl,2025-12-21T18:02:51Z,Carolina Panthers,Tampa Bay Buccaneers,23,20,https://www.espn.com/nfl/game/_/gameId/401772912/buccaneers-panthers
+945286798abb5081432aef109df29778,americanfootball_nfl,2025-12-21T18:02:42Z,Miami Dolphins,Cincinnati Bengals,21,45,https://www.espn.com/nfl/game/_/gameId/401772934/bengals-dolphins
+aa9d0cf732b6adde4ad3ec04ca79825c,americanfootball_nfl,2025-12-21T18:02:48Z,Dallas Cowboys,Los Angeles Chargers,17,34,https://www.espn.com/nfl/game/_/gameId/401772910/chargers-cowboys
+0cce34b9a49c4c6bdc1e65449e37a0f9,americanfootball_nfl,2025-12-21T18:02:33Z,Tennessee Titans,Kansas City Chiefs,26,9,https://www.espn.com/nfl/game/_/gameId/401772803/chiefs-titans
+3db6ba91d2a72ada8843d5a0517bff27,americanfootball_nfl,2025-12-21T18:02:48Z,New York Giants,Minnesota Vikings,13,16,https://www.espn.com/nfl/game/_/gameId/401772911/vikings-giants
+aa5b25e85d1ad6540d7a5ae04b73ddfd,americanfootball_nfl,2025-12-21T18:02:19Z,New Orleans Saints,New York Jets,29,6,https://www.espn.com/nfl/game/_/gameId/401772801/jets-saints
+7d71a0d3cc2a04eb35f1a725104217b5,americanfootball_nfl,2025-12-21T21:05:23Z,Arizona Cardinals,Atlanta Falcons,19,26,https://www.espn.com/nfl/game/_/gameId/401772914/falcons-cardinals
+93c002f0a42d1b57f3bbabdcfe24ab97,americanfootball_nfl,2025-12-21T21:05:17Z,Denver Broncos,Jacksonville Jaguars,20,34,https://www.espn.com/nfl/game/_/gameId/401772913/jaguars-broncos
+a03f89d3aaadf737deb09be24986d5bf,americanfootball_nfl,2025-12-21T21:25:44Z,Detroit Lions,Pittsburgh Steelers,24,29,https://www.espn.com/nfl/game/_/gameId/401772806/steelers-lions
+47a54fb60f7b79179bc80e18a7c5de81,americanfootball_nfl,2025-12-21T21:25:39Z,Houston Texans,Las Vegas Raiders,23,21,https://www.espn.com/nfl/game/_/gameId/401772805/raiders-texans
+a0476b027679a1670f21e8b75a860ab9,americanfootball_nfl,2025-12-22T01:22:25Z,Baltimore Ravens,New England Patriots,24,28,https://www.espn.com/nfl/game/_/gameId/401772804/patriots-ravens
+2dd4521ee298fa2c6f0ab009c182aae9,americanfootball_nfl,2025-12-23T01:17:07Z,Indianapolis Colts,San Francisco 49ers,27,48,https://www.espn.com/nfl/game/_/gameId/401772824/49ers-colts
+de07002921b9b2b2e1ee2928e4270a3c,americanfootball_nfl,2025-12-25T18:03:14Z,Washington Commanders,Dallas Cowboys,23,30,https://www.espn.com/nfl/game/_/gameId/401772710/cowboys-commanders
+29da148b927afea00a7774b2a8ee68e7,americanfootball_nfl,2025-12-25T21:36:56Z,Minnesota Vikings,Detroit Lions,23,10,https://www.espn.com/nfl/game/_/gameId/401772711/lions-vikings
+29164a99a917051c6e1778270033d362,americanfootball_nfl,2025-12-26T01:16:13Z,Kansas City Chiefs,Denver Broncos,13,20,https://www.espn.com/nfl/game/_/gameId/401772622/broncos-chiefs
+832c36c4b6d5132e88cf11391797c194,americanfootball_nfl,2025-12-27T21:32:44Z,Los Angeles Chargers,Houston Texans,16,20,https://www.espn.com/nfl/game/_/gameId/401772951/texans-chargers
+85bead6a72a1952cdd737dcecb55446b,americanfootball_nfl,2025-12-28T01:10:30Z,Green Bay Packers,Baltimore Ravens,24,41,https://www.espn.com/nfl/game/_/gameId/401772953/ravens-packers
+7aeff5d5bb88b218c7d72f267a90eb7f,americanfootball_nfl,2025-12-28T18:02:25Z,Cincinnati Bengals,Arizona Cardinals,37,14,https://www.espn.com/nfl/game/_/gameId/401772954/cardinals-bengals
+8e7a26b4026e4eca7394cc523fa10a64,americanfootball_nfl,2025-12-28T18:02:27Z,Carolina Panthers,Seattle Seahawks,10,27,https://www.espn.com/nfl/game/_/gameId/401772952/seahawks-panthers
+e6721ef0adb705a8abcbedc2ef6dfb3a,americanfootball_nfl,2025-12-28T18:02:46Z,Cleveland Browns,Pittsburgh Steelers,13,6,https://www.espn.com/nfl/game/_/gameId/401772807/steelers-browns
+f960b282ac197513c9d80bd28baa7e38,americanfootball_nfl,2025-12-28T18:02:37Z,Indianapolis Colts,Jacksonville Jaguars,17,23,https://www.espn.com/nfl/game/_/gameId/401772915/jaguars-colts
+374166780155b8c14e867face95885ee,americanfootball_nfl,2025-12-28T18:02:31Z,Miami Dolphins,Tampa Bay Buccaneers,20,17,https://www.espn.com/nfl/game/_/gameId/401772916/buccaneers-dolphins
+95bdb9f5b22f0491bfba1381637c5009,americanfootball_nfl,2025-12-28T18:02:28Z,New York Jets,New England Patriots,10,42,https://www.espn.com/nfl/game/_/gameId/401772808/patriots-jets
+d75c88e4fb7650ab0577264980bdf98f,americanfootball_nfl,2025-12-28T18:02:38Z,Tennessee Titans,New Orleans Saints,26,34,https://www.espn.com/nfl/game/_/gameId/401772809/saints-titans
+dd4aec72c5175cb8cea67d5edc7b1990,americanfootball_nfl,2025-12-28T21:05:30Z,Las Vegas Raiders,New York Giants,10,34,https://www.espn.com/nfl/game/_/gameId/401772950/giants-raiders
+596df6f5735277fee0cd78e61cd71060,americanfootball_nfl,2025-12-28T21:25:35Z,Buffalo Bills,Philadelphia Eagles,12,13,https://www.espn.com/nfl/game/_/gameId/401772917/eagles-bills
+b0dedebd28a82f8f38398033356e9015,americanfootball_nfl,2025-12-29T01:23:26Z,San Francisco 49ers,Chicago Bears,42,38,https://www.espn.com/nfl/game/_/gameId/401772935/bears-49ers
+ea5fe5f603483c8d46f83081cf780397,americanfootball_nfl,2025-12-30T01:15:47Z,Atlanta Falcons,Los Angeles Rams,27,24,https://www.espn.com/nfl/game/_/gameId/401772825/rams-falcons
+f609b38fe2bf0687644ad8603e28220b,americanfootball_nfl,2026-01-05T01:20:00Z,Pittsburgh Steelers,Baltimore Ravens,,,https://www.espn.com/nfl/game/_/gameId/401772960/ravens-steelers
+4fd1173e2f647cbbebf6713d39693089,americanfootball_nfl,2026-01-03T21:30:00Z,Tampa Bay Buccaneers,Carolina Panthers,,,https://www.espn.com/nfl/game/_/gameId/401772969/panthers-buccaneers
+7906052ca20e6daddf755c7fe3932887,americanfootball_nfl,2026-01-04T18:00:00Z,Atlanta Falcons,New Orleans Saints,,,https://www.espn.com/nfl/game/_/gameId/401772966/saints-falcons
+bd5134e8440a2b12cc8ac98ab4f18093,americanfootball_nfl,2026-01-04T21:25:00Z,Buffalo Bills,New York Jets,,,https://www.espn.com/nfl/game/_/gameId/401772967/jets-bills
+1a5451b8f0d74f90937c52bec447dc40,americanfootball_nfl,2026-01-04T21:25:00Z,Chicago Bears,Detroit Lions,,,https://www.espn.com/nfl/game/_/gameId/401772965/lions-bears
+dad5ec44b4df2b91138872aeb4454e1e,americanfootball_nfl,2026-01-04T18:00:00Z,Cincinnati Bengals,Cleveland Browns,,,https://www.espn.com/nfl/game/_/gameId/401772964/browns-bengals
+d48a44e7b45f563282fd042c2104da9b,americanfootball_nfl,2026-01-04T18:00:00Z,New York Giants,Dallas Cowboys,,,https://www.espn.com/nfl/game/_/gameId/401772963/cowboys-giants
+41fc7f3165cc9dfdb47c25a9decd7c9b,americanfootball_nfl,2026-01-04T18:00:00Z,Minnesota Vikings,Green Bay Packers,,,https://www.espn.com/nfl/game/_/gameId/401772968/packers-vikings
+26b8cf55eeac1bb05b585132f7dcc0e3,americanfootball_nfl,2026-01-04T18:00:00Z,Houston Texans,Indianapolis Colts,,,https://www.espn.com/nfl/game/_/gameId/401772962/colts-texans
+623e9172767ca231241e2313bbee095e,americanfootball_nfl,2026-01-04T18:00:00Z,Jacksonville Jaguars,Tennessee Titans,,,https://www.espn.com/nfl/game/_/gameId/401772970/titans-jaguars
+de4ae000f7f94eecf9d827eabff2991b,americanfootball_nfl,2026-01-04T21:25:00Z,Las Vegas Raiders,Kansas City Chiefs,,,https://www.espn.com/nfl/game/_/gameId/401772957/chiefs-raiders
+d242576b25f56b3f598044c9abfb4df0,americanfootball_nfl,2026-01-04T21:25:00Z,New England Patriots,Miami Dolphins,,,https://www.espn.com/nfl/game/_/gameId/401772958/dolphins-patriots
+30621f6a1072712bee795c15eafe9768,americanfootball_nfl,2026-01-04T21:25:00Z,Denver Broncos,Los Angeles Chargers,,,https://www.espn.com/nfl/game/_/gameId/401772956/chargers-broncos
+c624c615075899bb7be6a39e5eea3b2b,americanfootball_nfl,2026-01-04T01:00:00Z,San Francisco 49ers,Seattle Seahawks,,,https://www.espn.com/nfl/game/_/gameId/401772961/seahawks-49ers
+2f4cf01e2db22ed928eb8f0357a74007,americanfootball_nfl,2026-01-04T21:25:00Z,Los Angeles Rams,Arizona Cardinals,,,https://www.espn.com/nfl/game/_/gameId/401772955/cardinals-rams
+b6eb23d78a4e1b3bf9946be7cfac0e6b,americanfootball_nfl,2026-01-04T21:25:00Z,Philadelphia Eagles,Washington Commanders,,,https://www.espn.com/nfl/game/_/gameId/401772959/commanders-eagles
+42db7e7ed193f516e561773b04b56eca,basketball_nba,2025-12-17T01:43:42Z,New York Knicks,San Antonio Spurs,,,
+a9cbe798da439bd9d012976f7738591b,basketball_nba,2025-12-18T01:11:00Z,Chicago Bulls,Cleveland Cavaliers,127,111,https://www.espn.com/nba/game/_/gameId/401810222/cavaliers-bulls
+3dfcf87c4c788368e199e9d23b2c1831,basketball_nba,2025-12-18T01:11:00Z,Minnesota Timberwolves,Memphis Grizzlies,110,116,https://www.espn.com/nba/game/_/gameId/401810223/grizzlies-timberwolves
+ec6d61cb03f048a8ced4fa2bb3bb7b03,basketball_nba,2025-12-19T00:41:00Z,Brooklyn Nets,Miami Heat,95,106,https://www.espn.com/nba/game/_/gameId/401810228/heat-nets
+4cece5fd2474ad97c387333029d56ccf,basketball_nba,2025-12-19T01:10:00Z,New Orleans Pelicans,Houston Rockets,133,128,https://www.espn.com/nba/game/_/gameId/401810230/rockets-pelicans
+e910fe9181a947bc12d92330014fa0b8,basketball_nba,2025-12-19T02:11:00Z,Utah Jazz,Los Angeles Lakers,135,143,https://www.espn.com/nba/game/_/gameId/401810234/lakers-jazz
+ccd70223755e6c12d9d884e48b5f8ba8,basketball_nba,2025-12-19T00:12:00Z,Charlotte Hornets,Atlanta Hawks,133,126,https://www.espn.com/nba/game/_/gameId/401810226/hawks-hornets
+4ea922e941f71ff0b977d5cb44ede892,basketball_nba,2025-12-19T01:11:00Z,Oklahoma City Thunder,Los Angeles Clippers,122,101,https://www.espn.com/nba/game/_/gameId/401810224/clippers-thunder
+2eab746d00beb04428e0014d976ee174,basketball_nba,2025-12-19T01:11:00Z,Milwaukee Bucks,Toronto Raptors,105,111,https://www.espn.com/nba/game/_/gameId/401810229/raptors-bucks
+ef7b2498e8f96dce4acb89d95f814d37,basketball_nba,2025-12-19T01:42:00Z,Dallas Mavericks,Detroit Pistons,116,114,https://www.espn.com/nba/game/_/gameId/401810231/pistons-mavericks
+37b74473b276a5a724ac4c141c04ce23,basketball_nba,2025-12-19T02:11:00Z,Denver Nuggets,Orlando Magic,126,115,https://www.espn.com/nba/game/_/gameId/401810232/magic-nuggets
+ba3c8b74f7cc686d0346a5234bd5e11a,basketball_nba,2025-12-19T02:11:00Z,Phoenix Suns,Golden State Warriors,99,98,https://www.espn.com/nba/game/_/gameId/401810233/warriors-suns
+a63b0286fa16c7c257217fe694835392,basketball_nba,2025-12-19T03:12:00Z,Portland Trail Blazers,Sacramento Kings,134,133,https://www.espn.com/nba/game/_/gameId/401810235/kings-trail-blazers
+2bb8bd2a1fb11a18c2b3fa2b3aac1834,basketball_nba,2025-12-19T00:11:00Z,Indiana Pacers,New York Knicks,113,114,https://www.espn.com/nba/game/_/gameId/401810227/knicks-pacers
+6fd5c149ef554d9a2a30108f9937927c,basketball_nba,2025-12-19T01:12:00Z,San Antonio Spurs,Washington Wizards,119,94,https://www.espn.com/nba/game/_/gameId/401810225/wizards-spurs
+5a11d709921a7ea69f44ff8926649124,basketball_nba,2025-12-20T00:41:00Z,Cleveland Cavaliers,Chicago Bulls,125,136,https://www.espn.com/nba/game/_/gameId/401810239/bulls-cavaliers
+5a2571e0e849552421fe262e0d7a1525,basketball_nba,2025-12-20T00:11:00Z,Boston Celtics,Miami Heat,129,116,https://www.espn.com/nba/game/_/gameId/401810236/heat-celtics
+6461c2ab1b0d98ae1c7308e6423279fa,basketball_nba,2025-12-20T00:13:00Z,New York Knicks,Philadelphia 76ers,107,116,https://www.espn.com/nba/game/_/gameId/401810237/76ers-knicks
+9dc4b5098ecd66f37fb8120b8d7b658d,basketball_nba,2025-12-20T00:41:00Z,Atlanta Hawks,San Antonio Spurs,98,126,https://www.espn.com/nba/game/_/gameId/401810238/spurs-hawks
+0debd2b337fd9efac1d39123e66f74d0,basketball_nba,2025-12-20T02:45:00Z,Minnesota Timberwolves,Oklahoma City Thunder,112,107,https://www.espn.com/nba/game/_/gameId/401810240/thunder-timberwolves
+1facc6e030396d99f68b42ceacf86ada,basketball_nba,2025-12-20T22:11:00Z,Denver Nuggets,Houston Rockets,101,115,https://www.espn.com/nba/game/_/gameId/401810241/rockets-nuggets
+666b9bc21f9a5d645dea85f16cfbc5b0,basketball_nba,2025-12-21T00:10:00Z,New Orleans Pelicans,Indiana Pacers,128,109,https://www.espn.com/nba/game/_/gameId/401810244/pacers-pelicans
+58704c99dbeddbc39953bf87ce086ce9,basketball_nba,2025-12-21T01:41:00Z,Golden State Warriors,Phoenix Suns,119,116,https://www.espn.com/nba/game/_/gameId/401810247/suns-warriors
+751ae6f00a85c7080e95f73ed46acf4d,basketball_nba,2025-12-21T00:42:00Z,Detroit Pistons,Charlotte Hornets,112,86,https://www.espn.com/nba/game/_/gameId/401810245/hornets-pistons
+d664cfe15b420c801c03e6c1186a12a0,basketball_nba,2025-12-21T03:12:00Z,Sacramento Kings,Portland Trail Blazers,93,98,https://www.espn.com/nba/game/_/gameId/401810249/trail-blazers-kings
+4aac5cca01b9e0b4804f8754a57ff080,basketball_nba,2025-12-21T03:40:00Z,Los Angeles Clippers,Los Angeles Lakers,103,88,https://www.espn.com/nba/game/_/gameId/401810250/lakers-clippers
+843dd6e8046c96f00161330ba41f9351,basketball_nba,2025-12-21T00:12:36Z,Toronto Raptors,Boston Celtics,96,112,https://www.espn.com/nba/game/_/gameId/401810243/celtics-raptors
+2836ce6179d85c0752ed6e9c4603affa,basketball_nba,2025-12-21T00:12:00Z,Philadelphia 76ers,Dallas Mavericks,121,114,https://www.espn.com/nba/game/_/gameId/401810242/mavericks-76ers
+00483daf4c80ac131810a9d835477e11,basketball_nba,2025-12-21T01:11:00Z,Memphis Grizzlies,Washington Wizards,122,130,https://www.espn.com/nba/game/_/gameId/401810246/wizards-grizzlies
+42fcbf2cfe144c3ee52a77bfe42747cd,basketball_nba,2025-12-21T02:41:00Z,Utah Jazz,Orlando Magic,127,128,https://www.espn.com/nba/game/_/gameId/401810248/magic-jazz
+9fa62a430b5fc2df2af99523c36c201c,basketball_nba,2025-12-21T20:41:00Z,Atlanta Hawks,Chicago Bulls,150,152,https://www.espn.com/nba/game/_/gameId/401810251/bulls-hawks
+3e52c319a576ac5e8f500c83994ab307,basketball_nba,2025-12-21T23:11:00Z,New York Knicks,Miami Heat,132,125,https://www.espn.com/nba/game/_/gameId/401810253/heat-knicks
+1f2a0a04a8757ee59990da7c3f455231,basketball_nba,2025-12-22T00:11:00Z,Minnesota Timberwolves,Milwaukee Bucks,103,100,https://www.espn.com/nba/game/_/gameId/401810255/bucks-timberwolves
+ff7964f4c86f473756171eade6735f5c,basketball_nba,2025-12-21T23:12:00Z,Brooklyn Nets,Toronto Raptors,96,81,https://www.espn.com/nba/game/_/gameId/401810252/raptors-nets
+aef0c26b3670edaf7fb230056fb4adc7,basketball_nba,2025-12-22T00:11:00Z,Washington Wizards,San Antonio Spurs,113,124,https://www.espn.com/nba/game/_/gameId/401810254/spurs-wizards
+8719cad3aae5d2048ba5cfe820fbf698,basketball_nba,2025-12-22T03:10:00Z,Sacramento Kings,Houston Rockets,125,124,https://www.espn.com/nba/game/_/gameId/401810256/rockets-kings
+f557c9173a46a3c7c87afb4bd68f6644,basketball_nba,2025-12-25T17:08:06Z,New York Knicks,Cleveland Cavaliers,126,124,https://www.espn.com/nba/game/_/gameId/401809238/cavaliers-knicks
+4ca0a40cec306fd9a3c9b36b1e76500e,basketball_nba,2025-12-25T19:44:44Z,Oklahoma City Thunder,San Antonio Spurs,102,117,https://www.espn.com/nba/game/_/gameId/401809239/spurs-thunder
+9010f7d8f26d5880c63b67355800f997,basketball_nba,2025-12-25T22:17:54Z,Golden State Warriors,Dallas Mavericks,126,116,https://www.espn.com/nba/game/_/gameId/401809240/mavericks-warriors
+d54afb5b752a199f93e39afc2b39d091,basketball_nba,2025-12-26T01:12:56Z,Los Angeles Lakers,Houston Rockets,96,119,https://www.espn.com/nba/game/_/gameId/401809241/rockets-lakers
+6b9d46fb1b22af30b771b5f6b8a4c6f8,basketball_nba,2025-12-26T03:43:24Z,Denver Nuggets,Minnesota Timberwolves,142,138,https://www.espn.com/nba/game/_/gameId/401809242/timberwolves-nuggets
+4748a28fab48f8c9a17c947771fd53f5,basketball_nba,2025-12-23T00:13:14Z,Cleveland Cavaliers,Charlotte Hornets,139,132,https://www.espn.com/nba/game/_/gameId/401810257/hornets-cavaliers
+810ac6d569078de0087ad1d714771a6a,basketball_nba,2025-12-23T00:41:15Z,Boston Celtics,Indiana Pacers,103,95,https://www.espn.com/nba/game/_/gameId/401810258/pacers-celtics
+1c1113912a8210cba841d63b5df059fe,basketball_nba,2025-12-23T01:10:35Z,New Orleans Pelicans,Dallas Mavericks,119,113,https://www.espn.com/nba/game/_/gameId/401810259/mavericks-pelicans
+0b90d514df504b11dc74b7e961b9e277,basketball_nba,2025-12-23T02:42:56Z,Oklahoma City Thunder,Memphis Grizzlies,119,103,https://www.espn.com/nba/game/_/gameId/401810261/grizzlies-thunder
+51fa4ffc93b967c919ecd4700bb36ba1,basketball_nba,2025-12-23T03:11:49Z,Portland Trail Blazers,Detroit Pistons,102,110,https://www.espn.com/nba/game/_/gameId/401810263/pistons-trail-blazers
+3681cef1ff8c7de872f8f52134b3d101,basketball_nba,2025-12-23T03:10:39Z,Golden State Warriors,Orlando Magic,120,97,https://www.espn.com/nba/game/_/gameId/401810262/magic-warriors
+2d23d2b9708959b7c5860abd491ebf81,basketball_nba,2025-12-23T02:11:42Z,Denver Nuggets,Utah Jazz,135,112,https://www.espn.com/nba/game/_/gameId/401810260/jazz-nuggets
+0ef5c86038bdf564d65c6c1acd964641,basketball_nba,2025-12-24T01:41:00Z,San Antonio Spurs,Oklahoma City Thunder,130,110,https://www.espn.com/nba/game/_/gameId/401810272/thunder-spurs
+7f3e47eb90701b1603802828cc5ea7a5,basketball_nba,2025-12-24T00:12:00Z,Philadelphia 76ers,Brooklyn Nets,106,114,https://www.espn.com/nba/game/_/gameId/401810265/nets-76ers
+7168d093c56bdbab627c94322573edb0,basketball_nba,2025-12-24T00:41:00Z,Atlanta Hawks,Chicago Bulls,123,126,https://www.espn.com/nba/game/_/gameId/401810266/bulls-hawks
+fb3afec527051a7bd35ebc862bca8467,basketball_nba,2025-12-24T00:41:00Z,Indiana Pacers,Milwaukee Bucks,94,111,https://www.espn.com/nba/game/_/gameId/401810268/bucks-pacers
+6d9aa23880ce3e5bdf540bda52e89fdc,basketball_nba,2025-12-24T00:45:00Z,Miami Heat,Toronto Raptors,91,112,https://www.espn.com/nba/game/_/gameId/401810269/raptors-heat
+e71e83a0ab574fe87af5567ae09c0fdb,basketball_nba,2025-12-24T01:11:00Z,Minnesota Timberwolves,New York Knicks,115,104,https://www.espn.com/nba/game/_/gameId/401810271/knicks-timberwolves
+dbc7af91324284c433f0152b91bd9abb,basketball_nba,2025-12-24T02:11:00Z,Phoenix Suns,Los Angeles Lakers,132,108,https://www.espn.com/nba/game/_/gameId/401810273/lakers-suns
+01c88e9888ab9344ed32a62b225d1599,basketball_nba,2025-12-24T03:12:00Z,Sacramento Kings,Detroit Pistons,127,136,https://www.espn.com/nba/game/_/gameId/401810276/pistons-kings
+e6de2100b01d094ccb20332bec9bd42a,basketball_nba,2025-12-24T03:12:00Z,Portland Trail Blazers,Orlando Magic,106,110,https://www.espn.com/nba/game/_/gameId/401810275/magic-trail-blazers
+aedd66eec65402eb926bb64dbbdb4634,basketball_nba,2025-12-24T03:42:00Z,Los Angeles Clippers,Houston Rockets,128,108,https://www.espn.com/nba/game/_/gameId/401810277/rockets-clippers
+27f523bb13b709279a0c31dbfa2e2006,basketball_nba,2025-12-24T00:11:00Z,Charlotte Hornets,Washington Wizards,126,109,https://www.espn.com/nba/game/_/gameId/401810264/wizards-hornets
+c6fd86b688bb64f5b7bdd108ac071a48,basketball_nba,2025-12-24T00:42:00Z,Cleveland Cavaliers,New Orleans Pelicans,141,118,https://www.espn.com/nba/game/_/gameId/401810267/pelicans-cavaliers
+e62dfd044e3b8f8719ab7bca8b7b389c,basketball_nba,2025-12-24T01:11:00Z,Dallas Mavericks,Denver Nuggets,131,130,https://www.espn.com/nba/game/_/gameId/401810270/nuggets-mavericks
+433a5462c6dbbed3ccc5d623dd68b61d,basketball_nba,2025-12-24T02:12:00Z,Utah Jazz,Memphis Grizzlies,128,137,https://www.espn.com/nba/game/_/gameId/401810274/grizzlies-jazz
+c8523141aaa4ff1f5221721713a92dca,basketball_nba,2025-12-27T00:11:00Z,Atlanta Hawks,Miami Heat,111,126,https://www.espn.com/nba/game/_/gameId/401810278/heat-hawks
+c4c6703488303b6b8ee37437a8910548,basketball_nba,2025-12-27T00:12:00Z,Orlando Magic,Charlotte Hornets,105,120,https://www.espn.com/nba/game/_/gameId/401810279/hornets-magic
+2452dd9a484d893bca40a2059218e2e3,basketball_nba,2025-12-27T00:10:00Z,Washington Wizards,Toronto Raptors,138,117,https://www.espn.com/nba/game/_/gameId/401810280/raptors-wizards
+9cafdf413bd8f5b8971a72a3e7452df6,basketball_nba,2025-12-27T00:10:00Z,Indiana Pacers,Boston Celtics,122,140,https://www.espn.com/nba/game/_/gameId/401810281/celtics-pacers
+42968c17840b14e2b40f2f6274d22367,basketball_nba,2025-12-27T00:42:00Z,Chicago Bulls,Philadelphia 76ers,109,102,https://www.espn.com/nba/game/_/gameId/401810282/76ers-bulls
+5e1430770a9b7fe84382e690d0a936c3,basketball_nba,2025-12-27T01:10:41Z,New Orleans Pelicans,Phoenix Suns,108,115,https://www.espn.com/nba/game/_/gameId/401810284/suns-pelicans
+5b9deb3a7a25c3efea6e5baf9123366f,basketball_nba,2025-12-27T01:11:00Z,Memphis Grizzlies,Milwaukee Bucks,125,104,https://www.espn.com/nba/game/_/gameId/401810283/bucks-grizzlies
+19d20865216afacaaeba1cc609103741,basketball_nba,2025-12-27T02:41:00Z,Utah Jazz,Detroit Pistons,131,129,https://www.espn.com/nba/game/_/gameId/401810285/pistons-jazz
+d634cf294ef9b80b7fabb5ab9f52173d,basketball_nba,2025-12-27T03:14:00Z,Portland Trail Blazers,Los Angeles Clippers,103,119,https://www.espn.com/nba/game/_/gameId/401810286/clippers-trail-blazers
+610fd00419ecae5d7b13dd903de25cbe,basketball_nba,2025-12-27T22:12:00Z,Sacramento Kings,Dallas Mavericks,113,107,https://www.espn.com/nba/game/_/gameId/401810287/mavericks-kings
+6dad04e30835da7a486dc973ef4ea667,basketball_nba,2025-12-28T01:12:00Z,Houston Rockets,Cleveland Cavaliers,117,100,https://www.espn.com/nba/game/_/gameId/401810293/cavaliers-rockets
+c24173f63b65a07191959a05eef00aad,basketball_nba,2025-12-28T00:11:00Z,Orlando Magic,Denver Nuggets,127,126,https://www.espn.com/nba/game/_/gameId/401810288/nuggets-magic
+781a4b595d7dce2589c2d20ad3f93222,basketball_nba,2025-12-28T01:10:00Z,Atlanta Hawks,New York Knicks,125,128,https://www.espn.com/nba/game/_/gameId/401810290/knicks-hawks
+6e8faa07f534f883f8220102afedc201,basketball_nba,2025-12-28T01:10:00Z,Minnesota Timberwolves,Brooklyn Nets,107,123,https://www.espn.com/nba/game/_/gameId/401810294/nets-timberwolves
+e9bd179429d4c3321c19a8b2b11a0e3e,basketball_nba,2025-12-28T01:11:00Z,San Antonio Spurs,Utah Jazz,114,127,https://www.espn.com/nba/game/_/gameId/401810295/jazz-spurs
+18b40fafdb66c2d3d1b5ae5bd910a1a3,basketball_nba,2025-12-28T01:10:00Z,Chicago Bulls,Milwaukee Bucks,103,112,https://www.espn.com/nba/game/_/gameId/401810292/bucks-bulls
+4060c9a5793867b41fa1d9376502cbd5,basketball_nba,2025-12-28T01:13:00Z,Miami Heat,Indiana Pacers,142,116,https://www.espn.com/nba/game/_/gameId/401810291/pacers-heat
+8f14dde1ee9ee3f5703f21a48c187d74,basketball_nba,2025-12-28T00:11:00Z,New Orleans Pelicans,Phoenix Suns,114,123,https://www.espn.com/nba/game/_/gameId/401810289/suns-pelicans
+d8f2315d3e872709e62642ca705a0f0d,basketball_nba,2025-12-28T20:42:00Z,Toronto Raptors,Golden State Warriors,141,127,https://www.espn.com/nba/game/_/gameId/401810296/warriors-raptors
+85acdbb2f540114ab00c144da019d360,basketball_nba,2025-12-28T20:41:00Z,Oklahoma City Thunder,Philadelphia 76ers,129,104,https://www.espn.com/nba/game/_/gameId/401810297/76ers-thunder
+8dc9891348a0160cc12730e8cc27102e,basketball_nba,2025-12-28T23:11:00Z,Portland Trail Blazers,Boston Celtics,114,108,https://www.espn.com/nba/game/_/gameId/401810299/celtics-trail-blazers
+bec3a10efd1bdc48af2a9352c3c68f8d,basketball_nba,2025-12-28T23:11:00Z,Washington Wizards,Memphis Grizzlies,116,112,https://www.espn.com/nba/game/_/gameId/401810298/grizzlies-wizards
+81f37d4274076247e0a49787f852af4d,basketball_nba,2025-12-29T02:11:00Z,Los Angeles Clippers,Detroit Pistons,112,99,https://www.espn.com/nba/game/_/gameId/401810300/pistons-clippers
+acc8dfaa22df3823017412f5b8f16239,basketball_nba,2025-12-29T02:41:00Z,Los Angeles Lakers,Sacramento Kings,125,101,https://www.espn.com/nba/game/_/gameId/401810301/kings-lakers
+70a4be80a3d808e9d070d82b2de22d3c,basketball_nba,2025-12-30T01:11:00Z,San Antonio Spurs,Cleveland Cavaliers,101,113,https://www.espn.com/nba/game/_/gameId/401810311/cavaliers-spurs
+c4edff321b6dea385dfa13f14074bf27,basketball_nba,2025-12-30T01:11:00Z,New Orleans Pelicans,New York Knicks,125,130,https://www.espn.com/nba/game/_/gameId/401810309/knicks-pelicans
+708739c71140505bb47e54e7cce52061,basketball_nba,2025-12-30T00:41:00Z,Miami Heat,Denver Nuggets,147,123,https://www.espn.com/nba/game/_/gameId/401810305/nuggets-heat
+9c98594183bc94c088762bdb7ee2aa30,basketball_nba,2025-12-30T00:12:00Z,Charlotte Hornets,Milwaukee Bucks,113,123,https://www.espn.com/nba/game/_/gameId/401810302/bucks-hornets
+0a3548cd90d249d4fb24e57af400071e,basketball_nba,2025-12-30T01:11:00Z,Chicago Bulls,Minnesota Timberwolves,101,136,https://www.espn.com/nba/game/_/gameId/401810307/timberwolves-bulls
+b6e86789878da0c91f0278a29896ab8a,basketball_nba,2025-12-30T01:11:00Z,Houston Rockets,Indiana Pacers,126,119,https://www.espn.com/nba/game/_/gameId/401810308/pacers-rockets
+c606732d25fd3757fc55676f8b53d74a,basketball_nba,2025-12-30T00:10:00Z,Washington Wizards,Phoenix Suns,101,115,https://www.espn.com/nba/game/_/gameId/401810303/suns-wizards
+415c0edd2d29e3c45faea27f50e436b7,basketball_nba,2025-12-30T00:41:00Z,Brooklyn Nets,Golden State Warriors,107,120,https://www.espn.com/nba/game/_/gameId/401810304/warriors-nets
+4f2c935be086ffa25fd64dd8c312f5e8,basketball_nba,2025-12-30T00:41:00Z,Toronto Raptors,Orlando Magic,107,106,https://www.espn.com/nba/game/_/gameId/401810306/magic-raptors
+372dd5178459c9a88ce52d7f1ea3ff18,basketball_nba,2025-12-30T01:12:00Z,Oklahoma City Thunder,Atlanta Hawks,140,129,https://www.espn.com/nba/game/_/gameId/401810310/hawks-thunder
+afc40574e2fee874a032127e20c2dd0e,basketball_nba,2025-12-30T03:49:00Z,Portland Trail Blazers,Dallas Mavericks,125,122,https://www.espn.com/nba/game/_/gameId/401810312/mavericks-trail-blazers
+2645cf99b94b2d0cc4ecbfed1cf56bdf,basketball_nba,2025-12-31T01:10:00Z,Memphis Grizzlies,Philadelphia 76ers,136,139,https://www.espn.com/nba/game/_/gameId/401810313/76ers-grizzlies
+5748aa8ead4679a8d9afe966bc5e844b,basketball_nba,2025-12-31T02:10:00Z,Utah Jazz,Boston Celtics,119,129,https://www.espn.com/nba/game/_/gameId/401810314/celtics-jazz
+12a69f98068c9e1b277528c3f7dfed72,basketball_nba,2025-12-31T03:40:00Z,Los Angeles Lakers,Detroit Pistons,106,128,https://www.espn.com/nba/game/_/gameId/401810315/pistons-lakers
+80726b18a644735592fda8cea0575612,basketball_nba,2025-12-31T04:10:00Z,Los Angeles Clippers,Sacramento Kings,131,90,https://www.espn.com/nba/game/_/gameId/401810316/kings-clippers
+da1f30e39aa879eeca4dcc42cde3cfbe,basketball_nba,2026-01-01T00:10:00Z,San Antonio Spurs,New York Knicks,,,https://www.espn.com/nba/game/_/gameId/401810322/knicks-spurs
+a8689888bf88aea46eb8e5e4816e0a8b,basketball_nba,2025-12-31T20:10:00Z,Atlanta Hawks,Minnesota Timberwolves,,,https://www.espn.com/nba/game/_/gameId/401810318/timberwolves-hawks
+2c79a786a51636721f6f09b683b6e428,basketball_nba,2025-12-31T20:10:00Z,Indiana Pacers,Orlando Magic,,,https://www.espn.com/nba/game/_/gameId/401810319/magic-pacers
+aef966e3de9dde21d6030e301e8e59b3,basketball_nba,2025-12-31T20:40:00Z,Cleveland Cavaliers,Phoenix Suns,,,https://www.espn.com/nba/game/_/gameId/401810320/suns-cavaliers
+0184f02a7b94ad505a0985b385457eae,icehockey_nhl,2025-12-17T00:08:52Z,Columbus Blue Jackets,Anaheim Ducks,,,
+1d9bfb46ff0a22df6da52248b6dca054,icehockey_nhl,2025-12-17T00:09:23Z,Boston Bruins,Utah Mammoth,,,
+4f9bcbd1971ef81e1b7c5f554a482fd8,icehockey_nhl,2025-12-17T00:16:36Z,Toronto Maple Leafs,Chicago Blackhawks,,,
+e9bf260b20a89f83070adf557cda3b89,icehockey_nhl,2025-12-17T00:08:46Z,Detroit Red Wings,New York Islanders,,,
+11b78b1c56525db1d6ed53621385514b,icehockey_nhl,2025-12-17T00:08:24Z,Montréal Canadiens,Philadelphia Flyers,,,
+d0b40bbcdb359bf15880f45ca829131b,icehockey_nhl,2025-12-17T00:08:19Z,New York Rangers,Vancouver Canucks,,,
+835879ed2c02c208fabab64ffcd76110,icehockey_nhl,2025-12-17T00:37:15Z,Pittsburgh Penguins,Edmonton Oilers,,,
+fee39d90212c80a2aa43cadee0346e07,icehockey_nhl,2025-12-17T01:09:20Z,Minnesota Wild,Washington Capitals,,,
+59d5bc8288bdcfa050b77ef76d89afcb,icehockey_nhl,2025-12-17T03:09:13Z,San Jose Sharks,Calgary Flames,,,
+5cb5d42ac11c270386e34bd69d66d3a1,icehockey_nhl,2025-12-17T03:22:20Z,Seattle Kraken,Colorado Avalanche,,,
+b32681a645193226aa78e32a80d782dd,icehockey_nhl,2025-12-18T00:09:19Z,Florida Panthers,Los Angeles Kings,3,2,https://www.espn.com/nhl/game/_/gameId/401802880/kings-panthers
+5ba327a174863a724ce8dade2ffd10d3,icehockey_nhl,2025-12-18T00:37:49Z,Detroit Red Wings,Utah Mammoth,1,4,https://www.espn.com/nhl/game/_/gameId/401802881/mammoth-red-wings
+1f777fc1203b4bc00c54fc6b816030a1,icehockey_nhl,2025-12-18T01:08:53Z,Nashville Predators,Carolina Hurricanes,1,4,https://www.espn.com/nhl/game/_/gameId/401802883/hurricanes-predators
+3b8f1cb6275a2a64b2309a4754c99a0f,icehockey_nhl,2025-12-18T01:12:14Z,St Louis Blues,Winnipeg Jets,1,0,https://www.espn.com/nhl/game/_/gameId/401802882/jets-blues
+977e2d27188bf727b2d515b50e47eb51,icehockey_nhl,2025-12-18T03:22:31Z,Vegas Golden Knights,New Jersey Devils,1,2,https://www.espn.com/nhl/game/_/gameId/401802884/devils-golden-knights
+12a55323355dc9b4aae29c08f12f02ce,icehockey_nhl,2025-12-19T00:08:42Z,Boston Bruins,Edmonton Oilers,1,3,https://www.espn.com/nhl/game/_/gameId/401802885/oilers-bruins
+481c74846183794202927ae08fe77891,icehockey_nhl,2025-12-19T00:08:26Z,Montréal Canadiens,Chicago Blackhawks,,,
+22cb3b1ea9f99044190acb7af690468f,icehockey_nhl,2025-12-19T00:12:27Z,Columbus Blue Jackets,Minnesota Wild,2,5,https://www.espn.com/nhl/game/_/gameId/401802891/wild-blue-jackets
+bca0b813e00f716ed89ee844a2e14949,icehockey_nhl,2025-12-19T00:13:49Z,Tampa Bay Lightning,Los Angeles Kings,1,2,https://www.espn.com/nhl/game/_/gameId/401802889/kings-lightning
+dfd01fc3028ef09cdfa99fc4701591bc,icehockey_nhl,2025-12-19T00:10:32Z,Ottawa Senators,Pittsburgh Penguins,4,0,https://www.espn.com/nhl/game/_/gameId/401802888/penguins-senators
+3f20645dc575ec41caa90fc24617818f,icehockey_nhl,2025-12-19T00:10:02Z,Washington Capitals,Toronto Maple Leafs,4,0,https://www.espn.com/nhl/game/_/gameId/401802890/maple-leafs-capitals
+5550bf78ae37647b1bf430ab3af463ed,icehockey_nhl,2025-12-19T00:38:26Z,Buffalo Sabres,Philadelphia Flyers,5,3,https://www.espn.com/nhl/game/_/gameId/401802886/flyers-sabres
+a2689ed3e13096b268747cb9f04c3a41,icehockey_nhl,2025-12-19T01:08:33Z,St Louis Blues,New York Rangers,1,2,https://www.espn.com/nhl/game/_/gameId/401802892/rangers-blues
+7b87c21033184d283884416e9f648ae4,icehockey_nhl,2025-12-19T02:08:48Z,Calgary Flames,Seattle Kraken,4,2,https://www.espn.com/nhl/game/_/gameId/401802893/kraken-flames
+3b4dae2540548c9ed214ba0a11cf9051,icehockey_nhl,2025-12-19T03:10:19Z,San Jose Sharks,Dallas Stars,3,5,https://www.espn.com/nhl/game/_/gameId/401802894/stars-sharks
+76ac8ed2df011c6f00851ef459f9c046,icehockey_nhl,2025-12-20T00:08:00Z,Florida Panthers,Carolina Hurricanes,4,3,https://www.espn.com/nhl/game/_/gameId/401802895/hurricanes-panthers
+0df8989ee4ece4a1660d977ce80861d3,icehockey_nhl,2025-12-20T00:08:00Z,New York Islanders,Vancouver Canucks,1,4,https://www.espn.com/nhl/game/_/gameId/401802896/canucks-islanders
+6a5f4f43603fc2db3f24a6f34b969c36,icehockey_nhl,2025-12-20T02:10:00Z,Colorado Avalanche,Winnipeg Jets,3,2,https://www.espn.com/nhl/game/_/gameId/401802897/jets-avalanche
+aa0e9d3e37b8058fce0aa5913f869ff8,icehockey_nhl,2025-12-20T02:08:34Z,Utah Mammoth,New Jersey Devils,1,2,https://www.espn.com/nhl/game/_/gameId/401802898/devils-mammoth
+6dcbb1462eef0484928c1d0c6536cee9,icehockey_nhl,2025-12-20T03:13:08Z,Anaheim Ducks,Dallas Stars,3,8,https://www.espn.com/nhl/game/_/gameId/401802899/stars-ducks
+c0c58568e73091a405fc1a7614654186,icehockey_nhl,2025-12-20T17:38:34Z,Washington Capitals,Detroit Red Wings,2,5,https://www.espn.com/nhl/game/_/gameId/401802901/red-wings-capitals
+a2ee9cd7fa5d28cebb23a997b6c472fb,icehockey_nhl,2025-12-20T17:38:30Z,New York Rangers,Philadelphia Flyers,5,4,https://www.espn.com/nhl/game/_/gameId/401802900/flyers-rangers
+6826bf6f6031a983c4c49cc53dcee13c,icehockey_nhl,2025-12-20T20:08:54Z,Ottawa Senators,Chicago Blackhawks,6,4,https://www.espn.com/nhl/game/_/gameId/401802902/blackhawks-senators
+0159668566b7810a00a53c6f5295d893,icehockey_nhl,2025-12-20T20:09:00Z,Minnesota Wild,Edmonton Oilers,5,2,https://www.espn.com/nhl/game/_/gameId/401802903/oilers-wild
+34ec071b2bb687afdace5c07db03d890,icehockey_nhl,2025-12-20T22:08:28Z,Buffalo Sabres,New York Islanders,3,2,https://www.espn.com/nhl/game/_/gameId/401802904/islanders-sabres
+5357dff4603ad53eadab63b8be0acbe6,icehockey_nhl,2025-12-20T23:08:48Z,Florida Panthers,St Louis Blues,2,6,https://www.espn.com/nhl/game/_/gameId/401802905/blues-panthers
+1b0448c206b7d4429320857adb268001,icehockey_nhl,2025-12-21T00:15:17Z,Boston Bruins,Vancouver Canucks,4,5,https://www.espn.com/nhl/game/_/gameId/401802906/canucks-bruins
+f130a0628194ca1995d0946b6e1aeade,icehockey_nhl,2025-12-21T00:09:04Z,Tampa Bay Lightning,Carolina Hurricanes,6,4,https://www.espn.com/nhl/game/_/gameId/401802908/hurricanes-lightning
+b10670b7b119b338d9322f6ce215913a,icehockey_nhl,2025-12-21T00:15:24Z,Montréal Canadiens,Pittsburgh Penguins,,,
+57f602897d7c172a3f5dd3b8e18ef261,icehockey_nhl,2025-12-21T00:17:02Z,Nashville Predators,Toronto Maple Leafs,5,3,https://www.espn.com/nhl/game/_/gameId/401802909/maple-leafs-predators
+dbf121ff4c51037e63d0bf6dcb0e3ea5,icehockey_nhl,2025-12-21T03:08:25Z,Anaheim Ducks,Columbus Blue Jackets,4,3,https://www.espn.com/nhl/game/_/gameId/401802911/blue-jackets-ducks
+a7537cad6a1c7c74425380ab020c705f,icehockey_nhl,2025-12-21T03:10:21Z,Calgary Flames,Vegas Golden Knights,6,3,https://www.espn.com/nhl/game/_/gameId/401802910/golden-knights-flames
+0cb0cc705caaef84a1be64c56c89c3f9,icehockey_nhl,2025-12-21T03:10:23Z,San Jose Sharks,Seattle Kraken,2,4,https://www.espn.com/nhl/game/_/gameId/401802912/kraken-sharks
+c6b2ee3a1c69b08464c9b8262897874b,icehockey_nhl,2025-12-21T18:15:55Z,Detroit Red Wings,Washington Capitals,3,2,https://www.espn.com/nhl/game/_/gameId/401802913/capitals-red-wings
+1e60ef01632cd49fdaf2a19d16a3ffa3,icehockey_nhl,2025-12-21T23:12:23Z,Minnesota Wild,Colorado Avalanche,1,5,https://www.espn.com/nhl/game/_/gameId/401802914/avalanche-wild
+5aa6ecbd97cfbce0e36716776b44d8b7,icehockey_nhl,2025-12-22T00:08:07Z,Boston Bruins,Ottawa Senators,2,6,https://www.espn.com/nhl/game/_/gameId/401802915/senators-bruins
+38264988b922ce4df575776b6a727e9f,icehockey_nhl,2025-12-22T00:08:23Z,New Jersey Devils,Buffalo Sabres,1,3,https://www.espn.com/nhl/game/_/gameId/401802916/sabres-devils
+a7a1f268e4e96e90544666046c1cb59a,icehockey_nhl,2025-12-22T00:10:13Z,Dallas Stars,Toronto Maple Leafs,5,1,https://www.espn.com/nhl/game/_/gameId/401802919/maple-leafs-stars
+3ed7bb3c6bb5a1fdd95c0e5e5cce3a16,icehockey_nhl,2025-12-22T00:08:11Z,Pittsburgh Penguins,Montréal Canadiens,,,
+039404565e6d31e200aa3c58877e1ae6,icehockey_nhl,2025-12-22T00:09:29Z,Nashville Predators,New York Rangers,2,1,https://www.espn.com/nhl/game/_/gameId/401802918/rangers-predators
+31c6e2b3c2317bd1a154f184a8f38feb,icehockey_nhl,2025-12-22T00:08:23Z,Utah Mammoth,Winnipeg Jets,4,3,https://www.espn.com/nhl/game/_/gameId/401802920/jets-mammoth
+24e1e34bcdac8008d918a19f11594728,icehockey_nhl,2025-12-22T01:08:21Z,Edmonton Oilers,Vegas Golden Knights,4,3,https://www.espn.com/nhl/game/_/gameId/401802921/golden-knights-oilers
+20f66dee543a77d9758d02cfd4e58acb,icehockey_nhl,2025-12-23T00:08:58Z,Tampa Bay Lightning,St Louis Blues,4,1,https://www.espn.com/nhl/game/_/gameId/401802922/blues-lightning
+1050cfddbf5f214dd0ebb29b153d8149,icehockey_nhl,2025-12-23T00:45:52Z,Philadelphia Flyers,Vancouver Canucks,5,2,https://www.espn.com/nhl/game/_/gameId/401802923/canucks-flyers
+8e1c1e602dd19af1c7a819decb252b68,icehockey_nhl,2025-12-23T03:08:33Z,Anaheim Ducks,Seattle Kraken,1,3,https://www.espn.com/nhl/game/_/gameId/401802924/kraken-ducks
+4f0be3d4658ff7ad2ebd5d86e98b771d,icehockey_nhl,2025-12-23T03:08:48Z,Los Angeles Kings,Columbus Blue Jackets,1,3,https://www.espn.com/nhl/game/_/gameId/401802925/blue-jackets-kings
+8ce07bdd78a18c38abd68a5f3fe9203a,icehockey_nhl,2025-12-23T21:07:00Z,Toronto Maple Leafs,Pittsburgh Penguins,6,3,https://www.espn.com/nhl/game/_/gameId/401802926/penguins-maple-leafs
+fada7b7a3e678823c9029b1aff4be123,icehockey_nhl,2025-12-23T23:47:00Z,Detroit Red Wings,Dallas Stars,4,3,https://www.espn.com/nhl/game/_/gameId/401802930/stars-red-wings
+20650ff44cda96830e1cb32844b4ca14,icehockey_nhl,2025-12-24T00:08:00Z,Boston Bruins,Montréal Canadiens,,,
+33eb821fa46d7f78fe0b97f79c5e94f0,icehockey_nhl,2025-12-24T00:08:00Z,Ottawa Senators,Buffalo Sabres,2,3,https://www.espn.com/nhl/game/_/gameId/401802929/sabres-senators
+703aa01a21f073996f124ed952a47e9f,icehockey_nhl,2025-12-24T00:08:00Z,Carolina Hurricanes,Florida Panthers,2,5,https://www.espn.com/nhl/game/_/gameId/401802932/panthers-hurricanes
+03aff6a2aab8df5a916198b0ac9a5c71,icehockey_nhl,2025-12-24T00:08:00Z,New York Islanders,New Jersey Devils,2,1,https://www.espn.com/nhl/game/_/gameId/401802931/devils-islanders
+0a32000cdd3a28adefa8d3ae8c518847,icehockey_nhl,2025-12-24T00:08:00Z,Washington Capitals,New York Rangers,3,7,https://www.espn.com/nhl/game/_/gameId/401802927/rangers-capitals
+e2c292b532c3ad456939f4fcd0b23bfc,icehockey_nhl,2025-12-24T01:09:36Z,Minnesota Wild,Nashville Predators,2,3,https://www.espn.com/nhl/game/_/gameId/401802933/predators-wild
+5ccd9cbfca2e707ab343e55af0dccb8a,icehockey_nhl,2025-12-24T02:08:32Z,Edmonton Oilers,Calgary Flames,5,1,https://www.espn.com/nhl/game/_/gameId/401802936/flames-oilers
+2a59eab438edac110d5717a728bfb1d5,icehockey_nhl,2025-12-24T02:26:07Z,Chicago Blackhawks,Philadelphia Flyers,1,3,https://www.espn.com/nhl/game/_/gameId/401802934/flyers-blackhawks
+fed1b69afdb3ae2372d0d960028da610,icehockey_nhl,2025-12-24T02:09:57Z,Colorado Avalanche,Utah Mammoth,1,0,https://www.espn.com/nhl/game/_/gameId/401802935/mammoth-avalanche
+4c4565dff6298c0a63737d6d06135f30,icehockey_nhl,2025-12-24T03:08:53Z,Los Angeles Kings,Seattle Kraken,2,3,https://www.espn.com/nhl/game/_/gameId/401802938/kraken-kings
+5c47499dae676799b91bd0aa1f3f3080,icehockey_nhl,2025-12-24T03:08:32Z,Vegas Golden Knights,San Jose Sharks,7,2,https://www.espn.com/nhl/game/_/gameId/401802937/sharks-golden-knights
+c879e04a4e0908e4b522759ff86d391f,icehockey_nhl,2025-12-27T23:10:00Z,New York Islanders,New York Rangers,2,0,https://www.espn.com/nhl/game/_/gameId/401802939/rangers-islanders
+57a82963f8df12f11b2b39ea10785e8c,icehockey_nhl,2025-12-28T00:08:00Z,Buffalo Sabres,Boston Bruins,4,1,https://www.espn.com/nhl/game/_/gameId/401802940/bruins-sabres
+672939884c16f6c6fae2cb9085f0080f,icehockey_nhl,2025-12-28T00:08:00Z,Carolina Hurricanes,Detroit Red Wings,5,2,https://www.espn.com/nhl/game/_/gameId/401802944/red-wings-hurricanes
+9b3be72c05fadea6cec8bd6fa074b53b,icehockey_nhl,2025-12-28T00:09:00Z,Florida Panthers,Tampa Bay Lightning,2,4,https://www.espn.com/nhl/game/_/gameId/401802942/lightning-panthers
+dd35a23211f922955ef1d49873f26bed,icehockey_nhl,2025-12-28T00:16:00Z,Winnipeg Jets,Minnesota Wild,3,4,https://www.espn.com/nhl/game/_/gameId/401802945/wild-jets
+db1b91270c006d5fd99bd5c2256c8fe3,icehockey_nhl,2025-12-28T00:08:00Z,New Jersey Devils,Washington Capitals,3,4,https://www.espn.com/nhl/game/_/gameId/401802943/capitals-devils
+8eb8ff0355d871fe8cfc8b010c287f34,icehockey_nhl,2025-12-28T00:15:00Z,Toronto Maple Leafs,Ottawa Senators,7,5,https://www.espn.com/nhl/game/_/gameId/401802941/senators-maple-leafs
+3fadc9ee3c0ce5e570f352fcb7e0e453,icehockey_nhl,2025-12-28T01:10:00Z,Dallas Stars,Chicago Blackhawks,3,4,https://www.espn.com/nhl/game/_/gameId/401802947/blackhawks-stars
+507731bcfc7784820c49b65e90be0b8b,icehockey_nhl,2025-12-28T01:08:00Z,St Louis Blues,Nashville Predators,3,2,https://www.espn.com/nhl/game/_/gameId/401802946/predators-blues
+bc64b01a8dac45b5941acd9ae8cc3ce9,icehockey_nhl,2025-12-28T02:08:00Z,Los Angeles Kings,Anaheim Ducks,6,1,https://www.espn.com/nhl/game/_/gameId/401802948/ducks-kings
+996b29f578e963fccb6ae76df0ce4c18,icehockey_nhl,2025-12-28T03:10:00Z,Calgary Flames,Edmonton Oilers,3,2,https://www.espn.com/nhl/game/_/gameId/401802949/oilers-flames
+0fe4c3c7f4f1d2ad537081b404becefc,icehockey_nhl,2025-12-28T03:08:00Z,Vegas Golden Knights,Colorado Avalanche,5,6,https://www.espn.com/nhl/game/_/gameId/401802951/avalanche-golden-knights
+858c71ca4b63a288127569604a9d9d61,icehockey_nhl,2025-12-28T03:10:00Z,Vancouver Canucks,San Jose Sharks,3,6,https://www.espn.com/nhl/game/_/gameId/401802950/sharks-canucks
+e0c307de22d0deeae9aca169b7aa6a44,icehockey_nhl,2025-12-28T22:08:49Z,Columbus Blue Jackets,New York Islanders,4,2,https://www.espn.com/nhl/game/_/gameId/401802954/islanders-blue-jackets
+3c31d3f0d05c9c24b57748f8aaa37eb4,icehockey_nhl,2025-12-28T22:09:10Z,Tampa Bay Lightning,Montréal Canadiens,,,
+8a76004bceb721683fbbcf5d6ad6d2f0,icehockey_nhl,2025-12-29T00:08:52Z,Chicago Blackhawks,Pittsburgh Penguins,3,7,https://www.espn.com/nhl/game/_/gameId/401802955/penguins-blackhawks
+ae239f683318899929868b500782a9f5,icehockey_nhl,2025-12-29T00:10:16Z,Detroit Red Wings,Toronto Maple Leafs,3,2,https://www.espn.com/nhl/game/_/gameId/401802952/maple-leafs-red-wings
+d60fd927be79ac4cbaf86f24694a0626,icehockey_nhl,2025-12-29T01:10:07Z,Seattle Kraken,Philadelphia Flyers,4,1,https://www.espn.com/nhl/game/_/gameId/401802956/flyers-kraken
+edc4870ca33699ee7ed6617f77e643c2,icehockey_nhl,2025-12-30T00:08:39Z,Carolina Hurricanes,New York Rangers,3,2,https://www.espn.com/nhl/game/_/gameId/401802959/rangers-hurricanes
+28b9d46c53618f14245f2ca81e111fd1,icehockey_nhl,2025-12-30T00:38:26Z,Ottawa Senators,Columbus Blue Jackets,1,4,https://www.espn.com/nhl/game/_/gameId/401802957/blue-jackets-senators
+283feaae9f7a1743724ef59d7ab90542,icehockey_nhl,2025-12-30T00:08:37Z,Florida Panthers,Washington Capitals,5,3,https://www.espn.com/nhl/game/_/gameId/401802958/capitals-panthers
+d8365e1e20a61cf30d8908c3dd504fed,icehockey_nhl,2025-12-30T00:45:43Z,Winnipeg Jets,Edmonton Oilers,1,3,https://www.espn.com/nhl/game/_/gameId/401802960/oilers-jets
+9a0af1ac660ca97e92b3555f29e94f1f,icehockey_nhl,2025-12-30T01:08:50Z,St Louis Blues,Buffalo Sabres,2,4,https://www.espn.com/nhl/game/_/gameId/401802961/sabres-blues
+9498b87ad731fe8fc7cc3c5f7b39fae5,icehockey_nhl,2025-12-30T02:09:20Z,Calgary Flames,Boston Bruins,2,1,https://www.espn.com/nhl/game/_/gameId/401802964/bruins-flames
+e4e232c48a2bedf6ae81675b2427ddb3,icehockey_nhl,2025-12-30T02:09:03Z,Colorado Avalanche,Los Angeles Kings,5,2,https://www.espn.com/nhl/game/_/gameId/401802962/kings-avalanche
+ad06cc625773f678684d533b0ad02120,icehockey_nhl,2025-12-30T02:08:41Z,Utah Mammoth,Nashville Predators,3,4,https://www.espn.com/nhl/game/_/gameId/401802963/predators-mammoth
+9b3ff5ba220aaeb5809f856e00270f11,icehockey_nhl,2025-12-30T03:08:09Z,Anaheim Ducks,San Jose Sharks,4,5,https://www.espn.com/nhl/game/_/gameId/401802966/sharks-ducks
+e2f57243277644d14fc57f5aeb88f412,icehockey_nhl,2025-12-30T03:08:41Z,Vegas Golden Knights,Minnesota Wild,2,5,https://www.espn.com/nhl/game/_/gameId/401802965/wild-golden-knights
+cc14a1088d0053e57cb7122850a376ef,icehockey_nhl,2025-12-30T03:08:46Z,Seattle Kraken,Vancouver Canucks,2,3,https://www.espn.com/nhl/game/_/gameId/401802967/canucks-kraken
+af57ef8c36f750bdc85342b6402427ab,icehockey_nhl,2025-12-31T00:10:00Z,Pittsburgh Penguins,Carolina Hurricanes,5,1,https://www.espn.com/nhl/game/_/gameId/401802970/hurricanes-penguins
+792b48c676ec7b91f5405884fbc592c2,icehockey_nhl,2025-12-31T00:10:00Z,Florida Panthers,Montréal Canadiens,,,
+0d9767e3a606fecfc0aa21ff01ace58a,icehockey_nhl,2025-12-31T00:10:00Z,Toronto Maple Leafs,New Jersey Devils,4,0,https://www.espn.com/nhl/game/_/gameId/401802968/devils-maple-leafs
+673f84e69dde467883f463f1b9ce27af,icehockey_nhl,2025-12-31T01:40:00Z,Chicago Blackhawks,New York Islanders,2,3,https://www.espn.com/nhl/game/_/gameId/401802971/islanders-blackhawks
+22e59418c938406e8e7a68178e5bebcb,icehockey_nhl,2025-12-31T03:10:00Z,Vancouver Canucks,Philadelphia Flyers,3,6,https://www.espn.com/nhl/game/_/gameId/401802972/flyers-canucks
+3dd166bf80cae9965d39fdd3f7acc8d8,icehockey_nhl,2025-12-31T17:30:00Z,Washington Capitals,New York Rangers,,,https://www.espn.com/nhl/game/_/gameId/401802973/rangers-capitals
+cf1b524357ce3fe60faf757de667df69,icehockey_nhl,2025-12-31T21:00:00Z,Anaheim Ducks,Tampa Bay Lightning,,,https://www.espn.com/nhl/game/_/gameId/401802975/lightning-ducks
+262aa20f98ec7d23c10cc2dee839fa2f,icehockey_nhl,2025-12-31T23:30:00Z,Detroit Red Wings,Winnipeg Jets,,,https://www.espn.com/nhl/game/_/gameId/401802977/jets-red-wings
+165b6e0d7997cef2115f8e7f4dd715b4,icehockey_nhl,2026-01-01T00:00:00Z,Columbus Blue Jackets,New Jersey Devils,,,https://www.espn.com/nhl/game/_/gameId/401802978/devils-blue-jackets
+7fa04c0d0638123c4094aede1baa4e5d,icehockey_nhl,2026-01-01T02:00:00Z,Colorado Avalanche,St Louis Blues,,,https://www.espn.com/nhl/game/_/gameId/401802980/blues-avalanche
+c034b3461ae52dabb669b033c5180005,icehockey_nhl,2026-01-01T02:30:00Z,Edmonton Oilers,Boston Bruins,,,https://www.espn.com/nhl/game/_/gameId/401802982/bruins-oilers
+26c957c29accf99204fb606d0d19f25b,icehockey_nhl,2025-12-31T20:00:00Z,Vegas Golden Knights,Nashville Predators,,,https://www.espn.com/nhl/game/_/gameId/401802974/predators-golden-knights
+bf1ad4fe4fa7111c919587cdd16b5eb2,icehockey_nhl,2025-12-31T21:00:00Z,San Jose Sharks,Minnesota Wild,,,https://www.espn.com/nhl/game/_/gameId/401802976/wild-sharks
+928cbf2c24beea53f16a5f1d6280b1b4,icehockey_nhl,2026-01-01T01:00:00Z,Dallas Stars,Buffalo Sabres,,,https://www.espn.com/nhl/game/_/gameId/401802979/sabres-stars
+c47a39ebb4fa63843d7fdb39551f656d,icehockey_nhl,2026-01-01T02:30:00Z,Calgary Flames,Philadelphia Flyers,,,https://www.espn.com/nhl/game/_/gameId/401802981/flyers-flames
+dac68147f6b21fb0fedf7f784a858e8d,icehockey_nhl,2026-01-03T01:10:00Z,Florida Panthers,New York Rangers,,,
+62924549,basketball_usa-nba,2025-12-31T20:30:00Z,Cleveland Cavaliers,Phoenix Suns,,,https://www.espn.com/nba/game/_/gameId/401810320/suns-cavaliers
+62924861,basketball_usa-nba,2026-01-01T01:00:00Z,Milwaukee Bucks,Washington Wizards,,,https://www.espn.com/nba/game/_/gameId/401810324/wizards-bucks
+62925289,basketball_usa-nba,2025-12-31T20:00:00Z,Indiana Pacers,Orlando Magic,,,https://www.espn.com/nba/game/_/gameId/401810319/magic-pacers
+62924373,basketball_usa-nba,2026-01-01T00:00:00Z,San Antonio Spurs,New York Knicks,,,https://www.espn.com/nba/game/_/gameId/401810322/knicks-spurs
+62924395,basketball_usa-nba,2026-01-01T01:00:00Z,Oklahoma City Thunder,Portland Trail Blazers,,,https://www.espn.com/nba/game/_/gameId/401810325/trail-blazers-thunder
+62925151,basketball_usa-nba,2026-01-01T00:00:00Z,Chicago Bulls,New Orleans Pelicans,,,https://www.espn.com/nba/game/_/gameId/401810321/pelicans-bulls
+62925391,basketball_usa-nba,2025-12-31T18:00:00Z,Charlotte Hornets,Golden State Warriors,,,https://www.espn.com/nba/game/_/gameId/401810317/warriors-hornets
+62925627,basketball_usa-nba,2026-01-01T00:30:00Z,Toronto Raptors,Denver Nuggets,,,https://www.espn.com/nba/game/_/gameId/401810323/nuggets-raptors
+62925703,basketball_usa-nba,2025-12-31T20:00:00Z,Atlanta Hawks,Minnesota Timberwolves,,,https://www.espn.com/nba/game/_/gameId/401810318/timberwolves-hawks
+62075386,ice-hockey_usa-nhl,2026-01-01T01:00:00Z,Dallas Stars,Buffalo Sabres,,,https://www.espn.com/nhl/game/_/gameId/401802979/sabres-stars
+62075388,ice-hockey_usa-nhl,2026-01-01T02:00:00Z,Colorado Avalanche,St. Louis Blues,,,https://www.espn.com/nhl/game/_/gameId/401802980/blues-avalanche
+62075384,ice-hockey_usa-nhl,2026-01-01T00:00:00Z,Columbus Blue Jackets,New Jersey Devils,,,https://www.espn.com/nhl/game/_/gameId/401802978/devils-blue-jackets
+62075374,ice-hockey_usa-nhl,2025-12-31T17:30:00Z,Washington Capitals,New York Rangers,,,https://www.espn.com/nhl/game/_/gameId/401802973/rangers-capitals
+62075376,ice-hockey_usa-nhl,2025-12-31T20:00:00Z,Vegas Golden Knights,Nashville Predators,,,https://www.espn.com/nhl/game/_/gameId/401802974/predators-golden-knights
+62075378,ice-hockey_usa-nhl,2025-12-31T21:00:00Z,San Jose Sharks,Minnesota Wild,,,https://www.espn.com/nhl/game/_/gameId/401802976/wild-sharks
+62075380,ice-hockey_usa-nhl,2025-12-31T21:00:00Z,Anaheim Ducks,Tampa Bay Lightning,,,https://www.espn.com/nhl/game/_/gameId/401802975/lightning-ducks
+62075390,ice-hockey_usa-nhl,2026-01-01T02:30:00Z,Edmonton Oilers,Boston Bruins,,,https://www.espn.com/nhl/game/_/gameId/401802982/bruins-oilers
+62075382,ice-hockey_usa-nhl,2025-12-31T23:30:00Z,Detroit Red Wings,Winnipeg Jets,,,https://www.espn.com/nhl/game/_/gameId/401802977/jets-red-wings
+60575127,american-football_usa-nfl,2026-01-04T18:00:00Z,Cincinnati Bengals,Cleveland Browns,,,https://www.espn.com/nfl/game/_/gameId/401772964/browns-bengals
+60575143,american-football_usa-nfl,2026-01-04T18:00:00Z,Minnesota Vikings,Green Bay Packers,,,https://www.espn.com/nfl/game/_/gameId/401772968/packers-vikings
+60575165,american-football_usa-nfl,2026-01-04T18:00:00Z,Jacksonville Jaguars,Tennessee Titans,,,https://www.espn.com/nfl/game/_/gameId/401772970/titans-jaguars
+60575173,american-football_usa-nfl,2026-01-04T21:25:00Z,Chicago Bears,Detroit Lions,,,https://www.espn.com/nfl/game/_/gameId/401772965/lions-bears
+60575203,american-football_usa-nfl,2026-01-04T18:00:00Z,Houston Texans,Indianapolis Colts,,,https://www.espn.com/nfl/game/_/gameId/401772962/colts-texans
+60575239,american-football_usa-nfl,2026-01-04T21:25:00Z,Las Vegas Raiders,Kansas City Chiefs,,,https://www.espn.com/nfl/game/_/gameId/401772957/chiefs-raiders
+60575243,american-football_usa-nfl,2026-01-04T18:00:00Z,New York Giants,Dallas Cowboys,,,https://www.espn.com/nfl/game/_/gameId/401772963/cowboys-giants
+60575135,american-football_usa-nfl,2026-01-04T21:25:00Z,New England Patriots,Miami Dolphins,,,https://www.espn.com/nfl/game/_/gameId/401772958/dolphins-patriots
+60575139,american-football_usa-nfl,2026-01-04T01:00:00Z,San Francisco 49ers,Seattle Seahawks,,,https://www.espn.com/nfl/game/_/gameId/401772961/seahawks-49ers
+60575201,american-football_usa-nfl,2026-01-03T21:30:00Z,Tampa Bay Buccaneers,Carolina Panthers,,,https://www.espn.com/nfl/game/_/gameId/401772969/panthers-buccaneers
+60575187,american-football_usa-nfl,2026-01-05T01:20:00Z,Pittsburgh Steelers,Baltimore Ravens,,,https://www.espn.com/nfl/game/_/gameId/401772960/ravens-steelers
+60575155,american-football_usa-nfl,2026-01-04T21:25:00Z,Buffalo Bills,New York Jets,,,https://www.espn.com/nfl/game/_/gameId/401772967/jets-bills
+60575163,american-football_usa-nfl,2026-01-04T21:25:00Z,Philadelphia Eagles,Washington Commanders,,,https://www.espn.com/nfl/game/_/gameId/401772959/commanders-eagles
+60575167,american-football_usa-nfl,2026-01-04T21:25:00Z,Denver Broncos,Los Angeles Chargers,,,https://www.espn.com/nfl/game/_/gameId/401772956/chargers-broncos
