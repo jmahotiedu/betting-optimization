@@ -12,9 +12,9 @@
 - date_filter: Any time
 - bet_types: ['Player Props']
 - required_books: []
-- optional_books: ['BetMGM', 'BetOnline.ag', 'Pinnacle', 'Caesars', 'FanDuel', 'BookMaker.eu', 'DraftKings']
+- optional_books: ['DraftKings', 'BookMaker.eu', 'FanDuel', 'Caesars', 'BetOnline.ag', 'Pinnacle', 'BetMGM']
 - min_books: 1
-- weights: {'BetMGM': 65.69, 'BetOnline.ag': 50.0, 'Pinnacle': 100.0, 'Caesars': 57.05, 'FanDuel': 67.47, 'BookMaker.eu': 60.0, 'DraftKings': 71.21}
+- weights: {'DraftKings': 71.21, 'BookMaker.eu': 60.0, 'FanDuel': 67.47, 'Caesars': 57.05, 'BetOnline.ag': 50.0, 'Pinnacle': 100.0, 'BetMGM': 65.69}
 - devig_method: Power
 - variation_max_pct: 3.0
 - vig_max_pct: None
@@ -22,7 +22,7 @@
 - ev_min_pct: 5.76
 - kelly_multiplier: 1/4
 - weights_source: priors_blended_with_props_ml
-- weights_generated_at: 2025-12-31T10:45:51.745037Z
+- weights_generated_at: 2025-12-31T11:07:11.244104Z
 - ev_min_pct_source: total_transactions_ev_p60_clv_pos_floor_1pct
 
 ## Preset Expansion Profile
@@ -32,7 +32,7 @@
 - bet_types: ['Gamelines']
 - required_books: []
 - optional_books: ['BetOnline.ag', 'BookMaker.eu', 'Circa', 'Pinnacle']
-- min_books: 1
+- min_books: 2
 - weights: {'BetOnline.ag': 41.99, 'BookMaker.eu': 44.33, 'Circa': 76.5, 'Pinnacle': 100.0}
 - devig_method: Probit
 - variation_max_pct: 3.0
@@ -41,7 +41,7 @@
 - ev_min_pct: 1.0
 - kelly_multiplier: 1/2
 - weights_source: odds_api_only
-- weights_generated_at: 2025-12-31T10:45:51.745037Z
+- weights_generated_at: 2025-12-31T11:07:11.244104Z
 - ev_min_pct_source: total_transactions_ev_p50_floor_1pct
 
 ## Overlay Core Profile (Execution Discipline Only)

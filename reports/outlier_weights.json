@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-31T10:45:51.745037Z",
+  "generated_at": "2025-12-31T11:07:11.244104Z",
   "latest_date": "2025-12-30",
   "sources": {
     "total": "total_transactions.csv",
@@ -24,32 +24,32 @@
     "props_core": {
       "bet_type": "Player Props",
       "weights": {
-        "BetMGM": 65.69,
+        "DraftKings": 71.21,
+        "BookMaker.eu": 60.0,
+        "FanDuel": 67.47,
+        "Caesars": 57.05,
         "BetOnline.ag": 50.0,
         "Pinnacle": 100.0,
-        "Caesars": 57.05,
-        "FanDuel": 67.47,
-        "BookMaker.eu": 60.0,
-        "DraftKings": 71.21
+        "BetMGM": 65.69
       },
       "weights_normalized": {
-        "BetMGM": 0.139348,
+        "DraftKings": 0.151052,
+        "BookMaker.eu": 0.127273,
+        "FanDuel": 0.143125,
+        "Caesars": 0.12102,
         "BetOnline.ag": 0.106061,
         "Pinnacle": 0.212121,
-        "Caesars": 0.12102,
-        "FanDuel": 0.143125,
-        "BookMaker.eu": 0.127273,
-        "DraftKings": 0.151052
+        "BetMGM": 0.139348
       },
       "required_books": [],
       "optional_books": [
-        "BetMGM",
+        "DraftKings",
+        "BookMaker.eu",
+        "FanDuel",
+        "Caesars",
         "BetOnline.ag",
         "Pinnacle",
-        "Caesars",
-        "FanDuel",
-        "BookMaker.eu",
-        "DraftKings"
+        "BetMGM"
       ],
       "min_books": 1,
       "devig_method": "power",
@@ -78,7 +78,7 @@
         "Circa",
         "Pinnacle"
       ],
-      "min_books": 1,
+      "min_books": 2,
       "devig_method": "probit",
       "ev_min_pct": 1.0,
       "ev_min_pct_source": "total_transactions_ev_p50_floor_1pct",

@@ -363,6 +363,8 @@ def build_outlier_weight_settings(
     gamelines_weights = scale_weights(weights_by_type.get("Gamelines", {}))
     props_weights_norm = {book: round(weight, 6) for book, weight in weights_by_type.get("Player Props", {}).items()}
     gamelines_weights_norm = {book: round(weight, 6) for book, weight in weights_by_type.get("Gamelines", {}).items()}
+    # Prefer dual-sharp devig for gamelines when coverage supports it.
+    gamelines_min_books = 2 if len(gamelines_weights_norm) >= 2 else 1
 
     def select_required_books(
         bet_type: str,
@@ -428,15 +430,15 @@ def build_outlier_weight_settings(
             },
             "gamelines_expansion": {
                 "bet_type": "Gamelines",
-                "weights": gamelines_weights,
-                "weights_normalized": gamelines_weights_norm,
-                "required_books": [],
-                "optional_books": list(gamelines_weights.keys()),
-                "min_books": 1,
-                "devig_method": "probit",
-                "ev_min_pct": round(gamelines_ev_floor * 100, 2),
-                "ev_min_pct_source": "total_transactions_ev_p50_floor_1pct",
-                "weights_source": gamelines_weights_source,
+            "weights": gamelines_weights,
+            "weights_normalized": gamelines_weights_norm,
+            "required_books": [],
+            "optional_books": list(gamelines_weights.keys()),
+            "min_books": gamelines_min_books,
+            "devig_method": "probit",
+            "ev_min_pct": round(gamelines_ev_floor * 100, 2),
+            "ev_min_pct_source": "total_transactions_ev_p50_floor_1pct",
+            "weights_source": gamelines_weights_source,
             },
         },
     }
